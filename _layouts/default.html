@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--#if expr="$HTTP_COOKIE=/fonts\-loaded\=true/" -->
+<html lang="en" class="fonts-loaded">
+<!--#else -->
+<html lang="en">
+<!--#endif -->
+  {% include _head.html %}
+  <body>
+    {% if page.path contains '_posts' %}
+      <a href="/" id="top-nav">Home</a>
+    {% else %}
+      {% if site.banner == "contact" %}
+        {% include _banner.html %}
+      {% else %}
+      {% endif %}
+    {% endif %}
+    <main>
+      {{ content }}
+    </main>
+    {% include _footer.html %}
+    {% if page.ad == true %}
+      {% include _banner.html %}
+      {% else %}
+    {% endif %}
+    <script src="/assets/js/jquery-3.1.1.min.js"></script>
+    <script src="/assets/js/zoom.js"></script>
+    <script src="/assets/js/jquery.lazyload.js"></script>
+    <script src="/assets/js/transition.js"></script>
+    <script src="/assets/js/fontfaceobserver.js"></script>
+    <script>
+    //lazyload of images
+    $("img").lazyload({
+      effect : "fadeIn"
+    });
+
+    // Hide animation if banner
+    if($('.banner').length){
+      $('.square').hide();
+      $('.email').hide();
+    }
+
+    //Font observer loader
+    var font = new FontFaceObserver('sans');
+    var font = new FontFaceObserver('serif');
+    </script>
+  </body>
+</html>

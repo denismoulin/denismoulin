@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="post-list notes">
+  <span class="date">Clippings</span>
+    {% for note in site.notes %}
+      <hr>
+      <div class="post-item note">
+        {% if note.externallink %}
+          <a href="{{ note.externallink }}" target="_blank">
+          {% else %}
+          <a href="{{ note.url }}">
+        {% endif %}
+            <ul>
+              <li class="infos">
+              {% if note.description %}
+                <p class="description">{{ note.description }}</p>
+                {% else %}
+              {% endif %}
+                <p class="author">{% if note.title %}{{ note.title }}{% else %}{% endif %} by {% if note.author %}{{ note.author }}{% else %} John Doe{% endif %}</p>
+              </li>
+            </ul>
+          </a>
+      </div>
+    {% endfor %}
+    <hr>
+  </div>
+</div>

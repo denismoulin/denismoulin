@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="66px" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-checkmark</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/checkmark">
+            <g id="icon-checkmark">
+                <circle id="background" fill="#DCD3E7" cx="33" cy="33" r="33"></circle>
+                <g id="checkmark" transform="translate(15.000000, 15.000000)" fill="#4F2385">
+                    <path d="M18,36 C27.9411255,36 36,27.9411255 36,18 C36,8.0588745 27.9411255,0 18,0 C8.0588745,0 0,8.0588745 0,18 C0,27.9411255 8.0588745,36 18,36 Z M15.2928932,22.7071068 C15.6834175,23.0976311 16.3165825,23.0976311 16.7071068,22.7071068 L24.7071068,14.7071068 C25.0976311,14.3165825 25.0976311,13.6834175 24.7071068,13.2928932 C24.3165825,12.9023689 23.6834175,12.9023689 23.2928932,13.2928932 L16.0232079,20.6089943 L13.7071068,18.2928932 C13.3165825,17.9023689 12.6834175,17.9023689 12.2928932,18.2928932 C11.9023689,18.6834175 11.9023689,19.3165825 12.2928932,19.7071068 L15.2928932,22.7071068 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

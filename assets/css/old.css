@@ -1,0 +1,55 @@
+
+  &.animated{
+    .brick{
+      -webkit-animation: 0.3s ease 1 full-width;
+      -moz-animation: 0.3s ease 1 full-width;
+      -o-animation: 0.3s ease 1 full-width;
+      animation: 0.3s ease 1 full-width;
+    }
+  }
+
+  .brick{
+    height: $spacing-unit/10;
+    width: 100%;
+    background: $red;
+    animation: full-width;
+
+
+
+    @media screen and (max-width: $on-palm) {
+      height: $spacing-unit/10;
+    }
+
+    &:nth-child(2), &:nth-child(6), &:nth-child(9), &:nth-child(11), &:nth-child(15){
+      height: $spacing-unit/5;
+      animation-delay: 0.3s;
+
+      @media screen and (max-width: $on-palm) {
+        height: $spacing-unit/10;
+      }
+    }
+    &:nth-child(2), &:nth-child(13){
+      background: $orange;
+      animation-delay: 0.9s;
+    }
+    &:nth-child(3), &:nth-child(6){
+      background: $blue;
+      animation-delay: 0.6s;
+    }
+    &:nth-child(5), &:nth-child(9), &:nth-child(15){
+      background: $blue-darker;
+      animation-delay: 1.2s;
+    }
+    &:nth-child(7), &:nth-child(14){
+      background: $yellow;
+      animation-delay: 0.9s;
+    }
+    &:nth-child(8), &:nth-child(10), &:nth-child(12){
+      background: $green;
+      animation-delay: 0.6s;
+    }
+    &:nth-child(11), &:nth-child(16){
+      background: $purple;
+      animation-delay: 0.6s;
+    }
+  }

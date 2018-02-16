@@ -1,0 +1,388 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<meta name="description" content="A Machine learning engine for your Recruitement">
+	<meta name="keywords" content="Machine,learning,recruit,recruitement,talent,linkedin,search,work,workers,head,hunter,head-hunter,hr">
+
+	<link rel="shortcut icon" href="./static/images/favicon.ico">
+	<link rel="stylesheet" href="./static/css/bootstrap.css">
+	<link rel="stylesheet" href="./static/css/animate.css">
+	<link rel="stylesheet" href="./static/css/style.css">
+	<style>
+		.nav-mention{
+			z-index: 9999;
+			position: relative;
+			top: 0;
+			left: 0;
+			height: auto;
+			width: 100%;
+			background: white;
+			border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+			color: black ;
+			font-family: sans-serif;
+			font-size: 14px;
+			text-align: center;
+		}
+		.nav-mention li{
+			display: inline-block;
+			margin: 0px 10px;
+		}
+		.nav-mention ul{ padding: 20px 0px; margin: 0px auto;}
+
+		.nav-mention a:link, .nav-mention a:hover, .nav-mention a:visited{
+			text-decoration: underline;
+			border: none;
+			color: black;
+			opacity: 0.5 !important;
+		}
+
+		.content-mention{
+			position: relative;
+		}
+	</style>
+
+
+	<title>Reveal - A machine learning engine for your Recruitment </title>
+
+
+</head>
+<body>
+	<header>
+	  <div class="container">
+	    <div class="row">
+	    <div id="logo" class="col-sm-3 col-xs-12 wow fadeIn">
+	      <a href="index.html"><img src="./static/images/logo-round@2x.png"></a>
+	    </div>
+	    <ul class="col-sm-9 col-xs-12">
+	      <br class="visible-xs">
+	      <li><a href="#" target="#" data-toggle="modal" data-target="#aboutus" class="default">About us</a></li>
+	      <li><a href="#howitworks" class="default wow fadeIn" data-wow-delay="0.3s">How it works</a></li>
+				<li><br class="visible-xs"><a href="#mc_embed_signup" class="btn wow fadeIn" data-wow-delay="0.6s">Get early access</a></li>
+	    </ul>
+	    </div>
+	  </div>
+	</header>
+
+
+<main>
+  <!-- Intro -->
+  <section id="intro">
+    <div class="container">
+      <div class="row">
+        <div class="visible-lg visible-md visible-sm col-md-4 col-sm-3 wow fadeIn" data-wow-delay="0.2s">
+          <div id="illustration">
+            <div class="circle" id="one"></div>
+            <div class="circle" id="two"></div>
+            <div class="circle" id="three"></div>
+            <div class="circle" id="four"></div>
+            <div class="circle" id="five"></div>
+            <div class="circle" id="six"></div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-offset-md-1 col-md-7 col-sm-offset-0 col-sm-9 col-xs-offset-1 col-xs-10">
+          <h1 class="wow fadeIn" data-wow-delay="0.4s">A machine learning engine for your Recruitment.</h1>
+          <h2 class="wow fadeIn" data-wow-delay="0.6s"><b>Smart searches lead to better connections.</b></h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <!-- Feature 1 -->
+  <section class="feature" id="one">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 wow fadeIn">
+          <h3>Help you find the right professional</h3>
+          <br>
+          <p>Finding the right professional requires a methodical analysis and long research approach. Reveal analyses vast amounts of job market data for you and filter for you the best skills and talent.</p>
+          <br>
+          <ul>
+            <li class="wow fadeIn" data-wow-delay="0.2s">Faster Search / Forget long researches</li><br class="visible-xs">
+            <li class="wow fadeIn" data-wow-delay="0.4s">Automated screening and matching</li>
+          </ul>
+          <!--
+          <br>
+          <br class="visible-lg visible-md">
+          <a href="#" class="btn tiny">Sign up for early access</a>
+          -->
+        </div>
+        <div class="visible-lg visible-md visible-sm col-sm-6 wow fadeIn" data-wow-delay="0.2s">
+          <svg viewBox="0 0 500 500">
+              <g id="section-illustration-1" sketch:type="MSArtboardGroup">
+                <circle class="animated breathe infinite" id="four" cx="252" cy="250" r="215"></circle>
+                <circle class="animated breathe infinite" id="three" cx="250" cy="250" r="165"></circle>
+                <circle class="animated breathe infinite" id="two" cx="250" cy="250" r="115"></circle>
+                <circle class="animated breathe infinite" id="one" cx="250" cy="250" r="65"></circle>
+                <circle class="animated fadeIn dot" id="one" cx="290" cy="410" r="7"></circle>
+                <circle class="animated fadeIn dot" id="two"cx="355" cy="200" r="7"></circle>
+                <circle class="animated fadeIn dot" id="three"cx="70" cy="300" r="7"></circle>
+                <circle class="animated fadeIn dot" id="four" cx="178" cy="100" r="7"></circle>
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container visible-lg visible-md visible-sm">
+    <div class="row wow fadeIn"><hr></div>
+  </div>
+  <!-- Feature 2 -->
+  <section class="feature" id="two">
+    <div class="container">
+      <div class="row">
+        <div class="visible-lg visible-md visible-sm col-sm-6 wow fadeIn" data-wow-delay="0.2s">
+          <svg viewBox="0 0 500 500">
+            <g id="section-illustration-2">
+              <circle class="animated fadeIn" cx="250" cy="232" r="17"></circle>
+              <rect class="animated fadeIn" x="233" y="465" width="34" height="34"></rect>
+              <path class="animated fadeIn" id="circuit" d="M249.823956,141.0025 L251.5,141.0025 L251.5,90 L250.5,91 C327.543723,91 390,153.456277 390,230.5 C390,307.543723 327.543723,370 250.5,370 C173.456277,370 111,307.543723 111,230.5 L111,229 L60,229 L61,230 C61,125.618182 145.618182,41 250,41 C354.381818,41 439,125.618182 439,230 C439,334.575585 355.189434,419 251,419 L251,421 C356.297284,421 441,335.676901 441,230 C441,124.513613 355.486387,39 250,39 C144.513613,39 59,124.513613 59,230 L59,231 L60,231 L109.000865,231 L109.000865,231 C109.270397,308.918333 172.518442,372 250.5,372 C328.648292,372 392,308.648292 392,230.5 C392,152.351708 328.648292,89 250.5,89 L249.5,89 L249.5,90 L249.5,139.005352 C199.426611,139.541539 159,180.299699 159,230.5 C159,281.034055 199.965945,322 250.5,322 L251.5,322 L251.5,321 L251.5,249.983458 L249.5,249.983458 L249.5,321 L250.5,320 C201.070515,320 161,279.929485 161,230.5 C161,181.296059 200.70567,141.365874 249.823956,141.0025 Z M251,464 L251,419 L249,419 L249,464 L251,464 Z"></path>
+              <path id="base" d="M136.981501,203.806877 L86.9111544,203.806877 L87.8996209,204.958317 C100.079048,125.461781 168.749603,66 250,66 C340.574699,66 414,139.425301 414,230 C414,320.574699 340.574699,394 250,394 C168.724307,394 100.039395,334.501898 87.889248,254.973884 L85.9121884,255.275935 C96.8999188,327.195426 153.560712,382.929781 224.178848,393.995272 L224.178845,443.582701 L225.293046,442.589244 C117.901172,430.244193 36,338.991898 36,230 C36,111.811064 131.811064,16 250,16 C368.188936,16 464,111.811064 464,230 C464,338.748221 382.290534,429.959021 275.231671,442.528271 L275.464879,444.514628 C383.528165,431.827454 466,339.765635 466,230 C466,110.706494 369.293506,14 250,14 C130.706494,14 34,110.706494 34,230 C34,340.010926 116.666003,432.115377 225.064643,444.576159 L226.178845,444.70424 L226.178845,443.582701 L226.178848,394.29616 L226.178848,394.29616 C233.968301,395.419451 241.922717,396 250,396 C341.679268,396 416,321.679268 416,230 C416,138.320732 341.679268,64 250,64 C167.758344,64 98.2511334,124.18624 85.922688,204.655437 L85.7462793,205.806877 L86.9111544,205.806877 L136.537414,205.806877 C134.873044,213.629875 134,221.725979 134,230 C134,294.065031 185.934969,346 250,346 C314.065031,346 366,294.065031 366,230 C366,175.633031 328.298496,128.901364 275.999254,116.925145 L275.552821,118.874683 C326.947843,130.64384 364,176.570632 364,230 C364,292.960461 312.960461,344 250,344 C187.039539,344 136,292.960461 136,230 C136,176.126066 173.663953,129.926421 225.630463,118.610375 L225.204922,116.65617 C180.98769,126.284761 146.948254,160.72994 136.981501,203.806877 L136.981501,203.806877 Z M275.864868,290.738928 C300.003093,280.447037 316,256.696061 316,230 C316,193.549207 286.450793,164 250,164 C213.549207,164 184,193.549207 184,230 C184,256.819589 200.145448,280.659114 224.450703,290.872506 L225.225502,289.028682 C201.656267,279.124575 186,256.00735 186,230 C186,194.653776 214.653776,166 250,166 C285.346224,166 314,194.653776 314,230 C314,255.887589 298.487799,278.918911 275.080447,288.899176 L275.864868,290.738928 Z"></path>
+            </g>
+          </svg>
+        </div>
+        <div class="col-sm-6 wow fadeIn">
+          <h3>Reveal search for you</h3>
+          <br>
+          <p>So you can spend more time building relationships with professionals and improve yourself or your process.</p><br>
+          <ul>
+            <li class="wow fadeIn" data-wow-delay="0.2s">Augmented sourcing strategy</li><br class="visible-xs">
+            <li class="wow fadeIn" data-wow-delay="0.4s">Concentrate on what you're good at.</li>
+          </ul>
+          <!--
+          <br>
+          <br class="visible-lg visible-md">
+          <a href="#" class="btn tiny">Sign up for early access</a>
+          -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container visible-lg visible-md visible-sm">
+    <div class="row wow fadeIn"><hr></div>
+  </div>
+  <!-- Feature 3 -->
+  <section class="feature" id="three">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 wow fadeIn">
+          <br class="visible-lg visible-md visible-sm">
+          <br class="visible-lg visible-md visible-sm">
+          <br class="visible-lg visible-md visible-sm">
+          <h3>Get unbiased results</h3>
+          <br>
+          <p>Reveal doesn't get distracted by things that might be only marginally relevant, or use information inconsistently.</p>
+          <br>
+          <ul>
+            <li class="wow fadeIn" data-wow-delay="0.2s">Your knowledge with machine intelligence</li>
+          </ul>
+          <!--
+          <br>
+          <br class="visible-lg visible-md">
+          <a href="#" class="btn tiny">Sign up for early access</a>
+          -->
+        </div>
+        <div class="visible-lg visible-md visible-sm col-sm-6 wow fadeIn" data-wow-delay="0.2s">
+          <svg viewBox="0 0 300 300">
+            <g id="section-illustration-3-a" transform="translate(150, 150) rotate(45) translate(-150, -100)">
+              <g transform="translate(1, 50)">
+                <path class="animate" d="M0,0 L36,0 L36,110 L0,110 L0,0 Z M36,10 L56,10 L56,52 L83,52 L83,10 L156,10 L156,100 L36,100 L36,10 Z" fill="none" stroke="#BBBBBB" stroke-width="2"></path>
+                <rect class="animate" id="one" x="113" y="28" width="42" height="2"></rect>
+                <rect class="animate" id="two" x="113" y="54" width="42" height="2"></rect>
+                <rect class="animate" id="three" x="113" y="80" width="42" height="2"></rect>
+              </g>
+              <g id="section-illustration-3-b" transform="translate(47, 1)" fill="none" stroke="#BBBBBB" stroke-width="2">
+                <path class="animate" d="M0,0 L104,0 L104,34 L0,34 L0,0 Z M10,34 L94,34 L94,59 L37,59 L37,101 L10,101 L10,34 Z"></path>
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Early Access to reveal -->
+  <section class="emailing">
+    <div class="container-fluid">
+      <div class="row"><hr></div>
+      <div class="row">
+        <div class="col-lg-4 col-lg-offset-3 col-md-6 col-md-offset-1 col-sm-8 col-sm-offset-2 col-xs-offset-1 col-xs-10">
+          <h1>Reveal is in private beta.</h1>
+          <h2><b>Register to get early access to our content.</b></h2>
+        </div>
+        <div class="col-lg-2 col-md-3 col-md-offset-0 col-sm-8 col-sm-offset-2 col-xs-offset-1 col-xs-10">
+
+          <br class="visible-sm visible-xs">
+          <a href="#mc_embed_signup" class="btn bold">Get early access</a>
+        </div>
+      </div>
+      <div class="row"><hr></div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section id="howitworks">
+    <div class="container">
+      <div class="row wow fadeIn">
+        <h1>How Reveal works</h1>
+      </div>
+      <div class="row">
+        <div class="step col-sm-4 wow fadeIn" data-wow-delay="0.2s">
+          <svg viewBox="0 0 300 300">
+            <g id="illustration-1">
+              <rect class="animate" id="two" x="40" y="40" width="40" height="40" rx="3"></rect>
+              <rect class="animate" id="four" x="220" y="40" width="40" height="40" rx="3"></rect>
+              <rect class="animate" id="one" x="160" y="100" width="100" height="40" rx="3"></rect>
+              <rect x="40" y="100" width="100" height="40" rx="3"></rect>
+              <rect class="animate" id="three" x="100" y="40" width="100" height="40" rx="3"></rect>
+              <rect x="40" y="160" width="40" height="40" rx="3"></rect>
+              <rect x="100" y="160" width="160" height="40" rx="3"></rect>
+              <rect x="40" y="220" width="40" height="40" rx="3"></rect>
+              <rect x="100" y="220" width="40" height="40" rx="3"></rect>
+              <rect x="160" y="220" width="100" height="40" rx="3"></rect>
+            </g>
+          </svg>
+          <h3>1</h3>
+          <h2><span>Design your job description</span></h2>
+          <br>
+          <p>The job description is the foundation of your recruitment. Get it right from the beginning by using the business and job market knowledge acquired by our Machine Learning engine.</p>
+        </div>
+        <div class="step col-sm-4 wow fadeIn" data-wow-delay="0.4s">
+          <svg viewBox="0 0 300 300">
+            <g id="illustration-2">
+              <rect class="animate" id="one" x="40" y="220" width="40" height="40" rx="0"></rect>
+              <rect class="animate" id="two" x="220" y="40" width="40" height="40" rx="40"></rect>
+              <path class="animate" d="M80,240 L220,240 C230,240 240,230 240,220 L240,215 C240,204 230,195 220,195 L82,195 C70,195 60,185 60,172 L60,172 C60,160 70,150 82,150 L218,150 C230,150 240,140 240,127 L240,127 C240,115 230,105 218,105 L80,105 C70,105 60,96 60,85 L60,80 C60,70 70,60 80,60 L220,60"></path>
+            </g>
+          </svg>
+          <h3>2</h3>
+          <h2><span>Build your search strategy<span></h2>
+          <br>
+          <p>Discover your hunting ground and the most appropriate profiles for a perfect fit with your job description. Be spot on when you approach professionals to secure your reputation and get stronger connections.</p>
+        </div>
+        <div class="step col-sm-4 wow fadeIn" data-wow-delay="0.6s">
+        <svg viewBox="0 0 300 300">
+          <g id="illustration-3">
+            <rect class="animate" x="45" y="45" width="30" height="30" rx="30"></rect>
+            <rect class="animate" x="105" y="45" width="30" height="30" rx="30"></rect>
+            <rect class="animate" x="165" y="45" width="30" height="30" rx="30"></rect>
+            <rect class="animate" x="225" y="45" width="30" height="30" rx="30"></rect>
+            <rect class="animate" x="45" y="105" width="30" height="30" rx="30"></rect>
+            <rect class="animate" x="105" y="105" width="30" height="30" rx="30"></rect>
+            <rect class="animate" x="165" y="105" width="30" height="30" rx="30"></rect>
+            <rect class="animate" x="225" y="105" width="30" height="30" rx="30"></rect>
+            <rect class="animate" x="45" y="165" width="30" height="30" rx="30"></rect>
+            <rect class="animate" x="105" y="165" width="30" height="30" rx="30"></rect>
+            <rect class="animate selected" x="165" y="165" width="30" height="30" rx="30"></rect>
+            <rect class="animate" x="225" y="165" width="30" height="30" rx="30"></rect>
+            <rect class="animate" x="45" y="225" width="30" height="30" rx="30"></rect>
+            <rect class="animate" x="105" y="225" width="30" height="30" rx="30"></rect>
+            <rect class="animate" x="165" y="225" width="30" height="30" rx="30"></rect>
+            <rect class="animate" x="225" y="225" width="30" height="30" rx="30"></rect>
+          </g>
+        </svg>
+          <h3>3</h3>
+          <h2><span>Screen your resumes</span></h2>
+          <br>
+          <p>Our unique approach uses Artificial Intelligence to analyse thousands of resumes and detect the right talents matching your job description. Because our algorithm goes beyond keywords it provides better candidates faster.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Early Access to reveal -->
+    <section class="emailing wow fadeIn">
+      <div class="container-fluid">
+        <div class="row"><hr></div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6 col-xs-offset-1 col-xs-10">
+            <h1>REVEAL IS IN PRIVATE BETA.</h1>
+            <h2><b>Register to get early access to our content.</b></h2><br><br>
+            <!-- Begin MailChimp Signup Form -->
+              <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+              <div id="mc_embed_signup">
+              <form action="#" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+              	   <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter your Email Address" required>
+                  <div style="position: absolute; left: -5000px;">
+                     <input type="text" name="#" tabindex="-1" value=""></div>
+                     <div>
+                       <input type="submit" value="Register now" name="subscribe" id="mc-embedded-subscribe" class="btn bold">
+                     </div>
+                </div>
+              </form>
+              </div>
+              <!--End mc_embed_signup-->
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+</main>
+
+
+<div class="modal fade" id="aboutus" tabindex="-1" role="dialog" aria-labelledby="manifest" aria-hidden="true">
+	<div class="modal-dialog modal-lg">
+    <div class="modal-content">
+			<div class="modal-header">
+				<div class="container">
+					<div class="row">
+					  <div class="col-xs-8">
+					  	<h1><span>About us</span></h1>
+			    	</div>
+						<div class="col-xs-4">
+							<a href="#" data-dismiss="modal" class="btn">Close</a>
+						</div>
+					</div>
+		  	</div>
+			</div>
+			<div class="modal-body">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-7">
+	          	<p>We're a team of three combining expertise in machine learning and natural language processing - and have created a machine not only capable of thinking, but also with the ability to read. This enables the machine to complete tasks that would have previously required a human.</p>
+							<p>In an increasingly competitive marketplace, it is harder than ever to find the right people with the right skills needed to grow your business. We firmly believe a new mindset around talent sourcing is needed in this fast-changing world. Our approach is to use sophisticated analytics on job market data, to provide the insight that will help your organisation adapt your talent strategy to maximise the opportunities available.</p>
+							<p>Whether writing a job description or preparing a search strategy, you need to know what you are looking for and where to look. Reveal empowers recruiters to introduce a data-driven approach to their talent decisions, without doing all the heavy lifting themselves.</p>
+							<p>Our vision is to provide transparency and efficiency to the job market, by aligning what recruiters and professionals are really looking for.</p>
+				    </div>
+				  </div>
+				</div>
+			</div>
+		</div><!-- .modal-content -->
+	</div><!-- .modal-dialog -->
+</div><!-- .modal -->
+
+
+	<footer>
+		<div class="container">
+			<div class="row">
+			<ul>
+	      <li><a href="#" class="default">Specs<code>In progress</code></a></li>
+	      <li><a href="#" target="#" data-toggle="modal" data-target="#aboutus" class="default">About us</a></li>
+	      <li><a href="#" class="default">Contact us</a></li>
+	      <li><a href="#" class="default">Twitter</a></li>
+	      <li>Build by two humans <a href="https://twitter.com/jraucq" target="_blank" class="default">Joel</a> & <a href="https://twitter.com/JonasKrarup" target="_blank" class="default">Jonas</a></li>
+	    </ul>
+			</div>
+		</div>
+	</footer>
+
+
+			<script src="./static/js/jquery-2.1.1.js"></script>
+			<script src="./static/js/wow.min.js"></script>
+			<script src="./static/js/main.js"></script>
+			<script src="./static/js/bootstrap.min.js"></script>
+      <script>
+      new WOW().init();
+      </script>
+
+</body>
+</html>

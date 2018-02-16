@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="master" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="desktop_push" transform="translate(-670.000000, -5069.000000)">
+            <g id="main" transform="translate(-413.000000, -45.000000)">
+                <g id="testimonial" transform="translate(730.000000, 5052.000000)">
+                    <g id="testimony" transform="translate(346.000000, 57.000000)">
+                        <g id="about">
+                            <g id="icon" transform="translate(7.000000, 5.000000)">
+                                <ellipse id="background" fill="#4F2385" cx="7.5" cy="7.5" rx="7.5" ry="7.5"></ellipse>
+                                <ellipse id="background" fill="#DCD3E7" cx="7.5" cy="7.5" rx="6.13636364" ry="6.13636364"></ellipse>
+                                <path d="M7.01788174,9.34575462 C7.2841483,9.61202119 7.7158517,9.61202119 7.98211826,9.34575462 L13.4366637,3.89120917 C13.7029303,3.62494261 13.7029303,3.19323921 13.4366637,2.92697265 C13.1703972,2.66070609 12.7386938,2.66070609 12.4724272,2.92697265 L7.51582354,7.91522338 L5.93666371,6.33606356 C5.67039715,6.069797 5.23869376,6.069797 4.97242719,6.33606356 C4.70616063,6.60233012 4.70616063,7.03403352 4.97242719,7.30030008 L7.01788174,9.34575462 Z" id="Path-1" fill="#4F2385"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

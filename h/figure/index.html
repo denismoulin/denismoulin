@@ -1,0 +1,617 @@
+ <!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="static/images/icons/apple-touch-icon.png" rel="apple-touch-icon" />
+	<link href="static/images/icons/apple-touch-icon-76.png" rel="apple-touch-icon" sizes="76x76" />
+	<link href="static/images/icons/apple-touch-icon-120.png" rel="apple-touch-icon" sizes="120x120" />
+	<link href="static/images/icons/apple-touch-icon-152.png" rel="apple-touch-icon" sizes="152x152" />
+	<link href="static/images/icons/apple-touch-icon-180.png" rel="apple-touch-icon" sizes="180x180" />
+	<link href="static/images/icons/icon-hires.png" rel="icon" sizes="192x192" />
+	<link href="static/images/icons/icon-normal.png" rel="icon" sizes="128x128" />
+	<link rel="shortcut icon" href="static/images/icons/favicon.ico.png">
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="static/css/animate.css">
+	<link rel="stylesheet" href="static/css/style.css">
+	<style>
+		.nav-mention{
+			z-index: 9999;
+			position: relative;
+			top: 0;
+			left: 0;
+			height: auto;
+			width: 100%;
+			background: white;
+			color: black;
+			font-family: sans-serif;
+			font-size: 14px;
+			text-align: center;
+		}
+		.nav-mention li{
+			display: inline-block;
+			margin: 0px 10px;
+		}
+		.nav-mention ul{ padding: 20px 0px; margin: 0px auto;}
+
+		.nav-mention a:link, .nav-mention a:hover, .nav-mention a:visited{
+			text-decoration: underline;
+			border: none;
+			color: black;
+			opacity: 0.5 !important;
+		}
+
+		.content-mention{
+			position: relative;
+		}
+	</style>
+
+
+
+	<title>Figure</title>
+
+
+</head>
+<body>
+<header>
+	<div class="container">
+		<nav class="row">
+			<div class="col-lg-3 col-sm-3 col-xs-12 wow fadeIn" id="logo" data-wow-duration="2s">
+				<a href="index.html#" target="_self">
+					<svg id="forms"viewBox="0 0 76 20">
+			       	<g>
+				        <polygon points="38 0 46 5 46 15 38 20 29 15 29 5 "></polygon>
+				        <rect id="Rectangle-1" sketch:type="MSShapeGroup" x="0" y="2" width="16" height="16"></rect>
+				    	  <rect id="Rectangle-1" sketch:type="MSShapeGroup" x="60" y="2" width="16" height="16" rx="8"></rect>
+                <rect id="Rectangle-1" sketch:type="MSShapeGroup" x="120" y="2" width="16" height="16" rx="8"></rect>
+			       	</g>
+					</svg><br>
+					<svg id="letters" viewBox="0 0 109 21">
+			   			<g fill-rule="evenodd">
+							<path d="M0,20.5961538 L5.57762676,20.5961538 L5.57762676,13.3846154 L15.094093,13.3846154 L15.094093,8.74038462 L5.57762676,8.74038462 L5.57762676,5.30769231 L16.1003659,5.30769231 L16.1003659,0.403846154 L0,0.403846154 L0,20.5961538 Z M18.745426,20.5961538 L24.3518035,20.5961538 L24.3518035,0.403846154 L18.745426,0.403846154 L18.745426,20.5961538 Z M38.2958704,21 C41.9472033,21 44.9085206,19.6442308 47.036069,17.8846154 L47.036069,8.79807692 L37.7783586,8.79807692 L37.7783586,12.8942308 L41.7459488,12.8942308 L41.7459488,15.3461538 C40.9121798,15.8942308 39.8771563,16.1826923 38.5258756,16.1826923 C35.3345531,16.1826923 33.0632514,13.8461538 33.0632514,10.5865385 L33.0632514,10.5288462 C33.0632514,7.44230769 35.3058024,4.99038462 38.2096184,4.99038462 C40.1934135,4.99038462 41.6309462,5.68269231 43.0684788,6.89423077 L46.3460533,2.94230769 C44.218505,1.09615385 41.7171981,0 38.1808677,0 C31.941976,0 27.3418714,4.61538462 27.3418714,10.5 L27.3418714,10.5576923 C27.3418714,16.6730769 32.0282279,21 38.2958704,21 L38.2958704,21 Z M59.1975954,20.9711538 C64.9189754,20.9711538 68.6278097,18.1153846 68.6278097,11.5961538 L68.6278097,0.403846154 L62.963931,0.403846154 L62.963931,11.7692308 C62.963931,14.5961538 61.4976477,15.9230769 59.2550967,15.9230769 C57.0125457,15.9230769 55.5462624,14.5384615 55.5462624,11.625 L55.5462624,0.403846154 L49.8823837,0.403846154 L49.8823837,11.7403846 C49.8823837,18.0576923 53.4762154,20.9711538 59.1975954,20.9711538 L59.1975954,20.9711538 Z M71.9341349,20.5961538 L77.5117616,20.5961538 L77.5117616,14.4807692 L79.9555672,14.4807692 L84.0094093,20.5961538 L90.4495557,20.5961538 L85.6481965,13.5576923 C88.1495034,12.4903846 89.7882906,10.4423077 89.7882906,7.35576923 L89.7882906,7.29807692 C89.7882906,5.30769231 89.1845269,3.75 88.0057501,2.59615385 C86.6544694,1.21153846 84.5269211,0.403846154 81.4506012,0.403846154 L71.9341349,0.403846154 L71.9341349,20.5961538 Z M77.5117616,10.0961538 L77.5117616,5.25 L81.1630946,5.25 C83.0318871,5.25 84.1819132,6.05769231 84.1819132,7.64423077 L84.1819132,7.70192308 C84.1819132,9.17307692 83.0893884,10.0961538 81.1918453,10.0961538 L77.5117616,10.0961538 Z M92.6058547,20.5961538 L108.936226,20.5961538 L108.936226,15.8365385 L98.1259801,15.8365385 L98.1259801,12.6346154 L107.7862,12.6346154 L107.7862,8.22115385 L98.1259801,8.22115385 L98.1259801,5.16346154 L108.792473,5.16346154 L108.792473,0.403846154 L92.6058547,0.403846154 L92.6058547,20.5961538 Z">
+							</path>
+			    		</g>
+					</svg>
+				</a>
+			</div>
+			<ul class="col-lg-6 col-lg-push-3 col-sm-8 col-sm-push-1 col-xs-12 wow fadeIn" id="navigation" data-wow-duration="2s">
+				<li><a href="index.html#features">Features</a></li>
+        <li><a href="index.html#" target="#" data-toggle="modal" data-target="#career">Careers</a></li>
+				<li><a href="index.html#" target="#" data-toggle="modal" data-target="#manifest">Manifest</a></li>
+				<li><a href="#" target="_self">Blog</a></li>
+			</ul>
+		</nav>
+	</div>
+
+  <section id="landingpage">
+    <div class="container">
+      <div class="row scrollme">
+        <div class="col-md-12">
+          <h1>Figure is now <b><a href="http://kontist.com">Kontist</a></b></h1>
+          <h3 class="wow fadeIn" data-wow-duration="2s">A <b>smart</b> Bank Account and Payment Card for your personal business.</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+      <a href="index.html#features">
+        <svg width="40px" height="40px" viewBox="0 0 40 40" id="breathing-button">
+          <defs>
+              <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="white-breathing-fade">
+                <stop stop-color="rgb(255,255,255)" offset="0%" stop-opacity="0%"></stop>
+              <stop stop-color="rgb(255,255,255)" offset="100%" stop-opacity="60%"></stop>
+            </linearGradient>
+          </defs>
+          <g stroke="none" stroke-width="1" fill-rule="evenodd">
+              <path d="M20,40 C31.045695,40 40,31.045695 40,20 C40,8.954305 31.045695,0 20,0 C8.954305,0 0,8.954305 0,20 C0,31.045695 8.954305,40 20,40 Z M19.513472,25.8132964 C19.7900572,26.0622231 20.2099256,26.0622231 20.4865108,25.8132964 L27.7592324,19.267847 C28.0577849,18.9991497 28.0819874,18.5393029 27.8132901,18.2407504 C27.5445929,17.9421979 27.0847461,17.9179954 26.7861936,18.1866927 L19.9999914,24.3272632 L13.2137892,18.1866927 C12.9152367,17.9179954 12.4553899,17.9421979 12.1866927,18.2407504 C11.9179954,18.5393029 11.9421979,18.9991497 12.2407504,19.267847 L19.513472,25.8132964 Z" fill="url(#white-breathing-fade)"></path>
+          </g>
+        </svg>
+      </a>
+    </div>
+
+		</div>
+		<section id="features" class="wow fadeInUp" data-wow-offset="300" data-wow-duration="1s">
+			<div class="row">
+				<div class="col-md-5 col-md-offset-5 col-sm-6 col-sm-offset-5 col-xs-10 col-xs-push-1">
+					<h4>What you get</h4>
+					<h3>A steady salary.</h3>
+					<hr class="light">
+					<p>By magic (and a bit of math) we help you set an achiveable monthly salary. Figure looks at your income history and helps you know how much you can safely spend while still saving up for your future.</p>
+				</div>
+			</div>
+		</section>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<svg viewBox="0 0 1000 250" id="waves">
+				<defs>
+				    <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="white-gradient">
+		     			<stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:0.05" />
+		      			<stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+				    </linearGradient>
+				</defs>
+				<g transform="translate(0,0)" fill="url(#white-gradient)">
+					<path d="M0,50 C100,50 100,100 200,100 C300,100 300,50 400,50 C500,50.0000002 500,100 600,100 C700,100 700,50 800,50 C900,50 900,100 1000,100 L1000,250 L0,250 L0,50 Z">
+					<animate dur="80s" repeatCount="1" attributeName="d"
+					values="M0,0 C100,0 100,150 200,150 C300,150 300,50 400,50 C500,50 500,200 600,200 C700,200 700,100 800,100 C900,100 900,200 1000,200 L1000,250 L0,250 L0,0 Z;M0,100 C100,100 100,200 200,200 C300,200 300,100 400,100 C500,100 500,200 600,200 C700,200 700,0 800,0 C900,0 900,150 1000,150 L1000,250 L0,250 L0,100 Z;M0,150 C100,150 100,50 200,50 C300,50 300,150 400,150 C500,150 500,0 600,0 C700,0 700,150 800,150 C900,150 900,50 1000,50 L1000,250 L0,250 L0,150 Z;M0,100 C100,100 100,50 200,50 C300,50 300,100 400,100 C500,100 500,50 600,50 C700,50 700,100 800,100 C900,100 900,50 1000,50 L1000,250 L0,250 L0,100 Z;M0,50 C100,50 100,150 200,150 C300,150 300,50 400,50 C500,50.0000002 500,100 600,100 C700,100 700,50 800,50 C900,50 900,100 1000,100 L1000,250 L0,250 L0,50 Z;M0,100 C100,100 100,50 200,50 C300,50 300,100 400,100 C500,100 500,50 600,50 C700,50 700,100 800,100 C900,100 900,50 1000,50 L1000,250 L0,250 L0,100 Z;M0,50 C100,50 100,100 200,100 C300,100 300,50 400,50 C500,50.0000002 500,100 600,100 C700,100 700,50 800,50 C900,50 900,100 1000,100 L1000,250 L0,250 L0,50 Z;M0,100 C100,100 100,50 200,50 C300,50 300,100 400,100 C500,100 500,50 600,50 C700,50 700,100 800,100 C900,100 900,50 1000,50 L1000,250 L0,250 L0,100 Z;M0,50 C100,50 100,100 200,100 C300,100 300,50 400,50 C500,50.0000002 500,100 600,100 C700,100 700,50 800,50 C900,50 900,100 1000,100 L1000,250 L0,250 L0,50 Z;M0,100 C100,100 100,50 200,50 C300,50 300,100 400,100 C500,100 500,50 600,50 C700,50 700,100 800,100 C900,100 900,50 1000,50 L1000,250 L0,250 L0,100 Z;M0,50 C100,50 100,100 200,100 C300,100 300,50 400,50 C500,50.0000002 500,100 600,100 C700,100 700,50 800,50 C900,50 900,100 1000,100 L1000,250 L0,250 L0,50 Z;M0,100 C100,100 100,50 200,50 C300,50 300,100 400,100 C500,100 500,50 600,50 C700,50 700,100 800,100 C900,100 900,50 1000,50 L1000,250 L0,250 L0,100 Z;M0,50 C100,50 100,100 200,100 C300,100 300,50 400,50 C500,50.0000002 500,100 600,100 C700,100 700,50 800,50 C900,50 900,100 1000,100 L1000,250 L0,250 L0,50 Z;"/></animate>
+					</path>
+				</g>
+				<g transform="translate(0,0)" fill="url(#white-gradient)">
+					<path d="M0,100 C100,100 100,50 200,50 C300,50 300,100 400,100 C500,100 500,50 600,50 C700,50 700,100 800,100 C900,100 900,50 1000,50 L1000,250 L0,250 L0,100 Z">
+					<animate dur="80s" repeatCount="1" attributeName="d"
+					values="M0,100 C100,100 100,0 200,0 C300,0 300,200 400,200 C500,200 500,50 600,50 C700,50 700,150 800,150 C900,150 900,50 1000,50 L1000,250 L0,250 L0,100 Z;M0,50 C100,50 100,0 200,0 C300,0 300,150 400,150 C500,150 500,100 600,100 C700,100 700,200 800,200 C900,200 900,50 1000,50 L1000,250 L0,250 L0,50 Z;M0,100 C100,100 100,150 200,150 C300,150 300,50 400,50 C500,50 500,150 600,150 C700,150 700,50 800,50 C900,50 900,150 1000,150 L1000,250 L0,250 L0,100 Z;M0,50 C100,50 100,100 200,100 C300,100 300,50 400,50 C500,50 500,100 600,100 C700,100 700,50 800,50 C900,50 900,100 1000,100 L1000,250 L0,250 L0,50 Z;M0,100 C100,100 100,50 200,50 C300,50 300,100 400,100 C500,100 500,0 600,0 C700,0 700,100 800,100 C900,100 900,50 1000,50 L1000,250 L0,250 L0,100 Z;M0,50 C100,50 100,100 200,100 C300,100 300,50 400,50 C500,50 500,100 600,100 C700,100 700,50 800,50 C900,50 900,100 1000,100 L1000,250 L0,250 L0,50 Z;M0,100 C100,100 100,50 200,50 C300,50 300,100 400,100 C500,100 500,50 600,50 C700,50 700,100 800,100 C900,100 900,50 1000,50 L1000,250 L0,250 L0,100 Z;M0,50 C100,50 100,100 200,100 C300,100 300,50 400,50 C500,50 500,100 600,100 C700,100 700,50 800,50 C900,50 900,100 1000,100 L1000,250 L0,250 L0,50 Z;M0,100 C100,100 100,50 200,50 C300,50 300,100 400,100 C500,100 500,50 600,50 C700,50 700,100 800,100 C900,100 900,50 1000,50 L1000,250 L0,250 L0,100 Z;M0,50 C100,50 100,100 200,100 C300,100 300,50 400,50 C500,50 500,100 600,100 C700,100 700,50 800,50 C900,50 900,100 1000,100 L1000,250 L0,250 L0,50 Z;M0,100 C100,100 100,50 200,50 C300,50 300,100 400,100 C500,100 500,50 600,50 C700,50 700,100 800,100 C900,100 900,50 1000,50 L1000,250 L0,250 L0,100 Z;M0,50 C100,50 100,100 200,100 C300,100 300,50 400,50 C500,50 500,100 600,100 C700,100 700,50 800,50 C900,50 900,100 1000,100 L1000,250 L0,250 L0,50 Z;M0,100 C100,100 100,50 200,50 C300,50 300,100 400,100 C500,100 500,50 600,50 C700,50 700,100 800,100 C900,100 900,50 1000,50 L1000,250 L0,250 L0,100 Z;"/></animate>
+					</path>
+				</g>
+				<g transform="translate(0,0)" fill="url(#white-gradient)">
+					<path d="M0,100 C100,100 100,50 200,50 C300,50 300,100 400,100 C500,100 500,50 600,50 C700,50 700,100 800,100 C900,100 900,50 1000,50 L1000,250 L0,250 L0,100 Z">
+					<animate dur="100s" repeatCount="1" attributeName="d"
+					values="M0,50 C100,50 100,100 200,100 C300,100 300,0 400,0 C500,0 500,150 600,150 C700,150 700,0 800,0 C900,0 900,200 1000,200 L1000,250 L0,250 L0,50 Z;M0,150 C100,150 100,50 200,50 C300,50 300,100 400,100 C500,100 500,0 600,0 C700,0 700,200 800,200 C900,200 900,50 1000,50 L1000,250 L0,250 L0,150 Z;M0,50 C100,50 100,100 200,100 C300,100 300,50 400,50 C500,50 500,100 600,100 C700,100 700,50 800,50 C900,50 900,100 1000,100 L1000,250 L0,250 L0,50 Z;M0,150 C100,150 100,100 200,100 C300,100 300,150 400,150 C500,150 500,100 600,100 C700,100 700,150 800,150 C900,150 900,100 1000,100 L1000,250 L0,250 L0,150 Z;M0,100 C100,100 100,150 200,150 C300,150 300,50 400,50 C500,50 500,150 600,150 C700,150 700,100 800,100 C900,100 900,150 1000,150 L1000,250 L0,250 L0,100 Z;M0,100 C100,100 100,50 200,50 C300,50 300,100 400,100 C500,100 500,50 600,50 C700,50 700,100 800,100 C900,100 900,50 1000,50 L1000,250 L0,250 L0,100 Z;M0,50 C100,50 100,100 200,100 C300,100 300,50 400,50 C500,50 500,100 600,100 C700,100 700,50 800,50 C900,50 900,100 1000,100 L1000,250 L0,250 L0,50 Z;M0,100 C100,100 100,50 200,50 C300,50 300,100 400,100 C500,100 500,50 600,50 C700,50 700,100 800,100 C900,100 900,50 1000,50 L1000,250 L0,250 L0,100 Z;M0,50 C100,50 100,100 200,100 C300,100 300,50 400,50 C500,50 500,100 600,100 C700,100 700,50 800,50 C900,50 900,100 1000,100 L1000,250 L0,250 L0,50 Z;M0,100 C100,100 100,50 200,50 C300,50 300,100 400,100 C500,100 500,50 600,50 C700,50 700,100 800,100 C900,100 900,50 1000,50 L1000,250 L0,250 L0,100 Z;M0,50 C100,50 100,100 200,100 C300,100 300,50 400,50 C500,50 500,100 600,100 C700,100 700,50 800,50 C900,50 900,100 1000,100 L1000,250 L0,250 L0,50 Z;M0,100 C100,100 100,50 200,50 C300,50 300,100 400,100 C500,100 500,50 600,50 C700,50 700,100 800,100 C900,100 900,50 1000,50 L1000,250 L0,250 L0,100 Z;M0,50 C100,50 100,100 200,100 C300,100 300,50 400,50 C500,50 500,100 600,100 C700,100 700,50 800,50 C900,50 900,100 1000,100 L1000,250 L0,250 L0,50 Z;"/></animate>
+					</path>
+				</g>
+			</svg>
+		</div>
+	</div>
+</header>
+<main>
+	<section id="taxes-savings">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1" id="taxes">
+					<h4>Know what you have</h4>
+					<h3>Taxes and VAT, done.</h3>
+					<hr class="dark">
+					<p>For every invoice paid to your Figure bank account, we automatically set the right amount of taxes and VAT aside and let you know when it is due, so you can avoid any unpleasant surprises and always know how you are doing financially.</p>
+				</div>
+				<div class="col-md-5 col-md-offset-1 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1" id="savings">
+					<h4>For rainy days and sunny vacations</h4>
+					<h3>Savings made simple.</h3>
+					<hr class="dark">
+					<p>Whether your goal is a new home or a couple of days vacation, Figure will automatically help you save up whenever there’s room in your economy. Just set your goals and Figure will notify you when you get there.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="smart-card" class="scrollme">
+		<div class="container-fluid">
+			<div class="row">
+				<div id="card" class="wow fadeInDown" data-wow-offset="400">
+					<div class="child animateme" data-when="span" data-from="0" data-to="1" data-translatey="300" data-easing="easeout">
+						<div></div>
+						<div></div>
+						<div></div>
+					</div>
+				</div>
+				<div class="infos">
+					<h4>Figure card</h4>
+					<h1>A smart payment card.</h1>
+					<hr class="light">
+					<p>Keeping track of your business expenses is equally important and boring, so we’ve made it easy. Every time you use your Figure Card we’ll notify you via the Figure app and let you take a photo of the receipt and categorize it - done.</p>
+				</div>
+				<div id="moving-circle"></div>
+				<!-- Alternative Svg Not perfect
+				<svg viewBox="0 0 800 800" id="moving-circle">
+		        	<rect width="100%" height="100%" r="400px" fill="transparent" stroke="url(#white-gradient)" rx="400" ry="400"/></rect>
+		      	</svg>-->
+
+		      	<!-- Start of an alternative on gradient transition
+				<svg viewBox="0 0 800 800" id="moving-circle" gradientUnits="userSpaceOnUse">
+					<defs>
+			       		<linearGradient id="white-gradient-circle" x1="50%" y1="0%" x2="50%" y2="100%" gradientTransform="rotate(0)" >
+			         		<stop stop-color="#FFF" stop-opacity="10%" offset="0%"></stop>
+			        		<stop stop-color="#FFF" stop-opacity="100%" offset="100%"></stop>
+			        		<animate attributeName="gradientTransform" values="scale(-1);scale(0)" dur="1s" repeatCount="indefinite"></animate>
+			        	</linearGradient>
+			        </defs>
+		        	<rect width="100%" height="100%" r="400px" fill="transparent" stroke="url(#white-gradient-circle)" rx="400" ry="400"/></rect>
+		      	</svg>-->
+		  <div id="phone" class="wow fadeInUp" data-wow-offset="120">
+				<div class="child">
+					<div id="speaker"></div>
+					<div id="content" class="wow fadeIn" data-wow-offset="120" data-wow-delay="0.7s">
+						<div id="icon"><span>F<span></div>
+						<div id="message">
+							<span>figure</span><span>Just now</span><br>
+							<p>You just spent $4.99 at Starbucks. Want to add a receipt now?</p>
+						</div>
+					</div>
+					<div id="screen"></div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="integration">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+					<h4>your finances in sync</h4>
+					<h3>Integrates with your accounting system.</h3>
+					<hr class="dark">
+					<p>Figure will make sure that your income and expenses are properly accounted for, by automatically keeping an eye on both your transactions and accounting system. This will save you money on accountants and loads of time when it is time to file your taxes.</p>
+				</div>
+				<div class="col-md-6 col-md-offset-1 col-sm-6">
+					<ul>
+						<li class="logo"><a hre="#" target="_blank"><img src="static/images/brands/badge01.jpg"></a></li>
+						<li class="logo"><a hre="#" target="_blank"><img src="static/images/brands/badge02.jpg"></a></li>
+						<li class="logo"><a hre="#" target="_blank"><img src="static/images/brands/badge03.jpg"></a></li>
+						<li class="logo"><a hre="#" target="_blank"><img src="static/images/brands/badge04.jpg"></a></li>
+						<li class="logo"><a hre="#" target="_blank"><img src="static/images/brands/badge05.jpg"></a></li>
+						<li class="logo"><a hre="#" target="_blank"><img src="static/images/brands/badge06.jpg"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="invite">
+		<div class="container-fluid">
+			<div class="row scrollme">
+				<div class="infos">
+					<h3>We’re inviting people as we go, if you want to try Figure, let us know and we’ll invite you as soon as possible.</h3>
+          <div id="mc_embed_signup">
+            <form action="http://kontist.us10.list-manage.com/subscribe/post?u=a0597b42ebb33ccf3df14bb91&id=3fcdce283f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <div class="pull-right">
+                <input type="submit" value="Request an invite" name="subscribe" id="mc-embedded-subscribe" class="button">
+              </div>
+              <div class="mc-field-group">
+                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="your@email.com">
+              </div>
+              <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+              </div>
+            </form>
+          </div>
+				</div>
+				<div id="sun" class="animateme" data-when="enter" data-from="0" data-to="1" data-translatey="-50" data-easing="easeout"></div>
+			</div>
+		</div>
+	</section>
+</main>
+<footer>
+	<div class="container">
+		<div class="row">
+			<ul class="col-sm-3 col-xs-6">
+				<li class="title">Company</li>
+				<li><a href="index.html#" target="#" data-toggle="modal" data-target="#aboutus">About us</a></li>
+				<li><a href="index.html#" target="#" data-toggle="modal" data-target="#career">Careers</a></li>
+				<li><a href="#" target="_self">Press</a></li>
+			</ul>
+			<ul class="col-sm-3 col-xs-6">
+				<li class="title">Using figure</li>
+				<li><a href="index.html#" target="#" data-toggle="modal" data-target="#app">App Store</a></li>
+				<li><a href="index.html#" target="#" data-toggle="modal" data-target="#app">Google Play</a></li>
+				<li><a href="index.html#" target="#" data-toggle="modal" data-target="#app">How to switch</a></li>
+			</ul>
+			<ul class="col-sm-3 col-xs-6">
+				<li class="title">Support</li>
+				<li><a href="index.html#" data-toggle="modal" data-target="#support">Talk to a supporter</a></li>
+			</ul>
+			<ul class="col-sm-3 col-xs-6">
+				<li class="title">Elsewhere</li>
+				<li><a href="index.html#" target="_blank">Twitter</a></li>
+				<li><a href="#" target="_blank">Facebook</a></li>
+				<li><a href="#" target="_blank">Instagram</a></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+
+
+
+<div class="modal fade" id="manifest" tabindex="-1" role="dialog" aria-labelledby="manifest" aria-hidden="true">
+	<div class="modal-dialog modal-lg">
+    <div class="modal-content">
+    	<div class="modal-header">
+     		<button type="button" class="close" data-dismiss="modal" aria-label="Close" style="padding: 20px 0 40px 20px;">
+     			<span aria-hidden="true">
+       			<div class="closing-x">
+       				<div></div>
+       			</div>
+     			</span>
+     		</button>
+        <div class="container-fluid">
+	        <div class="row">
+	        	<div class="col-md-6">
+	        		<h3 class="modal-title" id="myModalLabel">Manifest</h3>
+        		</div><!-- .col-md-6 -->
+		      </div><!-- .row -->
+	    	</div><!-- .container-fluid -->
+  		</div><!-- .modal-header -->
+    	<div class="modal-body">
+				<div class="container-fluid">
+					<div class="row">
+			    	<div class="col-md-8">
+              <p>We strive to enable a world where people can work on what they love, with the peace of mind they deserve.</p>
+							<p>Figure helps solo entrepreneurs and other participants in the freelance economy to keep their freedom while enjoying the same rights and protections offered to full time employees.</p>
+							<p>We believe in a world where people can take care of themselves and follow their passion. We see a world that is going away from life long employment and is moving towards the freelance economy. We want to develop products for the new world.</p>
+							<p>For freelancers and other workers suffering from the insecurity of a variable income, Figure is a smarter tool for managing and making sense of your business finances. Unlike your normal bank account, Figure understands your business, it helps you setting aside money for tax and vat and turns your variable income into a steady monthly payment.
+							<p>Figure’s first product helps freelancers and other workers with variable income to manage their economy, create a healthy buffer and focus on what they love.</p>
+							<p>Join us to make this happen - the Figure team.</p>
+			      </div><!-- .col-md-12 -->
+			    </div><!-- .row -->
+				</div><!-- .container-fluid -->
+			</div><!-- .modal-body -->
+		</div><!-- .modal-content -->
+	</div><!-- .modal-dialog -->
+</div><!-- .modal -->
+
+<div class="modal fade" id="app" tabindex="-1" role="dialog" aria-labelledby="app" aria-hidden="true">
+	<div class="modal-dialog modal-lg">
+    <div class="modal-content">
+    	<div class="modal-header">
+     		<button type="button" class="close" data-dismiss="modal" aria-label="Close" style="padding: 20px 0 40px 20px;">
+     			<span aria-hidden="true">
+       			<div class="closing-x">
+       				<div></div>
+       			</div>
+     			</span>
+     		</button>
+        <div class="container-fluid">
+	        <div class="row">
+	        	<div class="col-md-6">
+	        		<h3 class="modal-title" id="myModalLabel">Using Figure</h3>
+        		</div>
+		      </div>
+	    	</div>
+  		</div>
+    	<div class="modal-body">
+				<div class="container-fluid">
+					<div class="row">
+			    	<div class="col-md-6">
+				    	<h4>The Figure app is on its way</h4>
+				    	<p>We're working hard to provide you with the best possible app on both Android and iOS.<br>However we're not quite there yet, if you wish, leave us your email and we'll let you know when we launch.</p>
+				    	<br>
+							<div id="mc_embed_signup">
+		            <form action="#" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+		                <div class="mc-field-group">
+		                  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="your@email.com">
+		                </div>
+		                <div id="mce-responses" class="clear">
+		            		    <div class="response" id="mce-error-response" style="display:none"></div>
+		            		      <div class="response" id="mce-success-response" style="display:none"></div>
+		            	  </div>
+		                <div style="position: absolute; left: -5000px;">
+		                  <input type="text" name="#" tabindex="-1" value="">
+		                </div>
+		                <div class="clear">
+		                  <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+		                </div>
+		              </form>
+		          </div>
+			      </div>
+			    	<div class="col-md-6">
+				    	<h4>Do I need to switch?</h4>
+				    	<p>No need to switch from your current bank, you can easily run Figure in parallel with your existing bank.</p>
+			      </div>
+			    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="support" tabindex="-1" role="dialog" aria-labelledby="support" aria-hidden="true">
+	<div class="modal-dialog modal-lg">
+    	<div class="modal-content">
+      		<div class="modal-header">
+	       		<button type="button" class="close" data-dismiss="modal" aria-label="Close" style="padding: 20px 0 40px 20px;">
+	       			<span aria-hidden="true">
+		       			<div class="closing-x">
+		       				<div></div>
+		       			</div>
+	       			</span>
+	       		</button>
+	        	<div class="container-fluid">
+		        	<div class="row">
+		        		<div class="col-md-6"><h3 class="modal-title" id="myModalLabel">Support</h3></div>
+			        </div>
+		    	</div>
+      		</div>
+	    	<div class="modal-body">
+				<div class="container-fluid">
+					<div class="row">
+				    	<div class="col-md-6">
+				      		<h4>Talk to a supporter</h4>
+					    	<p>Figure is build to help you through your journey as profesional and a dedicated team will be ready to anwser any of your questions and solve your problems. 24/7.</p>
+				      	</div>
+				    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="aboutus" tabindex="-1" role="dialog" aria-labelledby="aboutus" aria-hidden="true">
+	<div class="modal-dialog modal-lg">
+    	<div class="modal-content">
+      		<div class="modal-header">
+	       		<button type="button" class="close" data-dismiss="modal" aria-label="Close" style="padding: 20px 0 40px 20px;">
+	       			<span aria-hidden="true">
+		       			<div class="closing-x">
+		       				<div></div>
+		       			</div>
+	       			</span>
+	       		</button>
+	        	<div class="container-fluid">
+		        	<div class="row">
+		        		<div class="col-md-6"><h3 class="modal-title" id="myModalLabel">About</h3></div>
+			        </div>
+		    	</div>
+      		</div>
+	    	<div class="modal-body">
+				<div class="container-fluid">
+					<div class="row">
+				    	<div class="col-md-6">
+				      	<h4>About us</h4>
+					    	<p>We're a team of business developers, designers &amp; coders, passionate about creating the best financial enviroment for self employed.</p>
+								<p>Figure is funded by <a href="http://www.founders.as">Founders</a>.</p>
+				      </div>
+				    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="career" tabindex="-1" role="dialog" aria-labelledby="career" aria-hidden="true">
+	<div class="modal-dialog modal-lg">
+    <div class="modal-content">
+    	<div class="modal-header">
+     		<button type="button" class="close" data-dismiss="modal" aria-label="Close" style="padding: 20px 0 40px 20px;">
+     			<span aria-hidden="true">
+       			<div class="closing-x">
+       				<div></div>
+       			</div>
+     			</span>
+     		</button>
+        <div class="container-fluid">
+	        <div class="row">
+	        	<div class="col-md-6">
+	        		<h3 class="modal-title" id="myModalLabel">Careers</h3>
+        		</div><!-- .col-md-6 -->
+		      </div><!-- .row -->
+	    	</div><!-- .container-fluid -->
+  		</div><!-- .modal-header -->
+    	<div class="modal-body">
+				<div class="container-fluid">
+					<div class="row">
+			    	<div class="col-md-8">
+							<p>Have you ever tried to open a business bank account as a freelancer? Did it suck? And did you ever wonder how much tax you need to put aside and why nobody can tell you?</p>
+							<p>Imagine a smart mobile bank account with superpowers that helps with finances, taxes and savings and makes it as easy running your own business as being self-employed.</p>
+							<p>If you are as passionate about helping small business owners as we are, then join us to build the next generation bank account.</p>
+							<p>The team is growing and we'd love for you to grow with us. Currently we're looking to fill the following positions:</p>
+							<ul class="bodyText">
+								<li><p><a href="#">Growth Hacker</a></p></li>
+								<li><p><a href="#">Javascript Developer</a></p></li>
+			      </div><!-- .col-md-12 -->
+			    </div><!-- .row -->
+				</div><!-- .container-fluid -->
+			</div><!-- .modal-body -->
+		</div><!-- .modal-content -->
+	</div><!-- .modal-dialog -->
+</div><!-- .modal -->
+
+<div class="modal fade" id="app" tabindex="-1" role="dialog" aria-labelledby="app" aria-hidden="true">
+	<div class="modal-dialog modal-lg">
+    <div class="modal-content">
+    	<div class="modal-header">
+     		<button type="button" class="close" data-dismiss="modal" aria-label="Close" style="padding: 20px 0 40px 20px;">
+     			<span aria-hidden="true">
+       			<div class="closing-x">
+       				<div></div>
+       			</div>
+     			</span>
+     		</button>
+        <div class="container-fluid">
+	        <div class="row">
+	        	<div class="col-md-6">
+	        		<h3 class="modal-title" id="myModalLabel">Using Figure</h3>
+        		</div>
+		      </div>
+	    	</div>
+  		</div>
+    	<div class="modal-body">
+				<div class="container-fluid">
+					<div class="row">
+			    	<div class="col-md-6">
+				    	<h4>The Figure app is on its way</h4>
+				    	<p>We're working hard to provide you with the best possible app on both Android and iOS.<br>However we're not quite there yet, if you wish, leave us your email and we'll let you know when we launch.</p>
+				    	<br>
+							<div id="mc_embed_signup">
+		            <form action="#" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+		                <div class="mc-field-group">
+		                  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="your@email.com">
+		                </div>
+		                <div id="mce-responses" class="clear">
+		            		    <div class="response" id="mce-error-response" style="display:none"></div>
+		            		      <div class="response" id="mce-success-response" style="display:none"></div>
+		            	  </div>
+		                <div style="position: absolute; left: -5000px;">
+		                  <input type="text" name="#" tabindex="-1" value="">
+		                </div>
+		                <div class="clear">
+		                  <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+		                </div>
+		              </form>
+		          </div>
+			      </div>
+			    	<div class="col-md-6">
+				    	<h4>Do I need to switch?</h4>
+				    	<p>No need to switch from your current bank, you can easily run Figure in parallel with your existing bank.</p>
+			      </div>
+			    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="support" tabindex="-1" role="dialog" aria-labelledby="support" aria-hidden="true">
+	<div class="modal-dialog modal-lg">
+    	<div class="modal-content">
+      		<div class="modal-header">
+	       		<button type="button" class="close" data-dismiss="modal" aria-label="Close" style="padding: 20px 0 40px 20px;">
+	       			<span aria-hidden="true">
+		       			<div class="closing-x">
+		       				<div></div>
+		       			</div>
+	       			</span>
+	       		</button>
+	        	<div class="container-fluid">
+		        	<div class="row">
+		        		<div class="col-md-6"><h3 class="modal-title" id="myModalLabel">Support</h3></div>
+			        </div>
+		    	</div>
+      		</div>
+	    	<div class="modal-body">
+				<div class="container-fluid">
+					<div class="row">
+				    	<div class="col-md-6">
+				      		<h4>Talk to a supporter</h4>
+					    	<p>Figure is build to help you through your journey as profesional and a dedicated team will be ready to anwser any of your questions and solve your problems. 24/7.</p>
+				      	</div>
+				    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="careers" tabindex="-1" role="dialog" aria-labelledby="careers" aria-hidden="true">
+	<div class="modal-dialog modal-lg">
+    	<div class="modal-content">
+      		<div class="modal-header">
+	       		<button type="button" class="close" data-dismiss="modal" aria-label="Close" style="padding: 20px 0 40px 20px;">
+	       			<span aria-hidden="true">
+		       			<div class="closing-x">
+		       				<div></div>
+		       			</div>
+	       			</span>
+	       		</button>
+	        	<div class="container-fluid">
+		        	<div class="row">
+		        		<div class="col-md-6"><h3 class="modal-title" id="myModalLabel">About</h3></div>
+			        </div>
+		    	</div>
+      		</div>
+	    	<div class="modal-body">
+				<div class="container-fluid">
+					<div class="row">
+				    	<div class="col-md-6">
+				      	<h4>About us</h4>
+					    	<p>We're a team of business developers, designers &amp; coders, passionate about creating the best financial enviroment for self employed.</p>
+								<p>Figure is funded by <a href="http://www.founders.as">Founders</a>.</p>
+				      </div>
+				    </div><br><br>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="static/js/main.js"></script>
+<script src="static/js/jquery.scrollme.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="static/js/wow.min.js"></script>
+<script>
+	new WOW().init();
+</script>
+
+</body>
+</html>

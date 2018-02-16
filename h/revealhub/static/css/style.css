@@ -1,0 +1,530 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: 'apercu';
+  font-style: normal;
+  src: url("../fonts/apercu-regular.ttf") format("truetype"); }
+@font-face {
+  font-family: 'din';
+  font-style: normal;
+  src: url("../fonts/din-light.ttf") format("truetype"); }
+/* Variables */
+html {
+  font: 62.5%; }
+
+html,
+body {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'apercu';
+  font-size: 0.8rem;
+  font-weight: 100;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/*Typography guidelines*/
+h1 {
+  font-family: 'din';
+  font-size: 2.1rem;
+  line-height: 1.2;
+  text-transform: uppercase; }
+
+h2 {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase; }
+
+h3 {
+  font-family: 'din';
+  font-size: 1.5rem;
+  line-height: 1; }
+
+h5 {
+  font-size: 1.4rem; }
+
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 1.6rem; }
+
+  h2 {
+    font-size: 0.9rem; } }
+b {
+  color: #FF0E00; }
+
+p {
+  font-size: 0.9rem;
+  max-width: 34rem; }
+  @media screen and (max-width: 767px) {
+    p {
+      margin: 0 auto; } }
+
+hr {
+  margin: 6rem auto; }
+  @media screen and (max-width: 767px) {
+    hr {
+      margin: 3rem auto; } }
+
+/* Delete focus */
+textarea:focus, input:focus, a:focus {
+  outline: 0; }
+
+/* If you need to add mention */
+code {
+  padding: 0.5rem 0.7rem;
+  margin: auto 0 auto 1rem;
+  font-size: 0.8rem;
+  color: #FF0E00;
+  background: rgba(255, 14, 0, 0.1);
+  border: 0.07rem solid rgba(255, 14, 0, 0.7); }
+
+/*Underline link*/
+a.default, a.default:hover {
+  text-decoration: none;
+  color: #bbb;
+  padding-bottom: 1rem;
+  border-bottom: transparent;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+a.default:hover {
+  padding-bottom: 1.2rem;
+  border-bottom: 0.07rem solid rgba(187, 187, 187, 0.6);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+/*Buttons */
+.btn {
+  font-size: 1rem;
+  border-radius: 0.2rem;
+  color: #bbb;
+  border: 0.07rem solid rgba(187, 187, 187, 0.4);
+  padding: 1rem 1.5rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+  .btn:hover {
+    color: #FF0E00;
+    border: 0.07rem solid #FF0E00;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+  .btn.tiny {
+    padding: 0.6rem 1.1rem; }
+    .btn.tiny:hover {
+      color: white;
+      border: 0.07rem solid transparent;
+      background: #FF0E00;
+      -webkit-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
+  .btn.bold {
+    color: white;
+    background: #FF0E00;
+    border: none; }
+    .btn.bold:hover {
+      opacity: 0.8; }
+
+/*Mailchimp form*/
+#mc_embed_signup form {
+  display: inline;
+  width: 100%;
+  padding-left: 0 !important;
+  margin: 0; }
+  #mc_embed_signup form input.email {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0;
+    border-bottom: 0.07rem solid rgba(187, 187, 187, 0.4);
+    text-indent: 0; }
+  #mc_embed_signup form input[type=submit] {
+    margin: 1rem auto auto;
+    border: none; }
+
+/*Elements*/
+/*Header*/
+header {
+  position: relative;
+  margin-top: 4rem; }
+  header #logo img {
+    width: 10rem;
+    height: auto; }
+  header ul {
+    font-size: 1rem;
+    text-align: center; }
+    @media screen and (min-width: 768px) {
+      header ul {
+        text-align: right; } }
+    header ul li {
+      display: inline-block;
+      margin: auto 2rem; }
+      @media screen and (max-width: 992px) {
+        header ul li {
+          margin: auto 1rem; } }
+  @media screen and (max-width: 767px) {
+    header {
+      text-align: center; } }
+
+/*Footer*/
+footer {
+  color: #bbb;
+  margin: 8rem auto 4rem; }
+  footer ul {
+    font-size: 1rem;
+    text-align: center; }
+    footer ul li {
+      display: inline-block;
+      margin: auto 2rem; }
+      @media screen and (max-width: 992px) {
+        footer ul li {
+          margin: 1rem; } }
+
+section#intro {
+  margin: 18rem auto 14rem; }
+  @media screen and (max-width: 767px) {
+    section#intro {
+      margin: 10rem auto; } }
+  section#intro #illustration {
+    overflow: hidden;
+    position: relative;
+    float: right;
+    margin-top: -5rem;
+    height: 14rem;
+    width: 14rem;
+    border: solid 0.4rem #FF0E00; }
+    section#intro #illustration .circle {
+      position: absolute;
+      width: 20rem;
+      height: 20rem;
+      top: -3rem;
+      transform-origin: 50% 50%;
+      background: url("../images/circle.png") no-repeat;
+      background-size: contain; }
+      section#intro #illustration .circle#one {
+        left: 7rem;
+        -webkit-animation: xrot 40s infinite linear; }
+      section#intro #illustration .circle#two {
+        left: 9.5rem;
+        -webkit-animation: xrot 80s infinite linear; }
+      section#intro #illustration .circle#three {
+        left: 12rem;
+        -webkit-animation: xrot 120s infinite linear; }
+      section#intro #illustration .circle#four {
+        right: 7rem;
+        -webkit-animation: xrot 40s infinite linear; }
+      section#intro #illustration .circle#five {
+        right: 9.5rem;
+        -webkit-animation: xrot 80s infinite linear; }
+      section#intro #illustration .circle#six {
+        right: 12rem;
+        -webkit-animation: xrot 120s infinite linear; }
+section.feature {
+  margin: 6rem auto; }
+  @media screen and (max-width: 767px) {
+    section.feature {
+      text-align: center; } }
+  section.feature h3 {
+    padding-top: 10rem;
+    color: #FF0E00; }
+    @media screen and (max-width: 767px) {
+      section.feature h3 {
+        padding: 0; } }
+  @media screen and (max-width: 767px) {
+    section.feature p {
+      margin: 0 auto; } }
+  section.feature img {
+    width: calc(100% - 4rem);
+    float: left;
+    margin-left: 4rem; }
+  section.feature#two img {
+    float: right;
+    margin-right: 4rem; }
+  section.feature li {
+    list-style: none;
+    display: inline-block;
+    margin: 0.6rem auto;
+    padding-left: 40px;
+    font-size: 0.9rem;
+    color: #FF0E00;
+    background: url("../images/checkmark-red.png") no-repeat 0px -5px; }
+    @media screen and (max-width: 767px) {
+      section.feature li {
+        padding: 0.5rem 0.7rem;
+        background-image: none;
+        color: rgba(0, 0, 0, 0.5);
+        border: 0.07rem solid rgba(187, 187, 187, 0.7);
+        border-radius: 0.2rem; } }
+section#howitworks {
+  margin: 3rem auto 6rem;
+  /*Svg elements */ }
+  @media screen and (max-width: 767px) {
+    section#howitworks {
+      text-align: center;
+      margin: 1rem auto 3rem; } }
+  @media screen and (max-width: 767px) {
+    section#howitworks .step {
+      margin: 3rem auto; } }
+  section#howitworks h1 {
+    padding-top: 3rem;
+    text-align: center;
+    margin-bottom: 6rem; }
+    @media screen and (max-width: 767px) {
+      section#howitworks h1 {
+        padding-top: 1.5rem;
+        margin-bottom: 3rem; } }
+  section#howitworks h2 {
+    color: #bbb;
+    border-bottom: transparent;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+    @media screen and (max-width: 767px) {
+      section#howitworks h2 {
+        color: #FF0E00; } }
+  section#howitworks h3 {
+    color: #FF0E00;
+    margin: 1rem 0 1rem 1rem;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+  @media screen and (max-width: 991px) {
+    section#howitworks h3 {
+      color: #bbb;
+      margin: 1rem 0 1rem 0;
+      opacity: 1; } }
+  section#howitworks svg {
+    width: 100%;
+    max-width: 20rem;
+    margin: 0 auto; }
+    section#howitworks svg .animate {
+      -webkit-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
+  section#howitworks #illustration-1 rect {
+    fill: none;
+    stroke: #bbb;
+    stroke-width: 0.1rem; }
+  section#howitworks #illustration-1 rect.animate {
+    stroke: rgba(187, 187, 187, 0.3); }
+  section#howitworks #illustration-2 rect, section#howitworks #illustration-2 path {
+    stroke-width: 0.1rem;
+    fill: none;
+    stroke: #bbb; }
+  section#howitworks #illustration-3 rect {
+    fill: none;
+    stroke: #bbb;
+    stroke-width: 0.1rem; }
+  section#howitworks .step:hover {
+    /*Animation svg */ }
+    section#howitworks .step:hover h2 span {
+      padding-bottom: 0.6rem;
+      border-bottom: 0.07rem solid rgba(0, 0, 0, 0.2);
+      -webkit-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
+    section#howitworks .step:hover h3 {
+      margin: 1rem 0 1rem 0;
+      opacity: 1;
+      -webkit-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
+    @media screen and (max-width: 991px) {
+      section#howitworks .step:hover h2 span {
+        border: none; }
+      section#howitworks .step:hover h3 {
+        color: #FF0E00; } }
+    section#howitworks .step:hover svg .animate {
+      -webkit-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
+    section#howitworks .step:hover #illustration-1 rect.animate {
+      stroke-dasharray: 0;
+      stroke: #FF0E00; }
+    section#howitworks .step:hover #illustration-1 rect.animate#one {
+      -webkit-transition-delay: 0.5s;
+      transition-delay: 0.5s; }
+    section#howitworks .step:hover #illustration-1 rect.animate#two {
+      -webkit-transition-delay: 0.6s;
+      transition-delay: 0.6s; }
+    section#howitworks .step:hover #illustration-1 rect.animate#three {
+      -webkit-transition-delay: 0.7s;
+      transition-delay: 0.7s; }
+    section#howitworks .step:hover #illustration-1 rect.animate#four {
+      -webkit-transition-delay: 0.8s;
+      transition-delay: 0.8s; }
+    section#howitworks .step:hover #illustration-2 rect.animate#one {
+      fill: none;
+      stroke: #FF0E00; }
+    section#howitworks .step:hover #illustration-2 path {
+      stroke: #FF0E00;
+      -webkit-transition-delay: 0.6s;
+      transition-delay: 0.6s; }
+    section#howitworks .step:hover #illustration-2 rect.animate#two {
+      fill: none;
+      stroke: #FF0E00;
+      -webkit-transition-delay: 0.8s;
+      transition-delay: 0.8s; }
+    section#howitworks .step:hover #illustration-3 rect.animate {
+      stroke: rgba(187, 187, 187, 0.3);
+      -webkit-transition-delay: 0.2s;
+      transition-delay: 0.2s; }
+    section#howitworks .step:hover #illustration-3 rect.animate.selected {
+      stroke: #FF0E00;
+      -webkit-transition-delay: 0.3s;
+      transition-delay: 0.3s; }
+
+/* Modal */
+.modal {
+  background-color: white; }
+  .modal .modal-content {
+    margin-top: 6rem;
+    box-shadow: none;
+    border: none;
+    background: transparent; }
+    .modal .modal-content .modal-header {
+      border: none; }
+    .modal .modal-content .modal-body {
+      margin-top: 3rem; }
+    .modal .modal-content h1 span {
+      color: #bbb;
+      padding-bottom: 1rem;
+      border-bottom: 0.07rem solid #bbb; }
+    .modal .modal-content p {
+      margin-bottom: 2rem; }
+
+/* Hack and Animation */
+/* Breathing effect */
+@-webkit-keyframes breathe {
+  from {
+    opacity: 0; }
+  50% {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+@keyframes breathe {
+  from {
+    opacity: 0; }
+  50% {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+.breathe {
+  -webkit-animation-name: breathe;
+  animation-name: breathe;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s; }
+
+#section-illustration-1 circle.breathe {
+  fill: none;
+  stroke: rgba(187, 187, 187, 0.4);
+  stroke-width: 2; }
+  #section-illustration-1 circle.breathe#two {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s; }
+  #section-illustration-1 circle.breathe#three {
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s; }
+  #section-illustration-1 circle.breathe#four {
+    -webkit-animation-delay: 0.9s;
+    animation-delay: 0.9s; }
+#section-illustration-1 circle.dot {
+  fill: #FF0E00;
+  stroke: none;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s; }
+  #section-illustration-1 circle.dot#one {
+    -webkit-animation-delay: 0.9s;
+    animation-delay: 0.9s; }
+  #section-illustration-1 circle.dot#two {
+    -webkit-animation-delay: 3.6s;
+    animation-delay: 3.6s; }
+  #section-illustration-1 circle.dot#three {
+    -webkit-animation-delay: 6.9s;
+    animation-delay: 6.9s; }
+  #section-illustration-1 circle.dot#four {
+    -webkit-animation-delay: 9.6s;
+    animation-delay: 9.6s; }
+
+#section-illustration-2 circle, #section-illustration-2 rect {
+  fill: none;
+  stroke: #FF0E00;
+  stroke-width: 2;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s; }
+#section-illustration-2 rect {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s; }
+#section-illustration-2 circle {
+  -webkit-animation-delay: 3.3s;
+  animation-delay: 3.3s; }
+#section-illustration-2 path#circuit {
+  fill: #FF0E00;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-delay: 1.3s;
+  animation-delay: 1.3s; }
+#section-illustration-2 path#base {
+  fill: rgba(187, 187, 187, 0.4); }
+
+#section-illustration-3-a rect.animate {
+  fill: rgba(255, 14, 0, 0.4);
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s; }
+#section-illustration-3-a path.animate {
+  stroke: rgba(255, 14, 0, 0.4);
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s; }
+
+#section-illustration-3-b path.animate {
+  stroke: #FF0E00;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s; }
+
+/* Anims */
+@-webkit-keyframes xrot {
+  0% {
+    -webkit-transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg); } }
+
+/*# sourceMappingURL=style.css.map */

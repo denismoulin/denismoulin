@@ -1,0 +1,94 @@
+---
+layout: default
+---
+
+<article class="post">
+  <div class="container">
+    {% if page.cover %}
+    <div class="post-header">
+      <figure class="post-cover">
+        <img  class="lazy" data-original="{{ site.url }}/assets/images/posts/{{ page.header }}">
+      </figure>
+    </div>
+    {% else %}
+    {% endif %}
+    <div class="post-infos">
+      <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+      <hr>
+      <div class="post-infos__content">
+        {% if page.role %}
+        <div class="post-infos__child">
+          <p class="date">Role</p>
+          <p>{{ page.role }}</p>
+        </div>
+        {% endif %}
+
+        {% if page.matters %}
+        <div class="post-infos__child">
+          <p class="date">Helped with</p>
+          <p>{{ page.matters }}</p>
+        </div>
+        {% endif %}
+
+        <div class="post-infos__child">
+          <p class="date">Period</p>
+        {% if page.period %}
+          <p>{{ page.period }}</p>
+          {% else %}
+          <p>{{ page.date | date: "%Y" }}</p>
+        {% endif %}
+        </div>
+
+        {% if page.link %}
+        <div class="post-infos__child" id="link">
+          <p class="date">Elsewhere</p>
+          <p><a href="{{ page.link }}" target="_blank">{{ page.link | truncate: 35, '...'  }}  ↗</a></p>
+        </div>
+        {% endif %}
+      </div>
+      <hr>
+    </div>
+    <div class="post-content">
+        {{ content }}
+    </div>
+    <div class="post-list">
+      {% if page.previous %}
+          {% assign previous = page.previous %}
+      {% else %}
+          {% assign last lastPostIndex = site.posts | size | minus: 0 %}
+          {% assign previous = site.posts[lastPostIndex] %}
+      {% endif %}
+      <span class="date uppercase">Next read</span>
+      <hr>
+      <div class="post-item">
+        <a href="{{page.previous.url}}" target="_self">
+          <ul>
+            <li class="post cover">
+              <figure>
+                {% if page.previous.cover %}
+                <img class="lazy" data-original="{{ site.url }}/assets/images/posts/{{ page.previous.cover }}">
+                {% else %}
+                <svg width="60px" viewBox="0 0 22 22">
+                  <g transform="translate(11.000000, 11.000000) scale(-1, 1) translate(-11.000000, -11.000000) translate(2.000000, 6.000000)" stroke="none" stroke-width="1" fill="#000000" fill-rule="evenodd">
+                      <rect  x="1" y="4" width="17" height="2"></rect>
+                      <polygon fill-rule="nonzero" points="6.12132034 1.70710678 4.70710678 0.292893219 0 5 4.70710678 9.70710678 6.12132034 8.29289322 2.82842712 5"></polygon>
+                  </g>
+                </svg>
+                {% endif %}
+              </figure>
+            </li>
+            <li class="infos">
+              <p class="title">{{ page.previous.title }}</p>
+              <p class="description">{{ page.previous.description | truncate: 120, '...' }}</p>
+            </li>
+          </ul>
+        </a>
+      </div>
+      <hr>
+    </div>
+  </div>
+</article>
+{% if page.banner == true %}
+  {% include _banner.html %}
+  {% else %}
+{% endif %}

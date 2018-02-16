@@ -1,0 +1,57 @@
+---
+---
+
+@charset "utf-8";
+
+// Import
+@font-face {
+  font-family: 'sans';
+  src: url('fonts/ibm-text.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'serif';
+  src: url('fonts/fj-medium.otf') format('opentype');
+}
+
+// Typography
+$primary-font-family: 'sans', sans-serif;
+$secondary-font-family: 'serif', sans-serif;
+$big-font-size:  2rem;
+$primary-font-size: 1.6rem;
+$small-font-size:  1.4rem;
+$tiny-font-size:  1.2rem;
+$primary-font-weight: normal;
+$base-line-height: 1.6;
+$spacing-unit:     3rem;
+
+// Colors
+$background-color: #FFF;
+$text-color:  darken($background-color, 85%);
+$grey-color: darken($background-color, 33%);
+$grey-color-light: darken($background-color, 3%);
+$grey-color-dark:  darken($background-color, 50%);
+
+$yellow: #ffda08;
+$green: #6BBD2E;
+$blue: #5c9cf5;
+$blue-darker: #2E3996;
+$orange: #FF8200;
+$red: #FF433E;
+$purple: #7D6AFF;
+
+$radius: 0.3rem;
+
+$timing: ease-in;
+$delay: 0.1s;
+$duration: 0.3s;
+
+// Width rules
+$content-width:    $spacing-unit*18;
+$on-palm:          $spacing-unit*13;
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout"
+;

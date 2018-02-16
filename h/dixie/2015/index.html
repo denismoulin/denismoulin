@@ -1,0 +1,629 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Dixie is a human-powered back office platform that helps you run your startup">
+	<meta name="twitter:card" value="Dixie is a human-powered back office platform that helps you run your startup">
+	<meta property="og:title" content="Dixie | Back Office Platform">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="http://dixie.io">
+	<meta property="og:image" content="http://dixie.io/../images/header.png">
+	<meta property="og:description" content="Dixie is a human-powered back office platform that helps you run your startup">
+	<!-- Icon game -->
+	<link href="./static/images/icons/meta/apple-touch-icon.png" rel="apple-touch-icon" />
+	<link href="./static/images/icons/meta/apple-touch-icon-76.png" rel="apple-touch-icon" sizes="76x76" />
+	<link href="./static/images/icons/meta/apple-touch-icon-120.png" rel="apple-touch-icon" sizes="120x120" />
+	<link href="./static/images/icons/meta/apple-touch-icon-152.png" rel="apple-touch-icon" sizes="152x152" />
+	<link href="./static/images/icons/meta/apple-touch-icon-180.png" rel="apple-touch-icon" sizes="180x180" />
+	<link href="./static/images/icons/meta/icon-hires.png" rel="icon" sizes="192x192" />
+	<link href="./static/images/icons/meta/icon-normal.png" rel="icon" sizes="128x128" />
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/icons/meta/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/icons/meta/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/icons/meta/favicon-16x16.png">
+	<!-- Css -->
+	<link rel="shortcut icon" href="./static/images/icons/meta/favicon.ico">
+	<link rel="stylesheet" href="./static/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./static/unslider-master/dist/css/unslider.css">
+	<link rel="stylesheet" href="./static/css/style.css">
+	<link rel="stylesheet" href="./static/css/animate.css">
+	<style>
+		.nav-mention{
+			z-index: 9999;
+			position: relative;
+			top: 0;
+			left: 0;
+			height: auto;
+			width: 100%;
+			background: white;
+			color: black;
+			font-family: sans-serif;
+			font-size: 14px;
+			text-align: center;
+		}
+		.nav-mention li{
+			display: inline-block;
+			margin: 0px 10px;
+		}
+		.nav-mention ul{ padding: 20px 0px;}
+
+		.nav-mention a:link, .nav-mention a:hover, .nav-mention a:visited{
+			text-decoration: underline;
+			border: none;
+			opacity: 0.5 !important;
+		}
+	</style>
+
+
+	<title>Dixie |&nbsp;Back Office Platform</title>
+
+
+	<!-- Sumo me plugin -->
+	<script src="//load.sumome.com/" data-sumo-site-id="a2a32dd84473f2082153433e3ba1d8db95d88ff663291e067042f977dc8792be" async="async"></script>
+
+	<!-- Hotjar Tracking Code for http://dixie.io -->
+	<script>
+		 (function(h,o,t,j,a,r){
+				 h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+				 h._hjSettings={hjid:221808,hjsv:5};
+				 a=o.getElementsByTagName('head')[0];
+				 r=o.createElement('script');r.async=1;
+				 r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+				 a.appendChild(r);
+		 })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+	</script>
+</head>
+<body class="animated fadeIn">
+<div class="content-mention">
+	<header class="service">
+	    <nav class="dark">
+	      <div class="container">
+	        <div class="row">
+	          <div class="col-xs-10 col-xs-offset-1 col-sm-2 col-sm-offset-0">
+	            <svg class="logo-dixie" width="152px" height="44px" viewBox="0 0 152 44">
+	                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+	                    <g fill="black">
+	                        <path d="M126.102028,13.4625244 C125.479082,13.4625244 124.952678,14.0006394 124.952678,14.6375489 L124.952678,30.7793455 C124.952678,31.416255 125.479082,31.9542198 126.102028,31.9542198 C126.749898,31.9542198 127.277052,31.4270654 127.277052,30.7793455 L127.277052,14.6375489 C127.277052,13.9895287 126.749898,13.4625244 126.102028,13.4625244"></path>
+	                        <path d="M150.222159,29.6811947 L140.123646,29.6811947 L140.123646,23.704125 L148.941134,23.704125 C149.5327,23.704125 150.01376,23.2229145 150.01376,22.6314986 C150.01376,22.0501422 149.52249,21.5590223 148.941134,21.5590223 L140.123646,21.5590223 L140.123646,15.7356997 L150.094087,15.7356997 C150.685503,15.7356997 151.166563,15.2546394 151.166563,14.6632234 C151.166563,14.0718075 150.685503,13.590597 150.094087,13.590597 L138.948621,13.590597 C138.325675,13.590597 137.799272,14.1287119 137.799272,14.7656214 L137.799272,30.651273 C137.799272,31.2881825 138.325675,31.8262974 138.948621,31.8262974 L150.222159,31.8262974 C150.813726,31.8262974 151.294786,31.3450869 151.294786,30.753671 C151.294786,30.162255 150.813726,29.6811947 150.222159,29.6811947"></path>
+	                        <path d="M75.8055474,22.7083721 L75.8055474,22.7595711 C75.8055474,26.8197565 72.8116825,29.6555201 68.5252306,29.6555201 L64.4734533,29.6555201 L64.4734533,15.7613743 L68.5252306,15.7613743 C72.8116825,15.7613743 75.8055474,18.6180079 75.8055474,22.7083721 L75.8055474,22.7083721 Z M68.5252306,13.590597 L63.2984289,13.590597 C62.6753326,13.590597 62.149079,14.1287119 62.149079,14.7656214 L62.149079,30.651273 C62.149079,31.2881825 62.6753326,31.8262974 63.2984289,31.8262974 L68.5252306,31.8262974 C74.135199,31.8262974 78.2067953,27.9916279 78.2067953,22.7083721 L78.2067953,22.6571731 C78.2067953,17.4036458 74.135199,13.590597 68.5252306,13.590597 L68.5252306,13.590597 Z" id="Fill-3" sketch:type="MSShapeGroup"></path>
+	                        <path d="M89.0841042,13.4625244 C88.461158,13.4625244 87.9347543,14.0006394 87.9347543,14.6375489 L87.9347543,30.7793455 C87.9347543,31.416255 88.461158,31.9542198 89.0841042,31.9542198 C89.7319741,31.9542198 90.2589784,31.4270654 90.2589784,30.7793455 L90.2589784,14.6375489 C90.2589784,13.9895287 89.7319741,13.4625244 89.0841042,13.4625244" id="Fill-4" sketch:type="MSShapeGroup"></path>
+	                        <path d="M109.065225,22.5038764 L114.700868,15.3768563 C114.906415,15.1417313 115.019773,14.851954 115.019773,14.5606753 C115.019773,13.9551458 114.538563,13.4625244 113.947297,13.4625244 C113.444165,13.4625244 113.145529,13.7664152 112.854551,14.1105445 L107.644115,20.8991408 L102.353502,14.0290165 C102.114473,13.7422421 101.83956,13.4625244 101.341384,13.4625244 C100.718287,13.4625244 100.192034,13.9770668 100.192034,14.5861997 C100.192034,14.9478958 100.372056,15.2098966 100.557483,15.4481746 L106.171956,22.5294009 L100.254944,30.0397378 C100.048947,30.2750129 99.9357385,30.5647902 99.9357385,30.8562191 C99.9357385,31.4513886 100.415147,31.9542198 100.98254,31.9542198 C101.509995,31.9542198 101.799172,31.6633915 102.10081,31.3061997 L107.567692,24.1845848 L113.11445,31.3878779 C113.353478,31.674352 113.628392,31.9542198 114.126568,31.9542198 C114.760325,31.9542198 115.275918,31.4386264 115.275918,30.80487 C115.275918,30.5104382 115.161659,30.2506897 114.911069,29.9693204 L109.065225,22.5038764" id="Fill-5" sketch:type="MSShapeGroup"></path>
+	                        <path d="M38.2232931,21.6358621 C38.2232931,9.73215517 28.7067759,0 16.587431,0 L3.60591379,0 C1.58874138,0 0,1.95136207 0,4.32717241 L0,39.6656207 C0,42.0423793 1.59025862,43.9927931 3.60591379,43.9927931 L16.587431,43.9927931 C17.3839828,43.9927931 18.0297586,43.3470172 18.0297586,42.5504655 C18.0297586,41.7539138 17.3839828,41.1081379 16.587431,41.1081379 L3.60591379,41.1081379 C3.32825862,41.1081379 2.88484483,40.5642069 2.88484483,39.6656207 L2.88484483,4.32717241 C2.88484483,3.42877586 3.32768966,2.88484483 3.60591379,2.88484483 L16.587431,2.88484483 C27.0988793,2.88484483 35.3384483,11.3110345 35.3384483,21.6358621 C35.3384483,22.4324138 35.9842241,23.0781897 36.7809655,23.0781897 C37.5775172,23.0781897 38.2232931,22.4324138 38.2232931,21.6358621"></path>
+	                        <path d="M24.4399138,43.5251034 C24.9948448,44.1304828 25.9425517,44.1509655 26.5230862,43.570431 L46.7166207,23.3768966 C47.2798966,22.8136207 47.2798966,21.900431 46.7166207,21.3371552 C46.1533448,20.7738793 45.2399655,20.7738793 44.6766897,21.3371552 L25.5484483,40.4653966 L18.633431,32.9214828 C18.095,32.3343103 17.182569,32.2944828 16.5953966,32.8329138 C16.0082241,33.3711552 15.9685862,34.2835862 16.5068276,34.8707586 L24.4399138,43.5251034 Z"></path>
+	                    </g>
+	                </g>
+	            </svg>
+	          </div>
+	          <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-0 visible-sm visible-md visible-lg">
+	            <ul>
+	              <li><a href="#webapp" title="Vores produkt" alt="Vores produkt">Produkt</a></li>
+	              <li><a href="#service" title="Vores Services" alt="Vores Services">Services</a></li>
+	              <li><a href="#team" title="Dixie team" alt="Mod dit dixie team">Dixie Team</a></li>
+	              <li><a href="#" title="Dixie Blog" alt="Dixie blog">Blog</a></li>
+	              <li><a href="#" target="_self" title="" alt="Acces our Webapp" class="btn tertiary">Log in</a></li>
+	            </ul>
+	          </div>
+	      </div>
+	    </nav>
+	  <div class="container">
+	    <div class="row">
+	      <div class="col-xs-10 col-xs-offset-1">
+	        <h1>vi samler <br class="visible-xs"><b>e-conomic</b> , <b>danløn</b> og en bogholder i én.</h1>
+	        <h2>Dixie tilbyder et strømlinet samarbejde med professionelle bogholdere i en ekstraordinær digital brugeroplevelse.
+	        <br>
+	        <br>
+	        <a href="#" title="" alt="" class="manual-optin-trigger btn" data-optin-slug="upc1n6mt7okooapc">Jeg vil vide mere</a></h2>
+	        <img id="dashboard" src="./static/images/header/header-dashboard-1@2x.png" title="" alt="">
+	      </div>
+	    </div>
+	    <div id="checkmark">
+	      <svg viewBox="0 0 391 800">
+	        <g transform="translate(-648.000000, -245.000000)">
+	          <g transform="translate(337, 245)">
+	            <path d="M311,680 L582,680 L582,0 L702,0 L702,800 L311,800 L311,680 Z" id="Path"></path>
+	          </g>
+	        </g>
+	      </svg>
+	    </div>
+	  </div>
+	</header>
+	<!-- What -->
+
+	<section id="what">
+	  <div class="container">
+	    <div class="row">
+	      <h3>Sådan fungerer Dixie</h3>
+	    </div>
+	    <div class="row">
+	      <div class="visible-md visible-lg col-md-4 col-lg-4 col-lg-offset-1">
+	        <div class="visible-md visible-lg infos">
+	          <h5>Dit Dixie team står klar</h5>
+	          <p>Kristian<br>Administrator hos Dixie.io</p>
+	        </div>
+	        <img src="./static/images/team/kristian-fade@2x.png" title="" alt="">
+	        <br><br>
+	        <a href="#team" title="" alt="">Mød resten af teamet</a>
+	      </div>
+	      <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-0 col-lg-7">
+	        <ul>
+	          <li><img src="./static/images/icons/icon-what-1@2x.png" title="" alt=""></li>
+	          <li><p>Du parres med en fast Dixie kontaktperson, som sætter sig ind i din virksomhed og hjælper dig, når der er brug for det.</p></li>
+	        </ul>
+	        <ul>
+	          <li><img src="./static/images/icons/icon-what-2@2x.png" title="" alt=""></li>
+	          <li><p>Din kontaktperson sørger for, at der hver måned er 100% styr på dit bogholderi, din løn og din moms.</p></li>
+	        </ul>
+	        <ul>
+	          <li><img src="./static/images/icons/icon-what-3@2x.png" title="" alt=""></li>
+	          <li><p>Du sender løbende alle relevante informationer gennem email, vores mobile app eller upload på Dixie platformen.</p></li>
+	        </ul>
+	        <ul>
+	          <li><img src="./static/images/icons/icon-what-4@2x.png" title="" alt=""></li>
+	          <li><p>Dixie giver dig et månedligt finansielt overblik, så du kan koncentrere dig om din forretning.</p></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </div>
+	</section>
+	<!-- Features -->
+	<section id="features">
+	  <div class="container">
+	    <div class="row">
+	      <h3>Dine fordele</h3>
+	    </div>
+	    <div class="row">
+	      <div class="col-md-4 col-sm-6">
+	        <img src="./static/images/icons/icon-package-1@2x.png" title="" alt="">
+	        <h4>papirløst bogholderi</h4>
+	        <p>Dixie er en 100% digital platform. Du sender bilag via email, vores mobile app, eller uploader via vores platform så du holder dit skrivebord pænt og ryddet.</p>
+	        <br class="visible-xs visible-sm">
+	        <br class="visible-xs visible-sm">
+	      </div>
+	      <div class="col-md-4 col-sm-6">
+	        <img src="./static/images/icons/icon-package-2@2x.png" title="" alt="">
+	        <h4>professionel bogholder</h4>
+	        <p>Professionelt bogholderi kræver mere end software. Med Dixie får du også en professionel bogholder, der klarer arbejdet, så du får ro til at passe din virksomhed.</p>
+	        <br class="visible-xs visible-sm">
+	        <br class="visible-xs visible-sm">
+	      </div>
+	      <div class="col-md-4 col-sm-6">
+	        <img src="./static/images/icons/icon-package-3@2x.png" title="" alt="">
+	        <h4>Eksperthjælp står klar</h4>
+	        <p>Uanset om du forsøger at navigere momsregler eller har spørgsmål til løn eller rejseafregninger, står dit team klar til at dele ud af deres viden og erfaringer.</p>
+	        <br>
+	        <br class="visible-md visible-lg">
+	        <br class="visible-xs visible-sm">
+	      </div>
+	      <div class="col-md-4 col-sm-6">
+	        <img src="./static/images/icons/icon-package-4@2x.png" title="" alt="">
+	        <h4>altid ro i maven</h4>
+	        <p>Dixie sørger for at holde dig opdateret på hvilke få ting, du selv skal gøre, mens din bogholder klarer resten. Ingen missede deadlines og ingen bøder så du kan sove trygt om natten.</p>
+	        <br class="visible-xs visible-sm">
+	        <br class="visible-xs visible-sm">
+	      </div>
+	      <div class="col-md-4 col-sm-6">
+	        <img src="./static/images/icons/icon-package-5@2x.png" title="" alt="">
+	        <h4>samling på de løse ender</h4>
+	        <p>Vi har gjort det let at arbejde sammen med din bogholder. Slut med kludder i Google Drive, Dropbox, regneark og emails – det hele er samlet på Dixies platform.</p>
+	        <br class="visible-xs">
+	        <br class="visible-xs">
+	      </div>
+	      <div class="col-md-4 col-sm-6">
+	        <img src="./static/images/icons/icon-package-6@2x.png" title="" alt="">
+	        <h4>forberedt til revisoren</h4>
+	        <p>Når dit regnskabsår lakker mod enden, er vi naturligvis behjælpelige med alt, hvad din revisor måtte behøve.</p>
+	      </div>
+	    </div>
+	  </div>
+	</section>
+
+	<!-- Demo -->
+	<section>
+	  <div class="container-fluid">
+	    <div class="row demo" id="webapp">
+	      <div class="row">
+	        <div class="col-xs-10 col-xs-offset-1">
+	          <h3>VORES PRODUKT</h3>
+	          <p>Dixies web applikation er dit samlingspunkt. Her kan du bl.a. få det store overblik over dine opgaver og bilag samt rapportere løn. Det er også her dit Dixie team står klar til at hjælpe dig.</p>
+	        </div>
+	      </div>
+	      <div class="row features">
+	        <ul>
+	          <li class="feature active" id="a" onclick="changeImage(this);" data-list-name="feature-a"><span>Dine opgaver</span></li>
+	          <li class="feature" id="b" onclick="changeImage(this);" data-list-name="feature-b"><span>Manglende bilag</span></li>
+	          <li class="feature" id="c" onclick="changeImage(this);" data-list-name="feature-c"><span>Løn</span></li>
+	          <li class="feature" id="d" onclick="changeImage(this);" data-list-name="feature-d"><span>Chat</span></li>
+	        <!--
+	        <div class="col-md-12 col-sm-3" id="feature-b" onclick="changeImage(this);" data-image-name="img-2"><span>Manglende bilag</span></div>
+	        <div class="col-md-12 col-sm-3 feature img-3" onclick="changeImage(this);" data-image-name="img-3"><span>Løn</span></div>
+	        <div class="col-md-12 col-sm-3 feature img-4" onclick="changeImage(this);" data-image-name="img-4"><span>Chat</span></div>-->
+	        </ul>
+	      </div>
+
+
+
+
+
+
+
+	      <div class="col-lg-8 col-lg-offset-2 col-xs-10 col-xs-offset-1 showcase">
+	        <div class="payroll-slider slider feature-a active">
+	          <ul>
+	            <li><img src="./static/images/demo/demo-tasks-1@2x.png" title="Dixie Demo feature" alt="Dine opgaver"></li>
+	            <li><img src="./static/images/demo/demo-tasks-2@2x.png" title="Dixie Demo feature" alt="Dine opgaver"></li>
+	            <li><img src="./static/images/demo/demo-tasks-3@2x.png" title="Dixie Demo feature" alt="Dine opgaver"></li>
+	            <li><img src="./static/images/demo/demo-tasks-4@2x.png" title="Dixie Demo feature" alt="Dine opgaver"></li>
+	          </ul>
+	        </div>
+	        <div class="payroll-slider slider feature-b">
+	          <ul>
+	            <li><img src="./static/images/demo/demo-receipts-1@2x.png" title="Dixie Demo feature" alt="Manglende bilag"></li>
+	            <li><img src="./static/images/demo/demo-receipts-2@2x.png" title="Dixie Demo feature" alt="Manglende bilag"></li>
+	            <li><img src="./static/images/demo/demo-receipts-3@2x.png" title="Dixie Demo feature" alt="Manglende bilag"></li>
+	            <li><img src="./static/images/demo/demo-receipts-4@2x.png" title="Dixie Demo feature" alt="Manglende bilag"></li>
+	          </ul>
+	        </div>
+	        <div class="payroll-slider slider feature-c">
+	        	<ul>
+	            <li><img src="./static/images/demo/demo-payroll-1@2x.png" title="Dixie Demo feature" alt="Løn"></li>
+	            <li><img src="./static/images/demo/demo-payroll-2@2x.png" title="Dixie Demo feature" alt="Løn"></li>
+	            <li><img src="./static/images/demo/demo-payroll-3@2x.png" title="Dixie Demo feature" alt="Løn"></li>
+	            <li><img src="./static/images/demo/demo-payroll-4@2x.png" title="Dixie Demo feature" alt="Løn"></li>
+	        	</ul>
+	        </div>
+	        <div class="chat-slider slider feature-d">
+	          <ul>
+	            <li><img src="./static/images/demo/demo-chat-1@2x.png" title="Dixie Demo feature" alt="Chat"></li>
+	            <li><img src="./static/images/demo/demo-chat-2@2x.png" title="Dixie Demo feature" alt="Chat"></li>
+	            <li><img src="./static/images/demo/demo-chat-3@2x.png" title="Dixie Demo feature" alt="Chat"></li>
+	            <li><img src="./static/images/demo/demo-chat-4@2x.png" title="Dixie Demo feature" alt="Chat"></li>
+	          </ul>
+	        </div>
+	      </div>
+	    </div>
+	    <div class="row">
+	      <div class="col-md-6 col-sm-12 demo" id="report">
+	        <div class="row">
+	          <div class="col-sm-8 col-sm-offset-2">
+	            <h3>PRIVATE UDLÆG</h3>
+	            <p>Gør det let for de ansatte at have private udlæg eller lave en rejseafregning med Dixies online værktøj.</p>
+	            <br>
+	            <a href="#" title="" alt="" class="manual-optin-trigger btn secondary" data-optin-slug="upc1n6mt7okooapc">Jeg vil vide mere</a>
+	            <br>
+	            <br>
+	          </div>
+	          <div class="col-xs-12 showcase">
+	            <img src="./static/images/demo/demo-report@2x.png" title="" alt="">
+	          </div>
+	        </div>
+	      </div>
+	      <div class="col-md-6 col-sm-12 demo" id="mobile">
+	        <div class="row">
+	          <div class="col-sm-8 col-sm-offset-2">
+	            <h3>MOBIL APP</h3>
+	            <p>Dixies mobile app gør det nemt at sende bilag hvor som helst. Bare tag et billede, godkend det og tryk send.</p>
+	            <br>
+	            <a href="#" target="_blank" style="border: none; opacity: 1;"><svg version="1.1" id="DK_Download_on_the_App_Store"
+	            	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="135px" height="40px"
+	            	 viewBox="0 0 135 40" enable-background="new 0 0 135 40" xml:space="preserve">
+	            <g>
+	            	<path fill="#A6A6A6" d="M130.197,40H4.729C2.122,40,0,37.872,0,35.267V4.726C0,2.12,2.122,0,4.729,0h125.468
+	            		C132.803,0,135,2.12,135,4.726v30.541C135,37.872,132.803,40,130.197,40L130.197,40z"/>
+	            	<path d="M134.032,35.268c0,2.116-1.714,3.83-3.834,3.83H4.729c-2.119,0-3.839-1.714-3.839-3.83V4.725
+	            		c0-2.115,1.72-3.835,3.839-3.835h125.468c2.121,0,3.834,1.72,3.834,3.835L134.032,35.268L134.032,35.268z"/>
+	            	<g>
+	            		<g>
+	            			<path fill="#FFFFFF" d="M30.128,19.784c-0.029-3.223,2.639-4.791,2.761-4.864c-1.511-2.203-3.853-2.504-4.676-2.528
+	            				c-1.967-0.207-3.875,1.177-4.877,1.177c-1.022,0-2.565-1.157-4.228-1.123c-2.14,0.033-4.142,1.272-5.24,3.196
+	            				c-2.266,3.923-0.576,9.688,1.595,12.859c1.086,1.553,2.355,3.287,4.016,3.226c1.625-0.067,2.232-1.036,4.193-1.036
+	            				c1.943,0,2.513,1.036,4.207,0.997c1.744-0.028,2.842-1.56,3.89-3.127c1.255-1.78,1.759-3.533,1.779-3.623
+	            				C33.507,24.924,30.161,23.647,30.128,19.784z"/>
+	            			<path fill="#FFFFFF" d="M26.928,10.306c0.874-1.093,1.472-2.58,1.306-4.089c-1.265,0.056-2.847,0.875-3.758,1.944
+	            				c-0.806,0.942-1.526,2.486-1.34,3.938C24.557,12.205,26.016,11.382,26.928,10.306z"/>
+	            		</g>
+	            	</g>
+	            	<g>
+	            		<path fill="#FFFFFF" d="M53.645,31.504h-2.271l-1.244-3.909h-4.324l-1.185,3.909h-2.211l4.284-13.308h2.646L53.645,31.504z
+	            			 M49.755,25.955L48.63,22.48c-0.119-0.355-0.342-1.191-0.671-2.507h-0.04c-0.131,0.566-0.342,1.402-0.632,2.507l-1.105,3.475
+	            			H49.755z"/>
+	            		<path fill="#FFFFFF" d="M64.662,26.588c0,1.632-0.441,2.922-1.323,3.869c-0.79,0.843-1.771,1.264-2.942,1.264
+	            			c-1.264,0-2.172-0.454-2.725-1.362h-0.04v5.055h-2.132V25.067c0-1.026-0.027-2.079-0.079-3.159h1.875l0.119,1.521h0.04
+	            			c0.711-1.146,1.79-1.718,3.238-1.718c1.132,0,2.077,0.447,2.833,1.342C64.284,23.949,64.662,25.127,64.662,26.588z M62.49,26.666
+	            			c0-0.934-0.21-1.704-0.632-2.31c-0.461-0.632-1.08-0.948-1.856-0.948c-0.526,0-1.004,0.176-1.431,0.523
+	            			c-0.428,0.35-0.708,0.807-0.839,1.373c-0.066,0.264-0.099,0.48-0.099,0.65v1.6c0,0.698,0.214,1.287,0.642,1.768
+	            			s0.984,0.721,1.668,0.721c0.803,0,1.428-0.31,1.875-0.928C62.266,28.496,62.49,27.68,62.49,26.666z"/>
+	            		<path fill="#FFFFFF" d="M75.699,26.588c0,1.632-0.441,2.922-1.324,3.869c-0.789,0.843-1.77,1.264-2.941,1.264
+	            			c-1.264,0-2.172-0.454-2.724-1.362H68.67v5.055h-2.132V25.067c0-1.026-0.027-2.079-0.079-3.159h1.875l0.119,1.521h0.04
+	            			c0.71-1.146,1.789-1.718,3.238-1.718c1.131,0,2.076,0.447,2.834,1.342C75.32,23.949,75.699,25.127,75.699,26.588z M73.527,26.666
+	            			c0-0.934-0.211-1.704-0.633-2.31c-0.461-0.632-1.078-0.948-1.855-0.948c-0.527,0-1.004,0.176-1.432,0.523
+	            			c-0.428,0.35-0.707,0.807-0.838,1.373c-0.065,0.264-0.099,0.48-0.099,0.65v1.6c0,0.698,0.214,1.287,0.64,1.768
+	            			c0.428,0.48,0.984,0.721,1.67,0.721c0.803,0,1.428-0.31,1.875-0.928C73.303,28.496,73.527,27.68,73.527,26.666z"/>
+	            		<path fill="#FFFFFF" d="M88.039,27.772c0,1.132-0.393,2.053-1.182,2.764c-0.867,0.777-2.074,1.165-3.625,1.165
+	            			c-1.432,0-2.58-0.276-3.449-0.829l0.494-1.777c0.936,0.566,1.963,0.85,3.082,0.85c0.803,0,1.428-0.182,1.877-0.544
+	            			c0.447-0.362,0.67-0.848,0.67-1.454c0-0.54-0.184-0.995-0.553-1.364c-0.367-0.369-0.98-0.712-1.836-1.029
+	            			c-2.33-0.869-3.494-2.142-3.494-3.816c0-1.094,0.408-1.991,1.225-2.689c0.814-0.699,1.9-1.048,3.258-1.048
+	            			c1.211,0,2.217,0.211,3.02,0.632l-0.533,1.738c-0.75-0.408-1.598-0.612-2.547-0.612c-0.75,0-1.336,0.185-1.756,0.553
+	            			c-0.355,0.329-0.533,0.73-0.533,1.205c0,0.526,0.203,0.961,0.611,1.303c0.355,0.316,1,0.658,1.936,1.027
+	            			c1.145,0.461,1.986,1,2.527,1.618C87.77,26.081,88.039,26.852,88.039,27.772z"/>
+	            		<path fill="#FFFFFF" d="M95.088,23.508h-2.35v4.659c0,1.185,0.414,1.777,1.244,1.777c0.381,0,0.697-0.033,0.947-0.099l0.059,1.619
+	            			c-0.42,0.157-0.973,0.236-1.658,0.236c-0.842,0-1.5-0.257-1.975-0.77c-0.473-0.514-0.711-1.376-0.711-2.587v-4.837h-1.4v-1.6h1.4
+	            			v-1.757l2.094-0.632v2.389h2.35V23.508z"/>
+	            		<path fill="#FFFFFF" d="M105.691,26.627c0,1.475-0.422,2.686-1.264,3.633c-0.883,0.975-2.055,1.461-3.516,1.461
+	            			c-1.408,0-2.529-0.467-3.365-1.401s-1.254-2.113-1.254-3.534c0-1.487,0.43-2.705,1.293-3.652c0.861-0.948,2.023-1.422,3.484-1.422
+	            			c1.408,0,2.541,0.467,3.396,1.402C105.283,24.021,105.691,25.192,105.691,26.627z M103.479,26.696
+	            			c0-0.885-0.189-1.644-0.572-2.277c-0.447-0.766-1.086-1.148-1.914-1.148c-0.857,0-1.508,0.383-1.955,1.148
+	            			c-0.383,0.634-0.572,1.405-0.572,2.317c0,0.885,0.189,1.644,0.572,2.276c0.461,0.766,1.105,1.148,1.936,1.148
+	            			c0.814,0,1.453-0.39,1.914-1.168C103.281,28.347,103.479,27.58,103.479,26.696z"/>
+	            		<path fill="#FFFFFF" d="M112.621,23.783c-0.211-0.039-0.436-0.059-0.672-0.059c-0.75,0-1.33,0.283-1.738,0.85
+	            			c-0.355,0.5-0.533,1.132-0.533,1.895v5.035h-2.131l0.02-6.574c0-1.106-0.027-2.113-0.08-3.021h1.857l0.078,1.836h0.059
+	            			c0.225-0.631,0.58-1.139,1.066-1.52c0.475-0.343,0.988-0.514,1.541-0.514c0.197,0,0.375,0.014,0.533,0.039V23.783z"/>
+	            		<path fill="#FFFFFF" d="M122.156,26.252c0,0.382-0.025,0.704-0.078,0.967h-6.396c0.025,0.948,0.334,1.673,0.928,2.173
+	            			c0.539,0.447,1.236,0.671,2.092,0.671c0.947,0,1.811-0.151,2.588-0.454l0.334,1.48c-0.908,0.396-1.98,0.593-3.217,0.593
+	            			c-1.488,0-2.656-0.438-3.506-1.313c-0.848-0.875-1.273-2.05-1.273-3.524c0-1.447,0.395-2.652,1.186-3.613
+	            			c0.828-1.026,1.947-1.539,3.355-1.539c1.383,0,2.43,0.513,3.141,1.539C121.873,24.047,122.156,25.055,122.156,26.252z
+	            			 M120.123,25.699c0.014-0.632-0.125-1.178-0.414-1.639c-0.369-0.593-0.936-0.889-1.699-0.889c-0.697,0-1.264,0.289-1.697,0.869
+	            			c-0.355,0.461-0.566,1.014-0.631,1.658H120.123z"/>
+	            	</g>
+	            	<g>
+	            		<g>
+	            			<path fill="#FFFFFF" d="M48.604,13.433h-1.048v-2.949h-2.832v2.949h-1.048V6.896h1.048v2.667h2.832V6.896h1.048V13.433z"/>
+	            			<path fill="#FFFFFF" d="M54.385,10.853c0,0.188-0.014,0.346-0.039,0.475h-3.143c0.013,0.466,0.164,0.821,0.455,1.067
+	            				c0.266,0.22,0.608,0.33,1.028,0.33c0.466,0,0.89-0.074,1.271-0.223l0.164,0.728c-0.446,0.194-0.973,0.291-1.581,0.291
+	            				c-0.73,0-1.305-0.215-1.722-0.645s-0.625-1.007-0.625-1.731c0-0.711,0.193-1.303,0.582-1.775
+	            				c0.407-0.504,0.956-0.756,1.648-0.756c0.679,0,1.193,0.252,1.542,0.756C54.246,9.77,54.385,10.265,54.385,10.853z M53.385,10.582
+	            				c0.007-0.311-0.062-0.579-0.203-0.805C53,9.485,52.723,9.34,52.348,9.34c-0.343,0-0.621,0.142-0.835,0.427
+	            				c-0.174,0.227-0.277,0.498-0.31,0.815H53.385z"/>
+	            			<path fill="#FFFFFF" d="M60,13.433h-1.048v-2.7c0-0.832-0.316-1.248-0.95-1.248c-0.311,0-0.562,0.114-0.757,0.343
+	            				c-0.193,0.229-0.291,0.499-0.291,0.808v2.796h-1.048v-3.366c0-0.414-0.013-0.863-0.038-1.349h0.921l0.049,0.737h0.029
+	            				c0.122-0.229,0.304-0.418,0.543-0.569c0.284-0.176,0.602-0.265,0.95-0.265c0.44,0,0.806,0.142,1.097,0.427
+	            				C59.82,9.398,60,9.918,60,10.61V13.433z"/>
+	            			<path fill="#FFFFFF" d="M64.221,9.504h-1.154v2.29c0,0.582,0.204,0.873,0.611,0.873c0.188,0,0.343-0.016,0.466-0.049l0.028,0.795
+	            				c-0.207,0.078-0.479,0.117-0.814,0.117c-0.414,0-0.737-0.126-0.97-0.378c-0.233-0.252-0.35-0.676-0.35-1.271V9.504H61.35V8.719
+	            				h0.688V7.855l1.028-0.31v1.173h1.154V9.504z"/>
+	            			<path fill="#FFFFFF" d="M69.672,7.312c0,0.188-0.062,0.339-0.184,0.456c-0.123,0.117-0.281,0.175-0.477,0.175
+	            				c-0.174,0-0.322-0.06-0.441-0.179c-0.12-0.12-0.18-0.27-0.18-0.451s0.062-0.33,0.185-0.446s0.274-0.175,0.456-0.175
+	            				c0.182,0,0.334,0.059,0.457,0.175C69.609,6.982,69.672,7.131,69.672,7.312z M69.555,13.433h-1.047V8.719h1.047V13.433z"/>
+	            		</g>
+	            	</g>
+	            </g>
+	            </svg></a>
+	            <br>
+	            <br>
+	          </div>
+	          <div class="col-xs-12 showcase">
+	            <img src="./static/images/demo/demo-mobile@2x.png" title="" alt="">
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</section>
+
+	<!-- Service -->
+	<section id="service">
+	  <div class="container">
+	    <div class="row">
+	      <h3>VORES SERVICES</h3>
+	    </div>
+	    <div class="row">
+	      <div class="col-md-4 col-md-offset-2 col-sm-10 col-sm-offset-1">
+	        <div class="row" id="list">
+	          <div class="col-md-12 col-sm-6 col-xs-12">
+	            <div class="row">
+	              <div class="col-xs-12 item">Ubegrænset support fra din Dixie kontaktperson</div>
+	              <div class="col-xs-12 item">Månedlig bogføring</div>
+	            </div>
+	          </div>
+	          <div class="col-md-12 col-sm-6 col-xs-12">
+	            <div class="row">
+	              <div class="col-xs-12 item">Løn</div>
+	              <div class="col-xs-12 item">Moms</div>
+	            </div>
+	          </div>
+	        </div>
+	      </div>
+	      <div class="col-md-4 col-md-offset-0 col-sm-10 col-sm-offset-1" id="description">
+	        <h4>Det er nemt at skifte til Dixie</h4>
+	        <p>Vi sørger for det hele. Du skal blot give din nuværende bogholder besked. Uanset hvilket regnskabssystem du i forvejen bruger, sørger vi for overdragelsen, så dine oplysninger ikke går tabt.</p>
+	        <br>
+	        <h4>Din pris</h4>
+	        <p>Vi finder sammen en månedlig fast pris. Den afhænger af dine behov, som vi afstemmer over telefonen, inden vi går i gang.</p>
+	      </div>
+	    </div>
+	    <div class="row">
+	      <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1" id="contact">
+	        <p>Vi arbejder på højtryk for at kunne hjælpe alle med at få mere tid til kernen af deres forretning. Hvis du er interesseret eller har spørgsmål, så hjælper vi hjertens gerne: Skriv dig op, og så kontakter vi dig.</p>
+	        <a href="#" title="" alt="" class="manual-optin-trigger btn" data-optin-slug="upc1n6mt7okooapc">Kontakt mig</a>
+	      </div>
+	    </div>
+	  </div>
+	</section>
+
+	<!-- Social-->
+	<section id="testimony">
+	  <div class="container-fluid">
+	    <div class="row">
+	      <h3>Vores kunder elsker Dixie</h3>
+	    </div>
+	    <div class="row">
+	      <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-4 col-lg-offset-4">
+	        <div id="frill"><p>“</p></div>
+	        <div class="testimony-slider">
+	          <ul>
+	            <li class="item">
+	              <p class="content">Dixie covers all our back office needs in an all-in-one platform. I now spend my time on the core of the business while my Dixie takes care of our bookkeeping, payroll, and VAT.</p>
+	              <ul class="infos">
+	                <li><img src="./static/images/testimonial/user-yusufa.png" title="" alt=""></li>
+	                <li><p>Yusufa Sey <a href="#" target="_blank" title="Website Athegen" alt="Visit Website of Athene">Athgene</a></p><p>CEO & Co-Founder</p></li>
+	              </ul>
+	            </li>
+	            <li class="item">
+	              <p class="content">Dixie sørgede for at startup drømmen ikke blev afløst af kedelige admin opgaver. Med Dixie har vi en professionel bogholder vi samarbejder med gennem en lækker digital platform.</p>
+	              <ul class="infos">
+	                <li><img src="./static/images/testimonial/user-christian.png" title="" alt=""></li>
+	                <li><p>Christian Harboe <a href="#" target="_blank" title="Website Blacksnow" alt="Visit Website of Blacksnow">Blacksnow</a></p><p>Co-Founder</p></li>
+	              </ul>
+	            </li>
+	          </ul>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</section>
+
+	<!-- Team -->
+	<section id="team">
+	  <div class="container">
+	    <div class="row">
+	      <h3>Mød dit Dixie team</h3>
+	    </div>
+	    <div class="row">
+	      <div class="col-lg-10 col-lg-offset-1 col-md-12 col-md-offset-0">
+	        <div class="col-xs-6 col-sm-6 col-md-4 people">
+	          <div class="infos">
+	            <h5>Rasmus Severinsen</h5>
+	            <p>Co-Founder & CEO<br>
+	              <a href="#" title="" alt="">@RasmusS</a><br>
+	              <a href="#" title="" alt="">rasmus@dixie.io</a>
+	            </p>
+	          </div>
+	          <img src="./static/images/team/rasmus-color@2x.png" title="" alt="">
+	        </div>
+	        <div class="col-xs-6 col-sm-6 col-md-4 people">
+	          <div class="infos">
+	            <h5>Ronni Egeriis</h5>
+	            <p>Co-Founder & CTO<br>
+	              <a href="#" title="" alt="">@egeriis</a><br>
+	              <a href="#" title="" alt="">ronni@dixie.io</a>
+	            </p>
+	          </div>
+	          <img src="./static/images/team/ronni-color@2x.png" title="" alt="">
+	        </div>
+	        <div class="col-xs-6 col-sm-6 col-md-4 people">
+	          <div class="infos">
+	            <h5>Stefan Andersen</h5>
+	            <p>Developer</p>
+	          </div>
+	          <img src="./static/images/team/stefan-color@2x.png" title="" alt="">
+	        </div>
+	        <div class="col-xs-6 col-sm-6 col-md-4 people">
+	          <div class="infos">
+	            <h5>Philip Holm Sørensen</h5>
+	            <p>Administrator</p>
+	          </div>
+	          <img src="./static/images/team/philip-color@2x.png" title="" alt="">
+	        </div>
+	        <div class="col-xs-6 col-sm-6 col-md-4 people">
+	          <div class="infos">
+	            <h5>Kristian Pheiffer</h5>
+	            <p>Administrator</p>
+	          </div>
+	          <img src="./static/images/team/kristian-color@2x.png" title="" alt="">
+	        </div>
+	        <div class="col-xs-6 col-sm-6 col-md-4 people">
+	          <div class="infos">
+	            <h5>Lars Krieger</h5>
+	            <p>Developer</p>
+	          </div>
+	          <img src="./static/images/team/lars-color@2x.png" title="" alt="">
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</section>
+	<iframe src="https://dk.linkedin.com/in/navn-personsen-323a59117" height="1" width="1" frameBorder="0"></iframe>
+	<!-- Footer -->
+	<footer>
+	  <div class="container-fluid">
+	    <div class="row">
+	      <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 service">
+	        <p>Hvis du er interesseret eller har spørgsmål, så hjælper vi hjertens gerne: Skriv dig op, og så kontakter vi dig.</p>
+	        <br>
+	        <a href="#" title="" alt="" class="manual-optin-trigger btn" data-optin-slug="upc1n6mt7okooapc">Jeg vil vide mere</a>
+	      </div>
+	    </div>
+	    <div class="row" id="social">
+	      <ul>
+	        <li>
+	          <a href="#" class="twitter-follow-button" data-show-count="false" data-lang="da">Følg @donebydixie</a>
+	          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+	        </li>
+	        <li><script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: da_DK</script><script type="IN/Share" data-url="https://www.linkedin.com/company/dixie"></script></li>
+	      </ul>
+	    </div>
+	    <br>
+	    <div class="row" class="signature">
+	      <svg class="logo-dixie" width="48px" height="44px" viewBox="0 0 48 44">
+	        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+	            <g fill="#1D172E">
+	              <path d="M38.2232931,21.6358621 C38.2232931,9.73215517 28.7067759,0 16.587431,0 L3.60591379,0 C1.58874138,0 0,1.95136207 0,4.32717241 L0,39.6656207 C0,42.0423793 1.59025862,43.9927931 3.60591379,43.9927931 L16.587431,43.9927931 C17.3839828,43.9927931 18.0297586,43.3470172 18.0297586,42.5504655 C18.0297586,41.7539138 17.3839828,41.1081379 16.587431,41.1081379 L3.60591379,41.1081379 C3.32825862,41.1081379 2.88484483,40.5642069 2.88484483,39.6656207 L2.88484483,4.32717241 C2.88484483,3.42877586 3.32768966,2.88484483 3.60591379,2.88484483 L16.587431,2.88484483 C27.0988793,2.88484483 35.3384483,11.3110345 35.3384483,21.6358621 C35.3384483,22.4324138 35.9842241,23.0781897 36.7809655,23.0781897 C37.5775172,23.0781897 38.2232931,22.4324138 38.2232931,21.6358621"></path>
+	              <path d="M24.4399138,43.5251034 C24.9948448,44.1304828 25.9425517,44.1509655 26.5230862,43.570431 L46.7166207,23.3768966 C47.2798966,22.8136207 47.2798966,21.900431 46.7166207,21.3371552 C46.1533448,20.7738793 45.2399655,20.7738793 44.6766897,21.3371552 L25.5484483,40.4653966 L18.633431,32.9214828 C18.095,32.3343103 17.182569,32.2944828 16.5953966,32.8329138 C16.0082241,33.3711552 15.9685862,34.2835862 16.5068276,34.8707586 L24.4399138,43.5251034 Z"></path>
+	            </g>
+	        </g>
+	      </svg>
+	    </div>
+	    <br>
+	    <div class="row">
+	    <p>Dixie ApS, Indiakaj 12, 2100 København Ø<br>Tlf.: 60 54 17 83 — CVR nr.: 37115827</p>
+	    </div>
+	  </div>
+	</footer>
+</div>
+
+
+
+	<script src="./static/js/jquery-2.1.4.min.js"></script>
+	<script src="./static/js/main.js"></script>
+
+	<!-- Unslider -->
+	<script src="./static/unslider-master/dist/js/unslider-min.js"></script>
+	<script>
+	$('.task-slider').unslider({
+		animation: 'fade',
+		autoplay: true,
+		arrows: false,
+		nav: false,
+		delay: 5000
+	});
+
+	$('.receipt-slider').unslider({
+		animation: 'fade',
+		autoplay: true,
+		arrows: false,
+		nav: false,
+		delay: 5000
+	});
+
+	$('.payroll-slider').unslider({
+		animation: 'fade',
+		autoplay: true,
+		arrows: false,
+		nav: false,
+		delay: 5000
+	});
+
+	$('.chat-slider').unslider({
+		animation: 'fade',
+		autoplay: true,
+		arrows: false,
+		nav: false,
+		delay: 5000
+	});
+
+	$('.testimony-slider').unslider();
+	</script>
+
+	<script>
+	function changeImage(clickedElement) {
+  	$('.slider').removeClass('active');
+  	$('.showcase').find('.'+$(clickedElement).data('list-name')).addClass('active');
+	}
+
+	$(".feature").click(function () {
+    $(".feature").removeClass("active");
+    $(this).addClass("active");
+	});
+	</script>
+</body>
+</html>

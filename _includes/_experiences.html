@@ -1,0 +1,43 @@
+<div class="container">
+  <div class="post-list experiences">
+    <span class="date">Experiences</span>
+    <hr>
+    {% for experience in site.experiences reversed %}
+    <span class="date">{{ experience.date-infos }}</span>
+    <hr>
+    <div class="post-item experience">
+      {% if experience.externallink %}
+      <a href="{{ experience.externallink }}" target="_blank">
+        {% else %}
+      <a href="{{ experience.url }}">
+      {% endif %}
+        <ul>
+          <li class="cover">
+            <figure class="tiny">
+              <img class="lazy" data-original="{{ site.url }}/assets/images/{{ experience.cover }}" with="auto" height="100%">
+            </figure>
+          </li>
+          <li class="infos">
+            {% if experience.externallink %}
+              <p class="title">{{ experience.title }}<span class="status-icon status-icon-external"></span></p>
+            {% else %}
+              <p class="title">{{ experience.title }}</p>
+            {% endif %}
+
+            {% if experience.description %}
+              <p class="description">{{ experience.description }}</p>
+              {% else %}
+            {% endif %}
+
+            {% if experience.role %}
+              <p class="role">{{ experience.role }}</p>
+              {% else %}
+            {% endif %}
+          </li>
+        </ul>
+      </a>
+    </div>
+    <hr>
+      {% endfor %}
+  </div>
+</div>

@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<article class="post">
+  <div class="container">
+    <div class="post-header">
+      {% if page.cover %}
+        <figure class="post-cover">
+          <img class="lazy" data-original="{{ site.url }}/assets/images/posts/{{ page.cover }}">
+        </figure>
+        {% else %}
+      {% endif %}
+    </div>
+    <div class="post-content">
+      <br>
+      {{ content }}
+    </div>
+  </div>
+</article>
+{% include _skills.html %}
+{% include _contact.html %}
+{% if page.banner == true %}
+  {% include _banner.html %}
+  {% else %}
+{% endif %}
+{% include _experiences.html %}
+{% if page.ad == true %}
+  {% include _ad.html %}
+  {% else %}
+{% endif %}
+{% include _notes.html %}

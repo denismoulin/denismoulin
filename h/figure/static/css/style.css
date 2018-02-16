@@ -1,0 +1,641 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* Fonts */
+@font-face {
+  font-family: 'staatbold';
+  font-weight: 100;
+  font-style: normal;
+  src: local("Staat-Bold"), local("Staat-Bold"), url("../fonts/staat-bold.ttf") format("truetype"); }
+@font-face {
+  font-family: 'open-sans-light';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Open Sans Light"), local("OpenSans-Light"), url("http://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTZS3E-kSBmtLoNJPDtbj2Pk.ttf") format("truetype"); }
+@font-face {
+  font-family: 'open-sans-bold';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Open Sans Bold"), local("OpenSans-Bold"), url("http://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzJS3E-kSBmtLoNJPDtbj2Pk.ttf") format("truetype"); }
+/* Variables */
+/* Let's go! */
+html {
+  font: 62.5%; }
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; }
+
+body {
+  font-family: 'open-sans-light';
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1.7;
+  background: #FFF;
+  -webkit-font-smoothing: antialiased; }
+
+h1 {
+  font-size: 3rem; }
+
+h3 {
+  font-size: 2.3rem; }
+
+h1, h3 {
+  font-family: 'staatbold';
+  line-height: 1.3;
+  font-weight: 300; }
+
+h2 {
+  font-family: 'open-sans-light';
+  font-size: 1.2rem;
+  font-weight: 200;
+  color: rgba(255, 255, 255, 0.7); }
+
+h4 {
+  margin: 0 0 0.5rem; }
+
+h4,
+footer li.title {
+  font-family: 'open-sans-bold';
+  font-size: 0.8rem;
+  font-weight: normal;
+  opacity: 0.3;
+  text-transform: uppercase; }
+
+p, ul li {
+  font-size: 0.95rem; }
+
+ul.bodyText {
+  list-style: inside disc;
+  padding: 0.3rem 0 0.5rem; }
+
+hr {
+  height: 2px;
+  width: 4.2rem;
+  border: none;
+  margin: 3rem 0 2rem; }
+  hr.light {
+    background: #FFF; }
+  hr.dark {
+    background: #000; }
+
+a:link,
+a:visited,
+a:hover,
+button,
+button:hover,
+input[type=email],
+input[type=email]:focus,
+input[type=email]:invalid,
+input[type=submit],
+input[type=submit]:focus,
+input[type=submit]:invalid {
+  text-decoration: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s; }
+
+form {
+  width: 25rem;
+  margin: 3rem auto 3rem;
+  background: white;
+  border-radius: 0.4rem;
+  padding: 0.3rem; }
+  @media screen and (max-width: 560px) {
+    form {
+      width: 20rem;
+      border: solid 0.1rem rgba(0, 0, 0, 0.1); } }
+  form input[type=email] {
+    height: 3rem;
+    width: calc(100% - 10rem);
+    padding-left: 1rem;
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.3);
+    background: transparent;
+    border: none;
+    border-radius: 0.4rem;
+    outline: none; }
+    form input[type=email]:focus {
+      color: #824eaa; }
+    form input[type=email]:invalid {
+      color: rgba(0, 0, 0, 0.5); }
+    form input[type=email]:-moz-submit-invalid {
+      color: rgba(0, 0, 0, 0.5); }
+    form input[type=email]:-moz-ui-invalid {
+      color: rgba(0, 0, 0, 0.5); }
+  form input[type=submit] {
+    height: 3rem;
+    width: 10rem;
+    font-family: 'open-sans-bold';
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color: white;
+    background: #773172;
+    background: linear-gradient(#773172, #824eaa);
+    border: none;
+    border-radius: 0.2rem;
+    outline: 0;
+    opacity: 0.9; }
+    form input[type=submit]:hover {
+      opacity: 1; }
+
+/* Blocs */
+header {
+  color: #FFF;
+  background: #773172;
+  background: -webkit-linear-gradient(#773172, #824eaa);
+  background: -o-linear-gradient(#773172, #824eaa);
+  background: -moz-linear-gradient(#773172, #824eaa);
+  background: linear-gradient(#773172, #824eaa); }
+  header #logo {
+    margin-top: -2.1rem;
+    /*Overwrite link style*/ }
+    @media screen and (max-width: 768px) {
+      header #logo {
+        margin: 0 0 2rem;
+        text-align: center; } }
+    header #logo a:link, header #logo a:hover, header #logo a:visited {
+      border-bottom: none;
+      outline: none; }
+    header #logo #forms {
+      width: 4rem;
+      fill: rgba(255, 255, 255, 0.2); }
+    header #logo #letters {
+      width: 7rem;
+      fill: #fbcb5b;
+      margin: 0.5rem 0 0 0; }
+      @media screen and (max-width: 768px) {
+        header #logo #letters {
+          margin: 0.5rem 0 1rem 0; } }
+  header nav {
+    padding: 6rem 0 8rem; }
+    @media screen and (max-width: 768px) {
+      header nav {
+        padding: 3rem 0 5.5rem; } }
+    header nav a:link, header nav a:visited {
+      font-family: 'open-sans-bold';
+      font-size: .8rem;
+      font-weight: normal;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.3);
+      background: transparent;
+      padding-top: .7rem;
+      padding-bottom: 0.3rem;
+      border-bottom: solid .2rem transparent; }
+    header nav a:hover {
+      color: rgba(255, 255, 255, 0.6);
+      padding-bottom: .5rem;
+      border-bottom: solid 0.2rem rgba(255, 255, 255, 0.6); }
+    header nav a#signup {
+      padding: .7rem 1.1rem;
+      border: none;
+      border-radius: .2rem; }
+      header nav a#signup:link {
+        color: #FFF;
+        background: rgba(251, 203, 91, 0.9); }
+      header nav a#signup:hover {
+        background: #fbcb5b; }
+    header nav #navigation {
+      text-align: right; }
+      @media screen and (max-width: 768px) {
+        header nav #navigation {
+          text-align: center; } }
+      header nav #navigation li {
+        display: inline-block;
+        margin: 0 0.6rem; }
+  header h1, header h3 {
+    text-align: center; }
+  header a {
+    color: #FCCC50; }
+  header h1 {
+    max-width: 62rem;
+    margin: 0 auto 3rem;
+    padding: 0 2%; }
+  header h3 {
+    max-width: 35rem;
+    margin: 0 auto 0rem;
+    padding: 0 2%; }
+  header h1 b {
+    position: relative; }
+    header h1 b:after {
+      content: "";
+      position: absolute;
+      bottom: -3px;
+      left: -3px;
+      right: -3px;
+      height: 4px;
+      background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#fbcb5b), to(rgba(130, 78, 170, 0)));
+      background-image: -webkit-linear-gradient(left, #fbcb5b, rgba(130, 78, 170, 0));
+      background-image: -moz-linear-gradient(left, #fbcb5b, rgba(130, 78, 170, 0));
+      background-image: -o-linear-gradient(left, #fbcb5b, rgba(130, 78, 170, 0)); }
+  header svg#breathing-button {
+    display: block;
+    width: 6rem;
+    margin: 2rem auto 10rem;
+    -webkit-animation: breathe 3s infinite;
+    animation: breathe 3s infinite; }
+  header svg#waves {
+    margin-top: 4rem;
+    display: block;
+    height: auto;
+    width: 100%;
+    opacity: 0.9; }
+
+#card {
+  position: absolute;
+  z-index: 75;
+  top: -4rem;
+  left: calc(50% - 11rem); }
+  @media screen and (max-width: 560px) {
+    #card {
+      top: -8rem;
+      left: calc(50% - 8rem); } }
+  #card .child {
+    z-index: 99;
+    position: relative;
+    width: 22rem;
+    height: 12rem;
+    border-radius: 1rem;
+    background: #FFF; }
+    #card .child :nth-child(-n+3) {
+      position: absolute;
+      background: rgba(206, 45, 83, 0.3);
+      background: -webkit-linear-gradient(#ce2d53, #ff6457);
+      background: -o-linear-gradient(#ce2d53, #ff6457);
+      background: -moz-linear-gradient(#ce2d53, #ff6457);
+      background: linear-gradient(#ce2d53, #ff6457); }
+    #card .child :nth-child(-n+2) {
+      left: 2rem;
+      width: 6rem;
+      height: 0.3rem; }
+    #card .child :first-child {
+      top: 1.7rem;
+      opacity: 0.3; }
+    #card .child :nth-child(2) {
+      top: 2.5rem;
+      left: 2rem;
+      opacity: 0.1; }
+    #card .child :last-child {
+      top: 7rem;
+      width: 100%;
+      height: 3.2rem;
+      opacity: 0.2; }
+    @media screen and (max-width: 560px) {
+      #card .child {
+        width: 16rem;
+        height: 10rem; }
+        #card .child :nth-child(-n+2) {
+          left: 1rem;
+          width: 3rem;
+          height: 0.2rem; }
+        #card .child :first-child {
+          top: 1rem; }
+        #card .child :nth-child(2) {
+          top: 1.4rem;
+          left: 1rem; }
+        #card .child :last-child {
+          top: 6rem;
+          width: 100%;
+          height: 2rem; } }
+
+#phone {
+  position: absolute;
+  z-index: 75;
+  bottom: -10rem;
+  left: calc(50% - 11rem); }
+  @media screen and (max-width: 768px) {
+    #phone {
+      bottom: -15rem; } }
+  @media screen and (max-width: 560px) {
+    #phone {
+      bottom: -5rem;
+      left: calc(50% - 8rem); } }
+  #phone .child {
+    position: relative;
+    width: 22rem;
+    height: 28rem;
+    border-radius: 2rem 2rem 0 0;
+    background: #FFF; }
+    #phone .child #speaker, #phone .child #screen {
+      position: absolute;
+      background: rgba(206, 45, 83, 0.3);
+      background: linear-gradient(rgba(255, 100, 87, 0.3), rgba(206, 45, 83, 0)); }
+    #phone .child #speaker {
+      top: 2rem;
+      left: 9rem;
+      height: 0.4rem;
+      width: 4rem;
+      border-radius: 4rem; }
+    #phone .child #screen {
+      top: 4rem;
+      left: 1rem;
+      height: 22rem;
+      width: 20rem; }
+    @media screen and (max-width: 560px) {
+      #phone .child {
+        width: 16rem;
+        height: 10rem; }
+        #phone .child #speaker {
+          top: 2rem;
+          left: 7rem;
+          height: 0.3rem;
+          width: 2rem;
+          border-radius: 4rem; }
+        #phone .child #screen {
+          top: 4rem;
+          left: 1rem;
+          height: 10rem;
+          width: 14rem; } }
+    #phone .child #content {
+      position: absolute;
+      top: 8rem;
+      left: 2.2rem;
+      z-index: 99;
+      text-align: left;
+      color: #000; }
+      @media screen and (max-width: 560px) {
+        #phone .child #content {
+          top: 6rem; } }
+      #phone .child #content #icon {
+        display: block;
+        float: left;
+        height: 2rem;
+        width: 2rem;
+        border-radius: 0.2rem;
+        background: #ce2d53;
+        background: -webkit-linear-gradient(#ce2d53, #ff6457);
+        background: -o-linear-gradient(#ce2d53, #ff6457);
+        background: -moz-linear-gradient(#ce2d53, #ff6457);
+        background: linear-gradient(#ce2d53, #ff6457); }
+        #phone .child #content #icon span {
+          padding: 0 0.7rem;
+          font-family: 'open-sans-bold';
+          font-size: 1.2rem;
+          color: #FFF; }
+      #phone .child #content #message {
+        margin-top: -0.37rem;
+        margin-left: 1rem;
+        float: left; }
+        #phone .child #content #message :first-child {
+          font-family: 'open-sans-bold';
+          text-transform: uppercase;
+          margin-right: 0.5rem; }
+        #phone .child #content #message :nth-child(2) {
+          opacity: 0.5; }
+        #phone .child #content #message :last-child {
+          max-width: 15rem; }
+        #phone .child #content #message p {
+          font-size: 0.75rem; }
+        @media screen and (max-width: 560px) {
+          #phone .child #content #message {
+            margin-top: 0.2rem; }
+            #phone .child #content #message :last-child {
+              display: none; } }
+
+section#features {
+  padding-top: 5rem; }
+section#smart-card {
+  position: relative;
+  /* Needed to fix the placement of bloc infos*/
+  height: 60rem;
+  background: #ce2d53;
+  background: -webkit-linear-gradient(#ce2d53, #ff6457);
+  background: -o-linear-gradient(#ce2d53, #ff6457);
+  background: -moz-linear-gradient(#ce2d53, #ff6457);
+  background: linear-gradient(#ce2d53, #ff6457);
+  color: #FFF;
+  margin: 10rem 0;
+  text-align: center;
+  /* Overwrite hr attribute to align center */ }
+  @media screen and (max-width: 768px) {
+    section#smart-card {
+      height: 50rem; } }
+  @media screen and (max-width: 560px) {
+    section#smart-card {
+      height: 40rem; } }
+  section#smart-card hr {
+    margin: 3rem auto 2rem; }
+  section#smart-card p {
+    max-width: 30rem;
+    margin: 0 auto; }
+  section#smart-card .infos {
+    position: absolute;
+    z-index: 100;
+    top: 42%;
+    left: auto;
+    bottom: auto;
+    right: auto;
+    width: 100%;
+    padding: 0 1rem;
+    -webkit-transform: translateY(-40%);
+    /*Always in the centered v/h*/
+    -moz-transform: translateY(-40%);
+    -ms-transform: translateY(-40%);
+    -o-transform: ranslateY(-40%);
+    transform: translateY(-40%); }
+  section#smart-card #moving-circle {
+    position: absolute;
+    z-index: 50;
+    height: 92%;
+    width: 92%;
+    margin: 2.5% 0 0 4%;
+    -webkit-transform-origin: 50% 50%;
+    /* Fix origin */
+    -moz-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    background: url("../images/moving-cirlce-850.png") no-repeat center center;
+    background-size: contain;
+    -webkit-animation: xrot 10s infinite linear; }
+    @media screen and (max-width: 560px) {
+      section#smart-card #moving-circle {
+        display: none; } }
+section#taxes-savings {
+  padding: 6rem 0 2rem;
+  background: #F2EDF6;
+  background: linear-gradient(#f2edf6, white); }
+  @media screen and (max-width: 768px) {
+    section#taxes-savings #savings {
+      margin-top: 6rem; } }
+section#integration ul {
+  max-width: 40rem;
+  margin: 0 auto;
+  text-align: center; }
+section#integration li {
+  margin: 1rem;
+  display: inline-block;
+  width: auto;
+  height: 3.5rem; }
+  section#integration li img {
+    width: 100%;
+    height: auto; }
+section#invite {
+  position: relative;
+  height: 30rem;
+  margin: 8rem 0 0; }
+  section#invite .infos {
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    top: 50%;
+    bottom: auto;
+    -webkit-transform: translateY(-50%);
+    /*Always in the centered v/h*/
+    -moz-transform: translateY(-50%);
+    -ms-transform: TranslateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%); }
+    section#invite .infos h3 {
+      position: relative;
+      max-width: 50rem;
+      margin: 0 auto;
+      padding: 0 2rem; }
+      @media screen and (max-width: 560px) {
+        section#invite .infos h3 {
+          font-size: 1.8rem; } }
+  section#invite #sun {
+    position: relative;
+    height: 30rem;
+    width: 30rem;
+    margin: 0 auto;
+    border-radius: 50%;
+    background: #773172;
+    background: linear-gradient(rgba(119, 49, 114, 0.5), rgba(255, 255, 255, 0));
+    background: -webkit-linear-gradient(rgba(119, 49, 114, 0.5), rgba(255, 255, 255, 0));
+    background: -o-linear-gradient(rgba(119, 49, 114, 0.5), rgba(255, 255, 255, 0));
+    background: -moz-linear-gradient(rgba(119, 49, 114, 0.5), rgba(255, 255, 255, 0)); }
+    @media screen and (max-width: 768px) {
+      section#invite #sun {
+        height: 25rem;
+        width: 25rem; } }
+    @media screen and (max-width: 560px) {
+      section#invite #sun {
+        height: 20rem;
+        width: 20rem; } }
+
+footer {
+  margin: 4rem auto;
+  padding: 3rem; }
+  footer ul {
+    margin: 3rem 0; }
+    footer ul li {
+      margin: 0.6rem auto; }
+  footer a:link, footer a:visited {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+    padding-bottom: 0.2rem;
+    border-bottom: transparent; }
+  footer a:hover {
+    text-decoration: none;
+    color: black;
+    border-bottom: solid 0.2rem rgba(0, 0, 0, 0.2); }
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.9); }
+  .modal .modal-dialog {
+    color: #fff; }
+    .modal .modal-dialog .modal-content {
+      background: transparent;
+      box-shadow: none;
+      border: none; }
+    .modal .modal-dialog .modal-header {
+      border: none;
+      padding-top: 10%; }
+    .modal .modal-dialog p {
+      padding: 0.3rem 0 0.5rem; }
+    .modal .modal-dialog p a {
+      color: #fff;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.75); }
+    .modal .modal-dialog p a:hover {
+      color: #fff;
+      border-bottom: 1px solid white; }
+  .modal .close {
+    opacity: 1; }
+    .modal .close:hover .closing-x, .modal .close:hover .closing-x div {
+      border-color: #fbcb5b; }
+
+.closing-x {
+  width: 3rem;
+  height: 1.55rem;
+  position: relative;
+  border-bottom: 0.1rem solid #FFF;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg); }
+  .closing-x div {
+    position: absolute;
+    height: 0.1rem;
+    height: 3rem;
+    width: 1.55rem;
+    border-right: 0.1rem solid #FFF; }
+
+/* Anims */
+@-webkit-keyframes xrot {
+  0% {
+    -webkit-transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg); } }
+@-webkit-keyframes breathe {
+  0% {
+    opacity: 0.3; }
+  50% {
+    opacity: 1; }
+  100% {
+    opacity: 0.3; } }
+/* Hacks and stuff */
+.wow {
+  visibility: hidden; }
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important; }
+
+/*# sourceMappingURL=style.css.map */

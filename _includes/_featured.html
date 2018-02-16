@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="post-list featured">
+    <span class="date">Selected work</span>
+    {% for post in site.posts %}
+    {% if post.featured == true %}
+      <hr>
+      <div class="post-item post">
+          <a href="{{ post.url }}">
+            <ul>
+              <li class="cover">
+                <figure>
+                  <img class="lazy" data-original="{{ site.url }}/assets/images/posts/{{ post.cover }}" with="auto" height="100%">
+                </figure>
+              </li>
+              <li class="infos">
+                  <p class="title">{{ post.title }}<span class="status-icon status-icon-favorite"></span></p>
+                {% if post.description %}
+                  <p class="description">{{ post.description  | truncate: 220, '...' }}</p>
+                  {% else %}
+                {% endif %}
+              </li>
+            </ul>
+          </a>
+      </div>
+    {% endif %}
+    {% endfor %}
+    <hr>
+  </div>
+</div>

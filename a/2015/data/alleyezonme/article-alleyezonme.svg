@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="500px" height="500px" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>article-alleyezonme</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Cover-Article" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="article-alleyezonme" sketch:type="MSArtboardGroup" fill="#8CCF00">
+            <g id="icon-step" sketch:type="MSLayerGroup" transform="translate(182.000000, 150.000000)">
+                <path d="M137,131.764706 C137,94.0793935 106.331505,63.5294118 68.5,63.5294118 C30.6684946,63.5294118 0,94.0793935 0,131.764706 C0,169.450018 30.6684946,200 68.5,200 C106.331505,200 137,169.450018 137,131.764706 Z M7.0862069,131.764706 C7.0862069,97.9778741 34.5820986,70.5882353 68.5,70.5882353 C102.417901,70.5882353 129.913793,97.9778741 129.913793,131.764706 C129.913793,165.551538 102.417901,192.941176 68.5,192.941176 C34.5820986,192.941176 7.0862069,165.551538 7.0862069,131.764706 Z" id="2" sketch:type="MSShapeGroup"></path>
+                <path d="M68.5,0 C43.7137668,0 23.6206897,20.0196591 23.6206897,44.7143951 L23.6206897,81.1764706 C23.6206897,83.1257109 25.2069911,84.7058824 27.1637931,84.7058824 C29.1205951,84.7058824 30.7068966,83.1257109 30.7068966,81.1764706 L30.7068966,44.7143951 C30.7068966,23.917806 47.6277059,7.05882353 68.5,7.05882353 C89.3760564,7.05882353 106.293103,23.9059134 106.293103,44.6912279 C106.293103,46.6404682 107.879405,48.2206397 109.836207,48.2206397 C111.793009,48.2206397 113.37931,46.6404682 113.37931,44.6912279 C113.37931,20.0070029 93.2892289,0 68.5,0 Z" id="1" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

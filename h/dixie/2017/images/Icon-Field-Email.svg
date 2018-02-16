@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="11px" viewBox="0 0 14 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="_overlays" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="changefordixie_1" transform="translate(-710.000000, -622.000000)" fill="#AAAAAA">
+            <g id="change-for-dixie" transform="translate(260.000000, 200.000000)">
+                <g id="1-empty">
+                    <g id="contact" transform="translate(90.000000, 68.000000)">
+                        <g id="input" transform="translate(345.000000, 234.000000)">
+                            <g id="email" transform="translate(0.000000, 79.000000)">
+                                <g id="input" transform="translate(0.000000, 24.000000)">
+                                    <g id="icon" transform="translate(15.000000, 17.000000)">
+                                        <path d="M1,10.0044225 C1,9.99989176 12.9931545,10 12.9931545,10 C12.9998568,10 13,0.995577499 13,0.995577499 C13,1.00010824 1.00684547,1 1.00684547,1 C1.00014316,1 1,10.0044225 1,10.0044225 Z M1.00684547,0 L12.9931545,0 C13.5492199,0 14,0.444836974 14,0.995577499 L14,10.0044225 C14,10.5542648 13.5500512,11 12.9931545,11 L1.00684547,11 C0.450780073,11 0,10.555163 0,10.0044225 L0,0.995577499 C0,0.445735229 0.449948758,0 1.00684547,0 Z" id="Rectangle-3"></path>
+                                        <polygon id="Path-2" points="7 6.65085414 13.3200922 1.38411064 12.6799078 0.61588936 6.99322793 5.34350247 1.3200922 0.61588936 0.6799078 1.38411064"></polygon>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

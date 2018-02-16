@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<meta name="description" content="A Machine learning engine for your Recruitement">
+	<meta name="keywords" content="Machine,learning,recruit,recruitement,talent,linkedin,search,work,workers,head,hunter,head-hunter,hr">
+
+	<link rel="shortcut icon" href="/static/images/favicon.ico">
+	<link rel="stylesheet" href="/static/css/bootstrap.css">
+	<link rel="stylesheet" href="/static/css/animate.css">
+	<link rel="stylesheet" href="/static/css/style.css">
+
+	
+	<title>Reveal - A machine learning engine for your Recruitment </title>
+	
+
+</head>
+<body>
+	<header>
+	  <div class="container">
+	    <div class="row">
+	    <div id="logo" class="col-sm-3 col-xs-12 wow fadeIn">
+	      <a href="index.html"><img src="/static/images/logo-round@2x.png"></a>
+	    </div>
+	    <ul class="col-sm-9 col-xs-12">
+	      <br class="visible-xs">
+	      <li><a href="#" target="#" data-toggle="modal" data-target="#aboutus" class="default">About us</a></li>
+	      <li><a href="#howitworks" class="default wow fadeIn" data-wow-delay="0.3s">How it works</a></li>
+				<li><br class="visible-xs"><a href="#mc_embed_signup" class="btn wow fadeIn" data-wow-delay="0.6s">Get early access</a></li>
+	    </ul>
+	    </div>
+	  </div>
+	</header>
+
+	
+<script type="text/javascript" charset="utf-8" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+
+<script type="text/javascript" charset="utf-8">
+	$(document).ready(function() {
+		
+		// Add the missing url to the text
+		$("#url").text(window.location.pathname);
+		
+		// Fix the css locations dynamically
+		$("head link").each(function() {
+			for (var i=0; i<window.location.pathname.split(/\//g).length-2; i++)
+				$(this).attr("href", "../" + $(this).attr("href"));
+		});
+		
+	})
+</script>
+
+<p>
+	Sorry the page <b id="url"></b> could not be found on this server.
+</p>
+
+
+<div class="modal fade" id="aboutus" tabindex="-1" role="dialog" aria-labelledby="manifest" aria-hidden="true">
+	<div class="modal-dialog modal-lg">
+    <div class="modal-content">
+			<div class="modal-header">
+				<div class="container">
+					<div class="row">
+					  <div class="col-xs-8">
+					  	<h1><span>About us</span></h1>
+			    	</div>
+						<div class="col-xs-4">
+							<a href="#" data-dismiss="modal" class="btn">Close</a>
+						</div>
+					</div>
+		  	</div>
+			</div>
+			<div class="modal-body">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-7">
+	          	<p>We're a team of three combining expertise in machine learning and natural language processing - and have created a machine not only capable of thinking, but also with the ability to read. This enables the machine to complete tasks that would have previously required a human.</p>
+							<p>In an increasingly competitive marketplace, it is harder than ever to find the right people with the right skills needed to grow your business. We firmly believe a new mindset around talent sourcing is needed in this fast-changing world. Our approach is to use sophisticated analytics on job market data, to provide the insight that will help your organisation adapt your talent strategy to maximise the opportunities available.</p>
+							<p>Whether writing a job description or preparing a search strategy, you need to know what you are looking for and where to look. Reveal empowers recruiters to introduce a data-driven approach to their talent decisions, without doing all the heavy lifting themselves.</p>
+							<p>Our vision is to provide transparency and efficiency to the job market, by aligning what recruiters and professionals are really looking for.</p>
+				    </div>
+				  </div>
+				</div>
+			</div>
+		</div><!-- .modal-content -->
+	</div><!-- .modal-dialog -->
+</div><!-- .modal -->
+
+
+	<footer>
+		<div class="container">
+			<div class="row">
+			<ul>
+	      <li><a href="#" class="default">Specs<code>In progress</code></a></li>
+	      <li><a href="#" target="#" data-toggle="modal" data-target="#aboutus" class="default">About us</a></li>
+	      <li><a href="mailto:contact@revealhub.com" class="default">Contact us</a></li>
+	      <li><a href="http://twitter.com/@revealtalk" class="default">Twitter</a></li>
+	      <li>Build by two humans <a href="https://twitter.com/jraucq" target="_blank" class="default">Joel</a> & <a href="https://twitter.com/JonasKrarup" target="_blank" class="default">Jonas</a></li>
+	    </ul>
+			</div>
+		</div>
+	</footer>
+
+	
+			<script src="/static/js/jquery-2.1.1.js"></script>
+			<script src="/static/js/wow.min.js"></script>
+			<script src="/static/js/main.js"></script>
+			<script src="/static/js/bootstrap.min.js"></script>
+			<script>
+			  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			  ga('create', 'UA-67803437-1', 'auto');
+			  ga('send', 'pageview');
+			</script>
+      <script>
+      new WOW().init();
+      </script>
+	
+</body>
+</html>

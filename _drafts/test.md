@@ -1,0 +1,47 @@
+---
+title: Typography test
+date: 1900-01-01 00:00:00 Z
+description: A article to demo the Typography rules.
+featured: false
+preview: false
+is_post: true
+cover: 
+header: 
+matters: 
+period: Before Jesus
+external: false
+link: 
+---
+
+## This spring, iOS 11.3 will deliver exciting new ways to experience augmented reality on iPhone and iPad, new Animoji on iPhone X and the ability to view health records in the Health app.
+
+### New AR Experiences
+
+The introduction of ARKit with iOS 11 put augmented reality into the hands of hundreds of millions of iPhone and iPad users, making iOS the world's biggest AR platform. Apple continues to innovate on this exciting technology, bringing ARKit 1.5 to developers to provide even more immersive AR experiences that better integrate with the world and giving them the tools to power a new generation of AR apps.
+
+<img class="portrait" src="../../assets/images/posts/cuely--app/cuely--app--content--1.png">
+
+###### Business Chat lets users communicate directly with businesses like Lowe’s right within the Messages app.]
+
+
+Animoji have been a hit with iPhone X users, who’ve used their voice and facial expressions to record and send Animoji messages and even create Animoji karaoke videos. iOS 11.3 introduces four new Animoji, giving iPhone X users the ability to express themselves as a lion, bear, dragon or skull. Working with the A11 Bionic chip and TrueDepth camera in iPhone X, over 50 different facial muscle movements are captured, analyzed and then animated, allowing users to send Animoji messages as one of 16 different characters.
+
+![Couple of birds design to get to the final one](../../assets/images/posts/cuely--app/cuely--app--content--6.png)  
+
+###### ARKit 1.5 can turn posters, signs and artwork into interactive AR experiences.]
+
+### Health Records in Health App
+
+The new [Health Records](https://www.apple.com/newsroom/2018/01/apple-previews-ios-11-3/) feature brings together hospitals, clinics and the existing Health app to make it easy for consumers to see their available medical data from multiple providers, whenever they choose. Patients from participating medical institutions will have information from various institutions organized into one view and receive regular notifications for their lab results, medications, conditions and more. Health Records data is encrypted and protected with a passcode.
+
+### Additional iOS 11.3 Features:
+
+- Apple Music will soon be the home for music videos. Users can stream all the music videos they want without being interrupted by ads. They can also watch the hottest new videos, the classics or ones from their favorite artists back-to-back in new music video playlists.
+- Apple News now makes it easier to stay up-to-date on the most important videos of the day with a new Video group in For You, and improved Top Stories.
+- HomeKit software authentication provides a great new way for developers to add HomeKit support to existing accessories while protecting privacy and security.
+- Support for Advanced Mobile Location (AML) to automatically send a user’s current location when making a call to emergency services in countries where AML is supported.
+
+
+##### Availability
+<hr>
+The developer preview of iOS 11.3 is available to iOS Developer Program members at developer.apple.com starting today, followed by a public beta preview available at beta.apple.com. iOS 11.3 will be available this spring as a free software update for iPhone 5s and later, all iPad Air and iPad Pro models, iPad 5th generation, iPad mini 2 and later and iPod touch 6th generation. Features are subject to change. Some features may not be available on all devices or in all regions or all languages. Not all features will be in the beta releases.

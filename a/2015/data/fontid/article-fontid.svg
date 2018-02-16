@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="500px" height="500px" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>article-fontid</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="45.8664773%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.745952219" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.07 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Cover-Article" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="article-fontid" sketch:type="MSArtboardGroup">
+            <g id="illustration-fontid" sketch:type="MSLayerGroup" transform="translate(102.000000, 125.000000)">
+                <rect id="Rectangle-4" fill-opacity="0.200000018" fill="#5CC6F5" sketch:type="MSShapeGroup" x="0" y="40.7608696" width="295.092025" height="163.043478"></rect>
+                <path d="M2.00199463,27.173913 C0.896323529,27.173913 0,28.0653912 0,29.1787153 L0,40.7608696 L295.092025,40.7608696 L295.092025,29.1787153 C295.092025,28.0714936 294.192373,27.173913 293.09003,27.173913 L2.00199463,27.173913 Z" id="Rectangle-5" fill="#5CC6F5" sketch:type="MSShapeGroup"></path>
+                <ellipse id="Oval-1" fill="#FFFFFF" sketch:type="MSShapeGroup" cx="284.650307" cy="33.9673913" rx="3.17791411" ry="3.17028986"></ellipse>
+                <rect id="Rectangle-7" stroke="#FFFFFF" stroke-width="2" fill="url(#linearGradient-1)" filter="url(#filter-2)" sketch:type="MSShapeGroup" x="34.0490798" y="0" width="226.993865" height="249.094203" rx="4"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

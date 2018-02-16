@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="11px" viewBox="0 0 14 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="_overlays" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="changefordixie_1" transform="translate(-710.000000, -543.000000)" fill="#AAAAAA">
+            <g id="change-for-dixie" transform="translate(260.000000, 200.000000)">
+                <g id="1-empty">
+                    <g id="contact" transform="translate(90.000000, 68.000000)">
+                        <g id="input" transform="translate(345.000000, 234.000000)">
+                            <g id="name">
+                                <g id="input" transform="translate(0.000000, 24.000000)">
+                                    <g id="Group" transform="translate(15.000000, 17.000000)">
+                                        <g id="icon">
+                                            <path d="M1,10.0044225 C1,9.99989176 12.9931545,10 12.9931545,10 C12.9998568,10 13,0.995577499 13,0.995577499 C13,1.00010824 1.00684547,1 1.00684547,1 C1.00014316,1 1,10.0044225 1,10.0044225 Z M1.00684547,0 L12.9931545,0 C13.5492199,0 14,0.444836974 14,0.995577499 L14,10.0044225 C14,10.5542648 13.5500512,11 12.9931545,11 L1.00684547,11 C0.450780073,11 0,10.555163 0,10.0044225 L0,0.995577499 C0,0.445735229 0.449948758,0 1.00684547,0 Z" id="Rectangle-3"></path>
+                                            <circle id="Oval-3" cx="5" cy="6" r="2"></circle>
+                                            <rect id="Rectangle-14" x="8" y="3" width="4" height="1" rx="0.5"></rect>
+                                            <rect id="Rectangle-14" x="8" y="5" width="4" height="1" rx="0.5"></rect>
+                                            <path d="M8,10.5 C8,8.84314575 7.209139,7.5 5,7.5 C2.790861,7.5 2,8.84314575 2,10.5 C2,10.5 8,10.5 8,10.5 Z" id="Oval-3"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

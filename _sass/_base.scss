@@ -1,0 +1,270 @@
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+/**
+ * Basic styling
+ */
+
+html{
+ box-sizing: border-box;
+ font-size: 62.5%;
+}
+
+body {
+    font-family: $primary-font-family;
+    font-weight: $primary-font-weight;
+    font-size: $primary-font-size;
+    line-height: $base-line-height;
+    color: $text-color;
+    background-color: $background-color;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+::selection{
+  background: $grey-color-light; /* WebKit/Blink Browsers */
+}
+::-moz-selection{
+  background: $grey-color-light; /* WebKit/Blink Browsers */
+}
+
+/**
+ * Images
+ */
+img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+/**
+ * Lists
+ */
+ul{
+  list-style: none;
+}
+
+li {
+    > ul,
+    > ol {
+         margin-bottom: 0;
+    }
+
+    p{
+      margin-bottom: $spacing-unit/10;
+    }
+}
+
+
+/**
+ * Status icon system
+ */
+.status-icon{
+  height: $spacing-unit/2.5;
+  width: $spacing-unit/2.5;
+
+  &-external, &-link{
+    background: url("icons/icon-arrow--direction.svg") no-repeat center center;
+    -webkit-transform: rotateZ(-45deg);
+        -ms-transform: rotateZ(-45deg);
+         -o-transform: rotateZ(-45deg);
+            transform: rotateZ(-45deg);
+  }
+  &-favorite{ background: url("icons/icon-heart--filled.svg") no-repeat center center;
+  }
+  &-direction{ background: url("icons/icon-arrow--default.svg") no-repeat center center;}
+  &-mail{ background: url("icons/icon-mail.svg") no-repeat center center;}
+  &-mail-white{ background: url("icons/icon-mail-white.svg") no-repeat center center;}
+}
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: $primary-font-weight;
+}
+
+h1{
+  font-size:  $big-font-size*1.4;
+  font-family: $secondary-font-family;
+  @media screen and (max-width: $on-palm) {
+    font-size: $big-font-size;
+  }
+}
+h2{ font: $primary-font-weight #{$big-font-size}/#{$base-line-height} $primary-font-family;}
+h3{ font: $primary-font-weight #{$big-font-size}/#{$base-line-height} $secondary-font-family;}
+h4, h5, h6{ font: $primary-font-weight #{$tiny-font-size}/#{$base-line-height} $primary-font-family;}
+h5, h6{ color: $grey-color-dark;}
+
+a {
+    &:link{
+      position: relative;
+      text-decoration: none;
+      font-family: inherit;
+      font-family: $primary-font-family;
+      padding: 0.2rem 0.6rem;
+      color: inherit;
+      background: rgba($text-color, 0.05);
+      border-radius: $radius;
+      -webkit-transition: all 0.2s ease;
+      transition: all 0.2s ease;
+    }
+
+    &:hover, &:visited{
+      color: inherit;
+      background: rgba($text-color, 0.1);
+      -webkit-transition: all 0.2s ease;
+      transition: all 0.2s ease;
+    }
+
+
+    &.button{
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      text-align: center;
+      font: $primary-font-weight #{$primary-font-size}/#{$base-line-height} $primary-font-family;
+      border: none;
+      padding: $spacing-unit/4 $spacing-unit/1.6 $spacing-unit/3.2;
+      border-radius: $radius;
+      background: rgba($text-color, 0.1);
+
+      &--bright{
+        color: $text-color;
+        background: $background-color;
+      }
+
+      &--green{
+        color: $background-color;
+        background: $green;
+      }
+
+      &--combo{
+        .status-icon{
+          transform: translateX(0);
+          margin-left: $spacing-unit/3;
+          -webkit-transition: transform 0.15s;
+                  transition: transform 0.15s;
+        }
+
+        &:hover{
+          .status-icon{
+            transform: translateX($spacing-unit/10);
+            -webkit-transition: transform 0.15s;
+                    transition: transform 0.15s;
+          }
+        }
+      }
+
+      &.tiny{
+        font: $primary-font-weight #{$tiny-font-size}/#{$base-line-height} $primary-font-family;
+        padding: $spacing-unit/5 $spacing-unit/1.6 $spacing-unit/4;
+      }
+
+      &.highlight{
+        color: $background-color;
+        background: $green;
+      }
+    }
+}
+
+/**
+ * Clearfix
+ */
+%clearfix {
+
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+hr{
+  margin: $spacing-unit/3 auto;
+  border: 0;
+  height: 0.1rem;
+  background: $grey-color-light;
+}
+
+blockquote{
+  margin: $spacing-unit auto;
+  padding: $spacing-unit;
+  font: $primary-font-weight #{$big-font-size*1.2}/#{$base-line-height} $primary-font-family;
+  color: $grey-color-dark;
+  border: solid $spacing-unit/15 $grey-color-light;
+}
+
+i, em{
+  font-style: normal;
+  padding-bottom: 0.2rem;
+  border-bottom: $yellow solid 0.2rem;
+}
+
+b, strong{
+  font-family: $primary-font-family;
+  font-weight: normal;
+  padding: $spacing-unit/15 $spacing-unit/10;
+  background: $yellow;
+
+  &.green{
+    color: $background-color;
+    background: $green;
+  }
+
+  &.red{
+    color: $background-color;
+    background: $red;
+  }
+
+  &.tooltip{
+    position: relative;
+    display: inline-block;
+    cursor: help;
+
+    @media screen and (max-width: $on-palm) {
+      cursor: auto;
+    }
+
+    span{
+      visibility: hidden;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 0;
+      min-width: $spacing-unit*2;
+      min-width: $spacing-unit*6;
+      font: $primary-font-weight #{$tiny-font-size}/#{$base-line-height} $primary-font-family;
+      color: $background-color;
+      background: $text-color;
+      padding: $spacing-unit/3 $spacing-unit/2;
+      border-radius: $radius;
+      opacity: 0;
+      -webkit-transition: opacity 0.3s ease-out;
+      transition: opacity 0.3s ease-out;
+      @media screen and (max-width: $on-palm) {
+        display: none;
+      }
+    }
+
+    &:hover{
+      span{
+        visibility: visible;
+        opacity: 1;
+        -webkit-transition: opacity 0.3s ease-out;
+        transition: opacity 0.3s ease-out;
+      }
+    }
+  }
+}
