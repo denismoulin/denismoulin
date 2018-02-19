@@ -82,10 +82,16 @@ li {
             transform: rotateZ(-45deg);
   }
   &-favorite{ background: url("icons/icon-heart--filled.svg") no-repeat center center;
+  -webkit-transform: rotateZ(-45deg);
+      -ms-transform: rotateZ(-45deg);
+       -o-transform: rotateZ(-45deg);
+          transform: rotateZ(-45deg);
   }
   &-direction{ background: url("icons/icon-arrow--default.svg") no-repeat center center;}
   &-mail{ background: url("icons/icon-mail.svg") no-repeat center center;}
   &-mail-white{ background: url("icons/icon-mail-white.svg") no-repeat center center;}
+  &-bookmark{ background: url("icons/icon-bookmark--filled.svg") no-repeat center center;}
+  &-new{width: $spacing-unit/1.2; background: url("icons/icon-label--new.svg") no-repeat center center;}
 }
 
 /**

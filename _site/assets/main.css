@@ -75,13 +75,22 @@ li p {
     -o-transform: rotateZ(-45deg);
     transform: rotateZ(-45deg); }
   .status-icon-favorite {
-    background: url("icons/icon-heart--filled.svg") no-repeat center center; }
+    background: url("icons/icon-heart--filled.svg") no-repeat center center;
+    -webkit-transform: rotateZ(-45deg);
+    -ms-transform: rotateZ(-45deg);
+    -o-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg); }
   .status-icon-direction {
     background: url("icons/icon-arrow--default.svg") no-repeat center center; }
   .status-icon-mail {
     background: url("icons/icon-mail.svg") no-repeat center center; }
   .status-icon-mail-white {
     background: url("icons/icon-mail-white.svg") no-repeat center center; }
+  .status-icon-bookmark {
+    background: url("icons/icon-bookmark--filled.svg") no-repeat center center; }
+  .status-icon-new {
+    width: 2.5rem;
+    background: url("icons/icon-label--new.svg") no-repeat center center; }
 
 /**
  * Headings

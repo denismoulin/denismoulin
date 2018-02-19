@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>heart--filled</title>
+    <title>icon-heart--filled</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="__icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M11.25,5.9246212 C11.25,7.99568901 9.57106781,9.6746212 7.5,9.6746212 L0.75,9.6746212 L0.75,2.9246212 C0.75,0.853553391 2.42893219,-0.825378798 4.5,-0.825378798 C6.33634716,-0.825378798 7.86440588,0.494560902 8.18717853,2.23744267 C9.9300603,2.56021532 11.25,4.08827405 11.25,5.9246212 Z" id="Combined-Shape" fill="#FF433E" fill-rule="nonzero" transform="translate(6.000000, 4.424621) rotate(-45.000000) translate(-6.000000, -4.424621) "></path>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M0,4 C0,1.790861 1.790861,0 4,0 C6.209139,0 8,1.790861 8,4 C10.209139,4 12,5.790861 12,8 C12,10.209139 10.209139,12 8,12 L0,12 L0,4 Z" id="icon-heart--filled" fill="#FF433E"></path>
     </g>
 </svg>
