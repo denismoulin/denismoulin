@@ -1,50 +1,16 @@
 // _banner
 .banner{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   position: relative;
-  width: 100%;
-  padding: $spacing-unit 0;
+  margin: 0 auto;
+  padding: $spacing-unit*3 $spacing-unit $spacing-unit;
   color: $background-color;
   background: $text-color;
 
-  .container{
-    z-index: 2;
-  }
-
-  &:after {
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: url("images/banner--test-7.png") no-repeat center center;
-    background-size: cover;
-    opacity : 0.75;
-  }
-
-  ul{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    align-items: center;
-
-    @media screen and (max-width: $on-palm) {
-      flex-direction: column;
-    }
-
-    li:first-child{
-      text-shadow: 0rem 0.2rem 0.6rem rgba($text-color,0.3);
-
-      b{
-        text-shadow: none;
-      }
-
-      @media screen and (max-width: $on-palm) {
-        margin-bottom: 2rem;
-      }
-    }
+  h1{
+    margin: 0 $spacing-unit $spacing-unit/2 0;
   }
 }
 

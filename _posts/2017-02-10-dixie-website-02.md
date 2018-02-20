@@ -1,12 +1,11 @@
 ---
 title: Dixie.io (2.0)
 date: 2017-02-10 00:00:00 Z
-description: I lead the design and rethinking of the storyline. In addition to that
-  I built the website supported by webflow technology and directed illustration work.
+description: I lead the design and rethinking of the storyline. In addition to that I built the website supported by webflow technology and directed illustration work.
 featured: false
 preview: false
 is_post: true
-ad: false
+banner: false
 cover: dixie--website--02/dixie--website--02--cover__timeline.png
 header: dixie--website--02/dixie--website--02--cover__post.png
 matters: Brand identity, Front-end development

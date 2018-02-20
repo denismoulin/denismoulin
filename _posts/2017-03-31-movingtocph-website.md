@@ -1,12 +1,11 @@
 ---
 title: Movingtocph.com
 date: 2017-03-31 00:00:00 Z
-description: I was responsible for everything related to design and built the website
-  using webflow cms system so anyone could jump in and edit its content.
+description: I was responsible for everything related to design and built the website using webflow cms system so anyone could jump in and edit its content.
 featured: false
 preview: false
-ad: false
 is_post: true
+banner: false
 cover: movingtocph--website/movingtocph--website--cover__timeline.png
 header: movingtocph--website/movingtocph--website--cover__post.png
 matters: Brand identity, Front-end development

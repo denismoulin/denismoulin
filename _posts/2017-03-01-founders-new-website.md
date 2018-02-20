@@ -2,14 +2,13 @@
 title: A new Founders.as
 layout: post
 permalink: "/p/:year/:title.html"
-description: For two years we didn't touch our very bankish looking website. 2017
-  we sat down and worked on how to present ourself and our studio.
+description: For two years we didn't touch our very bankish looking website. 2017 we sat down and worked on how to present ourself and our studio.
 date: 2017-03-01 00:00:00 Z
 description: For two years we didn't touch our very bankish looking website. 2017 we sat down and worked on how to present ourself and our studio.
 featured: true
 preview: false
-ad: false
 is_post: true
+banner: false
 cover: founders--website/founders--website--cover__timeline.png
 header: founders--website/founders--website--cover__post.png
 matters: Brand identity, Front-end development

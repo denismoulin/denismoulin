@@ -1,12 +1,11 @@
 ---
 title: Dixie.io (1.0)
 date: 2015-10-01 00:00:00 Z
-description: While working on Dixie product prototypes I developed their brand identity
-  and coded their first marketing website.
+description: While working on Dixie product prototypes I developed their brand identity and coded their first marketing website.
 featured: false
 preview: false
-ad: false
 is_post: true
+banner: false
 cover: dixie--website--01/dixie--website--01--cover__timeline.png
 header: dixie--website--01/dixie--website--01--cover__post.png
 matters: Brand identity, Front-end development

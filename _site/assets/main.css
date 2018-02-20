@@ -230,40 +230,16 @@ b, strong {
       transition: opacity 0.3s ease-out; }
 
 .banner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   position: relative;
-  width: 100%;
-  padding: 3rem 0;
+  margin: 0 auto;
+  padding: 9rem 3rem 3rem;
   color: #FFF;
   background: #262626; }
-  .banner .container {
-    z-index: 2; }
-  .banner:after {
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: url("images/banner--test-7.png") no-repeat center center;
-    background-size: cover;
-    opacity: 0.75; }
-  .banner ul {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    align-items: center; }
-    @media screen and (max-width: 39rem) {
-      .banner ul {
-        flex-direction: column; } }
-    .banner ul li:first-child {
-      text-shadow: 0rem 0.2rem 0.6rem rgba(38, 38, 38, 0.3); }
-      .banner ul li:first-child b {
-        text-shadow: none; }
-      @media screen and (max-width: 39rem) {
-        .banner ul li:first-child {
-          margin-bottom: 2rem; } }
+  .banner h1 {
+    margin: 0 3rem 1.5rem 0; }
 
 a#top-nav {
   display: inline-block;

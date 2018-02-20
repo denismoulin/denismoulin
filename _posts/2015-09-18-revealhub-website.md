@@ -1,11 +1,11 @@
 ---
 title: Revealhub.com
 date: 2015-09-18 00:00:00 Z
-description: Reveal is a machine learning engine focused on recruitment. I created
-  their first identity and marketing page.
+description: Reveal is a machine learning engine focused on recruitment. I created their first identity and marketing page.
 featured: false
 preview: false
 is_post: true
+banner: false
 cover: revealhub--website/revealhub--website--cover__timeline.png
 header: revealhub--website/revealhub--website--cover__post.png
 matters: Brand identity, Front-end development

@@ -1,12 +1,11 @@
 ---
 title: Duuoo.io
 date: 2016-04-01 00:00:00 Z
-description: While working on Duuoo product, I helped the team with their marketing
-  page emphazizing on human connection over the technical aspect of their product.
+description: While working on Duuoo product, I helped the team with their marketing page emphazizing on human connection over the technical aspect of their product.
 featured: false
 preview: false
-ad: false
 is_post: true
+banner: false
 cover: duuoo--website/duuoo--website--cover__timeline.png
 header: duuoo--website/duuoo--website--cover__post.png
 matters: Brand identity, Front-end development

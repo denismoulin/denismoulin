@@ -1,13 +1,11 @@
 ---
 title: Prototype your first identity
 date: 2016-09-20 00:00:00 Z
-description: This presentation run you through a workshop I built along the design
-  team at Founders. It's a good base to get our first identity done where we're aiming
-  to go from 0 to 1, to test and make belief in our product.
+description: This presentation run you through a workshop I built along the design team at Founders. It's a good base to get our first identity done where we're aiming to go from 0 to 1, to test and make belief in our product.
 featured: false
 preview: false
-ad: false
 is_post: true
+banner: false
 cover: identity--slide/identity--slide--cover__timeline.png
 header: identity--slide/identity--slide--cover__post.png
 matters: Design process
