@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-19T23:40:24+00:00</updated><id>http://localhost:4000/</id><title type="html">Portfolio — Denis Moulin</title><subtitle>Portfolio of Designer Denis Moulin.</subtitle><author><name>Denis Moulin</name></author><entry><title type="html">Movingtocph.com</title><link href="http://localhost:4000/p/2017/movingtocph-website.html" rel="alternate" type="text/html" title="Movingtocph.com" /><published>2017-03-31T00:00:00+00:00</published><updated>2017-03-31T00:00:00+00:00</updated><id>http://localhost:4000/p/2017/movingtocph-website</id><content type="html" xml:base="http://localhost:4000/p/2017/movingtocph-website.html">&lt;p&gt;For the past couple of weeks, we (at Founders) built the best playbook to help foreigners  move to copenhagen.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-20T12:50:02+00:00</updated><id>http://localhost:4000/</id><title type="html">Portfolio — Denis Moulin</title><subtitle>Portfolio of Designer Denis Moulin.</subtitle><author><name>Denis Moulin</name></author><entry><title type="html">Headlight Coaching App</title><link href="http://localhost:4000/p/2018/headlight-app.html" rel="alternate" type="text/html" title="Headlight Coaching App" /><published>2018-02-01T00:00:00+00:00</published><updated>2018-02-01T00:00:00+00:00</updated><id>http://localhost:4000/p/2018/headlight-app</id><content type="html" xml:base="http://localhost:4000/p/2018/headlight-app.html"></content><author><name>Denis Moulin</name></author><summary type="html"></summary></entry><entry><title type="html">Movingtocph.com</title><link href="http://localhost:4000/p/2017/movingtocph-website.html" rel="alternate" type="text/html" title="Movingtocph.com" /><published>2017-03-31T00:00:00+00:00</published><updated>2017-03-31T00:00:00+00:00</updated><id>http://localhost:4000/p/2017/movingtocph-website</id><content type="html" xml:base="http://localhost:4000/p/2017/movingtocph-website.html">&lt;p&gt;For the past couple of weeks, we (at Founders) built the best playbook to help foreigners  move to copenhagen.&lt;/p&gt;
 
 &lt;p&gt;I was responsible for everything related to design and built the website using webflow cms system so anyone could jump in and edit its content.&lt;/p&gt;
 
@@ -57,61 +57,4 @@ So long Cuely.&lt;/p&gt;</content><author><name>Denis Moulin</name></author><sum
 
 &lt;p&gt;&lt;a href=&quot;https://denismoulin.com/h/figure/&quot;&gt;https://denismoulin.com/h/figure&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../assets/images/posts/getfigure--website/getfigure--website--content--0.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>Denis Moulin</name></author><summary type="html">Figure is a mobile app</summary></entry><entry><title type="html">A Bank app for freelancer</title><link href="http://localhost:4000/p/2015/figure.html" rel="alternate" type="text/html" title="A Bank app for freelancer" /><published>2015-04-01T00:00:00+00:00</published><updated>2015-04-01T00:00:00+00:00</updated><id>http://localhost:4000/p/2015/figure</id><content type="html" xml:base="http://localhost:4000/p/2015/figure.html">&lt;h2 id=&quot;it-should-be-as-easy-working-for-yourself-as-being-employed&quot;&gt;It should be as easy working for yourself as being employed&lt;/h2&gt;
-
-&lt;p&gt;That’s how we started to talk about frustrations of Freelancers’life at Founders. Many of us at that time already experienced some time as freelancers and we were stumbling around the same frustrations.&lt;/p&gt;
-
-&lt;h3 id=&quot;figure-app&quot;&gt;Figure App&lt;/h3&gt;
-
-&lt;p&gt;As part of our exploration process, we went through rounds of interviews with freelancers, demos of prototypes around different features/ideas.
-Here’s a couple of ideas we kept:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;We eliminate the complexity of creating a bank account by connecting to your existing business account (where you get paid)&lt;/li&gt;
-  &lt;li&gt;We help individuals stay financially afloat by putting aside taxes and VAT money from income&lt;/li&gt;
-  &lt;li&gt;Business expenses tracking is vital, so let’s make it easy.&lt;/li&gt;
-  &lt;li&gt;Life isn’t just work and pay your taxes so we help individuals set some money aside with simple savings.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../assets/images/posts/figure--app/figure--app--content--1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h6 id=&quot;connecting-your-business-account-to-figure&quot;&gt;Connecting your business account to Figure&lt;/h6&gt;
-
-&lt;p&gt;We separate business and personal bank account. Signed up user connects his Business bank account where he receives his freelancer income.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../assets/images/posts/figure--app/figure--app--content--2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h6 id=&quot;connecting-your-business-account-to-figure-1&quot;&gt;Connecting your business account to Figure&lt;/h6&gt;
-
-&lt;p&gt;A system of actions card help the user get onboarded, setup his automated taxes and VAT or extra savings account.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../assets/images/posts/figure--app/figure--app--content--3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h6 id=&quot;setting-up-your-automated-taxes-and-vat&quot;&gt;Setting up your Automated Taxes and VAT&lt;/h6&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../assets/images/posts/figure--app/figure--app--content--4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h6 id=&quot;setting-up-an-additional-goal-to-set-money-aside-for&quot;&gt;Setting up an additional goal to set money aside for.&lt;/h6&gt;
-
-&lt;p&gt;&lt;img class=&quot;portrait&quot; src=&quot;../../assets/images/posts/figure--app/figure--app--content--5.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The dashboard is the principale view on Figure but each “account” (Business/Taxes/Savings) use the same layout and same transactions list so .&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../assets/images/posts/figure--app/figure--app--content--6.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Each transaction can be edited and generated automation, as shown below by categorizing this expense at the appropriate VAT business expense, Figure will transfer a positive amount from your VAT account to your Business account.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../assets/images/posts/figure--app/figure--app--content--7.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;couple-months-later&quot;&gt;Couple months later&lt;/h3&gt;
-
-&lt;p&gt;Figure app/prototype has generated enough interests to the different stakeholder that we pursued building the first prototype and hand it over to a dedicated who’s running it under the name of &lt;a href=&quot;https://kontist.com/en&quot;&gt;Kontist&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h5 id=&quot;i-was-in-charge-of&quot;&gt;I was in charge of&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Creating and versioning first interface prototype and brand&lt;/li&gt;
-  &lt;li&gt;Iterating on concept and solutions&lt;/li&gt;
-  &lt;li&gt;Building invision demos&lt;/li&gt;
-  &lt;li&gt;Building first design system and interface and collaborate with dev team&lt;/li&gt;
-  &lt;li&gt;Onboard dedicated team and designer&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Denis Moulin</name></author><summary type="html">It should be as easy working for yourself as being employed</summary></entry></feed>
+&lt;p&gt;&lt;img src=&quot;../../assets/images/posts/getfigure--website/getfigure--website--content--0.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>Denis Moulin</name></author><summary type="html">Figure is a mobile app</summary></entry></feed>

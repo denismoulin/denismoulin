@@ -6,7 +6,7 @@ description: For two years we didn't touch our very bankish looking website. 201
   we sat down and worked on how to present ourself and our studio.
 date: 2017-03-01 00:00:00 Z
 description: For two years we didn't touch our very bankish looking website. 2017 we sat down and worked on how to present ourself and our studio.
-featured: false
+featured: true
 preview: false
 ad: false
 is_post: true
