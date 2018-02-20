@@ -5,13 +5,15 @@
   flex-wrap: wrap;
   position: relative;
   margin: 0 auto;
-  padding: $spacing-unit*3 $spacing-unit $spacing-unit;
+  text-align: center;
+  justify-content: center;
+  padding: $spacing-unit*1.5 $spacing-unit;
   color: $background-color;
-  background: $text-color;
+  background: $text-color url("images/work-redux.gif") no-repeat center center;
+  background-size: cover;
+  border-radius: $radius;
 
-  h1{
-    margin: 0 $spacing-unit $spacing-unit/2 0;
-  }
+  h1{ margin: 0rem $spacing-unit $spacing-unit/2;}
 }
 
 

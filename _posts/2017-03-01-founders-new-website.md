@@ -8,7 +8,7 @@ description: For two years we didn't touch our very bankish looking website. 201
 featured: true
 preview: false
 is_post: true
-banner: false
+banner: true
 cover: founders--website/founders--website--cover__timeline.png
 header: founders--website/founders--website--cover__post.png
 matters: Brand identity, Front-end development

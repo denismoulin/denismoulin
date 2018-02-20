@@ -1,6 +1,10 @@
 <div class="container">
   <div class="post-list no-decoration">
-    <span class="date">Ways to get in touch</span>
+    {% if page.banner == true %}
+      <span class="date">Other ways to get in touch</span>
+      {% else %}
+      <span class="date">Ways to get in touch</span>
+    {% endif %}
     <hr>
     <div class="row">
       <div class="post-item email">
