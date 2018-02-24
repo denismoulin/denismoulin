@@ -1,7 +1,7 @@
 ---
 title: Duuoo.io
 date: 2016-04-01 00:00:00 Z
-description: While working on Duuoo product, I helped the team with their marketing page emphazizing on human connection over the technical aspect of their product.
+description: While working on the Duuoo product, I helped the team to re-shape their marketing page to emphasize human connection over the technical aspects of their product.
 featured: false
 preview: false
 is_post: true
@@ -14,7 +14,7 @@ external: true
 link: https://denismoulin.com/h/duuoo/
 ---
 
-While working on Duuoo product, I helped the team with their marketing page emphazizing on human connection over the technical aspect of their product.
+While working on the Duuoo product, I helped the team to re-shape their marketing page to emphasize human connection over the technical aspects of their product.
 
 #### External link
 

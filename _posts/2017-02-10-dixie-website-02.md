@@ -1,7 +1,7 @@
 ---
 title: Dixie.io (2.0)
 date: 2017-02-10 00:00:00 Z
-description: I lead the design and rethinking of the storyline. In addition to that I built the website supported by webflow technology and directed illustration work.
+description: Second iteration of Dixie’s marketing website. I led the design and rethinking of the storyline. In addition to that I built the website supported by webflow technology and directed illustration work.
 featured: false
 preview: false
 is_post: true
@@ -14,7 +14,7 @@ external: true
 link: https://denismoulin.com/h/dixie/2017
 ---
 
-Second iteration at Dixie marketing website. I lead the design and rethinking of the storyline. In addition to that I built the website supported by webflow technology and directed illustration work.
+Second iteration of Dixie’s marketing website. I led the design and rethinking of the storyline. In addition to that I built the website supported by webflow technology and directed illustration work.
 
 #### External link
 

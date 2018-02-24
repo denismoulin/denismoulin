@@ -1,7 +1,7 @@
 ---
 title: Dixie.io (1.0)
 date: 2015-10-01 00:00:00 Z
-description: While working on Dixie product prototypes I developed their brand identity and coded their first marketing website.
+description: While working on Dixie's product, I developed their brand identity and coded their marketing website.
 featured: false
 preview: false
 is_post: true
@@ -14,7 +14,7 @@ external: true
 link: https://denismoulin.com/h/dixie/2015
 ---
 
-Dixie team focus on simplifying how Ceo or Cfo interact with their accounting or accountant. While working on their prototypes I developed their brand identity and coded their first marketing website.
+The Dixie team focuses on simplifying interaction between CEOs and CFOs and their accounting departments or accountants. While working on their prototypes I developed their brand identity and coded their first marketing website.
 
 #### External link
 

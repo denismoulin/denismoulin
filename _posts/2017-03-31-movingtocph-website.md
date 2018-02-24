@@ -1,7 +1,7 @@
 ---
 title: Movingtocph.com
 date: 2017-03-31 00:00:00 Z
-description: I was responsible for everything related to design and built the website using webflow cms system so anyone could jump in and edit its content.
+description: In a two-week sprint, we (at Founders) built the best playbook to help foreigners move to Copenhagen. I was responsible for everything related to design and built the website using webflow cms system so that anyone could jump in to edit its content.
 featured: false
 preview: false
 is_post: true
@@ -14,9 +14,7 @@ external: true
 link: https://movingtocph.com
 ---
 
-For the past couple of weeks, we (at Founders) built the best playbook to help foreigners  move to copenhagen.
-
-I was responsible for everything related to design and built the website using webflow cms system so anyone could jump in and edit its content.
+In a two-week sprint, we (at Founders) built the best playbook to help foreigners move to Copenhagen. I was responsible for everything related to design and built the website using webflow cms system so that anyone could jump in to edit its content.
 
 #### External link
 

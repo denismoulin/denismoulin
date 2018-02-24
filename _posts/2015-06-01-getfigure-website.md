@@ -1,7 +1,7 @@
 ---
 title: Getfigure.io
 date: 2015-06-01 00:00:00 Z
-description: Figure is the first banking app exclusively for freelancers, it is now run and renamed by Kontist team in Berlin.
+description: Figure is the first banking app exclusively for freelancers. While building the first prototype version, I designed and coded Figure's landing page.
 featured: false
 preview: false
 is_post: true
@@ -14,7 +14,7 @@ external: true
 link: https://denismoulin.com/h/figure/
 ---
 
-Figure is a mobile app
+Figure is the first banking app exclusively for freelancers. While building the first prototype version, I designed and coded Figure's landing page. The project is now run by [Kontist](https://kontist.com/en) in Berlin.
 
 #### External link
 
