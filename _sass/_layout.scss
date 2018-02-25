@@ -471,7 +471,7 @@ a#top-nav{
             transition: transform 0.6s;
 
     &.tiny{
-      height: $spacing-unit*2;
+      height: $spacing-unit*3;
       width: $spacing-unit*2;
     }
 
@@ -526,7 +526,7 @@ a#top-nav{
   figure {
     position: relative;
     height: $content-width/1.5;
-    width: $content-width/1.5;
+    width: $content-width/2;
     margin: 0 auto;
     overflow: hidden;
     border-radius: $radius;
