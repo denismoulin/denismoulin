@@ -1,10 +1,10 @@
 <div class="container">
-  <div class="post-list featured">
+  <div class="post-list">
     <span class="date">Selected work</span>
     {% for post in site.posts %}
     {% if post.featured == true %}
       <hr>
-      <div class="post-item post">
+      <div class="post-item post featured">
           <a href="{{ post.url }}">
             <ul>
               <li class="cover">
@@ -13,7 +13,7 @@
                 </figure>
               </li>
               <li class="infos">
-                  <p class="title">{{ post.title }}<span class="status-icon status-icon-bookmark"></span></p>
+                  <p class="title">{{ post.title }}</p>
                 {% if post.description %}
                   <p class="description">{{ post.description  | truncate: 220, '...' }}</p>
                   {% else %}
@@ -24,6 +24,5 @@
       </div>
     {% endif %}
     {% endfor %}
-    <hr>
   </div>
 </div>

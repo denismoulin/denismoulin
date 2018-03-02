@@ -1,7 +1,7 @@
 ---
 title: Movingtocph.com
 date: 2017-03-31 00:00:00 Z
-description: In a two-week sprint, we (at Founders) built the best playbook to help foreigners move to Copenhagen. I was responsible for everything related to design and built the website using webflow cms system so that anyone could jump in to edit its content.
+description: In a two-week sprint, we (at Founders) built the best playbook to help foreigners move to Copenhagen.
 featured: false
 preview: false
 is_post: true

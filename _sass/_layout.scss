@@ -463,8 +463,8 @@ a#top-nav{
   figure {
     position: relative;
     display: inline-block;
-    height: $spacing-unit*4;
-    width: $spacing-unit*3;
+    height: $spacing-unit*3;
+    width: $spacing-unit*2;
     overflow: hidden;
     border-radius: $radius;
     -webkit-transition: transform 0.6s;
@@ -492,8 +492,27 @@ a#top-nav{
     }
   }
 
+  @media screen and (min-width: $on-palm) {
+    &.featured {
+
+      ul{
+        line-height: 0;
+      }
+
+      figure {
+        height: $spacing-unit*4;
+        width: $spacing-unit*3;
+      }
+    }
+  }
+
   &.experience {
     padding-bottom: 0;
+
+    figure {
+      height: $spacing-unit*2;
+      width: $spacing-unit*2;
+    }
 
     .role{
       font-size: $tiny-font-size;
@@ -573,7 +592,7 @@ a#top-nav{
   h3, h4{ margin: $spacing-unit*2 auto $spacing-unit;}
   h5{ margin: $spacing-unit*2 auto 0;}
   h6{ padding: 0 $spacing-unit/2; margin: 0 auto $spacing-unit;}
-  p{  margin: 0 auto;}
+  p{  margin: 0 auto $spacing-unit/2;;}
 
   ul{
     list-style: disc;

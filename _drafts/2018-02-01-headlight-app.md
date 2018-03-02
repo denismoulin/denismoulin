@@ -1,8 +1,8 @@
 ---
 title: Headlight app
-date: 2018-02-01 00:00:00 Z
+date: 2017-12-01 00:00:00 Z
 description: Headlight is a modern coaching solution that enables individuals to identify and drive professional and personal development.
-featured: false
+featured: true
 preview: false
 is_post: true
 banner: false
@@ -13,14 +13,16 @@ period: 2018
 external: false
 link: https://weareheadlight.com
 ---
-
-# Intro
 Headlight is a modern coaching solution that enables individuals to identify and drive professional and personal development.
-Starting problem
-My role
-# Flow
-## setup your account
-## get your first coaching session
-## Achieve more with goals and reminder
-## keep track of your progress
-## We have plenty of others features (backlog)
+## My role
+### Starting problem
+
+![](../../assets/images/posts/headlight--app/headlight--app--content--0.png)
+
+![](../../assets/images/posts/headlight--app/headlight--app--content--1.png)
+
+![](../../assets/images/posts/headlight--app/headlight--app--content--2.png)
+
+![](../../assets/images/posts/headlight--app/headlight--app--content--3.png)
+
+![](../../assets/images/posts/headlight--app/headlight--app--content--4.png)
