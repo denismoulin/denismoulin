@@ -1,6 +1,6 @@
 ---
 title: Movingtocph.com
-date: 2017-03-31 00:00:00 Z
+date: 2017-10-01 00:00:00 Z
 description: In a two-week sprint, we (at Founders) built the best playbook to help foreigners move to Copenhagen.
 featured: false
 preview: false

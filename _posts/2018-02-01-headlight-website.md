@@ -1,5 +1,5 @@
 ---
-title: Weareheadlight.com
+title: Headlight Website
 date: 2018-02-01 00:00:00 Z
 description: Headlight empowers employees to build resilience against stress and improve their performance.
 featured: false
@@ -18,6 +18,8 @@ Headlight empowers employees to build resilience against stress and improve thei
 
 #### External link
 
-[https://weareheadlight.com](https://weareheadlight.com)
+[weareheadlight.com - DK version](https://weareheadlight.com)
+
+[weareheadlight.com - En version](https://www.weareheadlight.com/english)
 
 ![](../../assets/images/posts/headlight--website/headlight--website--content--0.png)
