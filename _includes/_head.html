@@ -2,22 +2,21 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title %}{{ page.title }} — {{ site.author }} {% else %} {{ site.title }} {% endif %}</title>
-  <meta name="description" content="Denis Moulin is a multi-disciplinary designer living in Berlin">
-  <meta name="description" content="{{ site.author }} is a multi-disciplinary designer living in Berlin">
-  <meta name="theme-color" content="#EEEEEE">
+  <title>{% if page.title %}{{ page.title }} by {{ site.author }} {% else %} {{ site.title }} {% endif %}</title>
+  <meta name="description" content="{% if page.description %} {{ page.description }} – {{ site.author }} {% else %} My name is {{ site.author }}, I'm a multi-disciplinary designer based in {{ site.local }} {% endif %}">
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@{{ site.twitter_username }}" />
   <meta name="twitter:creator" content="@{{ site.twitter_username }}" />
   <meta property="og:url" content="https://denismoulin.com" />
-  <meta property="og:title" content="{% if page.title %}{{ page.title }} by {{ page.author }} {% else %} {{ site.title }} {% endif %}" />
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} by {{ site.author }} {% else %} {{ site.title }} {% endif %}" />
   <meta property="og:description" content="{{ site.author }} is a multi-disciplinary designer living in Berlin" />
-  <meta property="og:image" content="https://denismoulin.com/assets/icons/twitter-card.png" />
+  <meta property="og:image" content="{% if page.cover %}{{ site.url }}/assets/images/posts/{{ page.cover }} {% else %} https://denismoulin.com/assets/icons/twitter-card.png {% endif %}" />
   <!-- Icon icon -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/icons/apple-touch-icon-144x144.png" />
-  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png" />
-  <link rel="icon" type="image/png" href="/assets/icons/favicon-32x32.png" sizes="32x32" />
-  <link rel="icon" type="image/png" href="/assets/icons/favicon-16x16.png" sizes="16x16" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <meta name="msapplication-TileColor" content="#603cba">
+  <meta name="theme-color" content="#EEEEEE">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.url }}">
   <link rel="stylesheet" href="/assets/main.css">
