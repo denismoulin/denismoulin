@@ -9,8 +9,8 @@
   <meta name="twitter:creator" content="@{{ site.twitter_username }}" />
   <meta property="og:url" content="https://denismoulin.com" />
   <meta property="og:title" content="{% if page.title %}{{ page.title }} by {{ site.author }} {% else %} {{ site.title }} {% endif %}" />
-  <meta property="og:description" content="{{ site.author }} is a multi-disciplinary designer living in Berlin" />
-  <meta property="og:image" content="{% if page.cover %}{{ site.url }}/assets/images/posts/{{ page.cover }} {% else %} https://denismoulin.com/assets/icons/twitter-card.png {% endif %}" />
+  <meta property="og:description" content="{% if page.description %} {{ page.description }} – {{ site.author }} {% else %} My name is {{ site.author }}, I'm a multi-disciplinary designer based in {{ site.local }} {% endif %}" />
+  <meta property="og:image" content="{% if page.cover %}{{ site.url }}https://denismoulin.com//assets/images/posts/{{ page.cover }} {% else %} https://denismoulin.com/assets/icons/twitter-card.png {% endif %}" />
   <!-- Icon icon -->
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
