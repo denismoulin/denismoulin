@@ -17,14 +17,18 @@ layout: default
       <div class="post-item post">
         <a href="{{ post.url }}">
           <ul>
-            {% if post.preview == true %}
-            <li class="cover">
-              <figure class="tiny">
-                <img class="lazy" data-original="{{ site.url }}/assets/images/posts/{{ post.cover }}" with="auto" height="100%">
-              </figure>
-            </li>
+            {% if post.featured == true %}
             {% else %}
-            {% endif %}
+              {% if post.preview == true %}
+              <li class="cover">
+                <figure class="tiny">
+                  <img class="lazy" data-original="{{ site.url }}/assets/images/posts/{{ post.cover }}" with="auto" height="100%">
+                </figure>
+              </li>
+              {% else %}
+              {% endif %}
+
+              {% endif %}
             <li class="infos">
               <p class="title">{{ post.title }}</p>
               {% if post.description %}

@@ -27,6 +27,22 @@
   <link rel="alternate" type="application/rss+xml" title="Portfolio — Denis Moulin" href="/feed.xml">
   <link rel="stylesheet" href="/assets/main.css">
   <link href="/assets/css/zoom.css" rel="stylesheet">
+  <script>
+    window['_fs_debug'] = false;
+    window['_fs_host'] = 'fullstory.com';
+    window['_fs_org'] = 'ATHWW';
+    window['_fs_namespace'] = 'FS';
+    (function(m,n,e,t,l,o,g,y){
+        if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
+        g=m[e]=function(a,b){g.q?g.q.push([a,b]):g._api(a,b);};g.q=[];
+        o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';
+        y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+        g.identify=function(i,v){g(l,{uid:i});if(v)g(l,v)};g.setUserVars=function(v){g(l,v)};
+        y="rec";g.shutdown=function(i,v){g(y,!1)};g.restart=function(i,v){g(y,!0)};
+        g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+        g.clearUserCookie=function(){};
+      })(window,document,window['_fs_namespace'],'script','user');
+  </script>
 </head>
 
   <body>
@@ -127,7 +143,7 @@
       
       <span class="date uppercase">Next read</span>
       <hr>
-      <div class="post-item">
+      <div class="post-item post">
         <a href="/p/1988/profile.html" target="_self">
           <ul>
             <li class="post cover">
@@ -138,11 +154,13 @@
               </figure>
             </li>
             <li class="infos">
-              <p class="title">My name is Denis</p>
-              <p class="description">Learn a bit more about me</p>
+              <p class="title">About page</p>
+              <p class="description">As much as I try to publish my work most of it isn't available here. Learn more about where I worked and what I did f...</p>
             </li>
           </ul>
         </a>
+        
+        
       </div>
       <hr>
     </div>
@@ -154,7 +172,7 @@
     </main>
     <footer class="site-footer">
   <ul>
-    <li>Portfolio — Denis Moulin<br><br>last update on 03 Mar 2018</li>
+    <li>Portfolio — Denis Moulin<br><br>last update on 04 Mar 2018</li>
   </ul>
 </footer>
 

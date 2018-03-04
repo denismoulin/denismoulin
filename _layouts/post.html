@@ -60,7 +60,7 @@ layout: default
       {% endif %}
       <span class="date uppercase">Next read</span>
       <hr>
-      <div class="post-item">
+      <div class="post-item post">
         <a href="{{page.previous.url}}" target="_self">
           <ul>
             <li class="post cover">
@@ -83,6 +83,10 @@ layout: default
             </li>
           </ul>
         </a>
+        {% if page.previous.external == true %}
+        <a href="{{ page.previous.link }}" target="_blank"class="external-link"><p>Open website<span class="status-icon status-icon-link"></span></p></a>
+        {% else %}
+        {% endif %}
       </div>
       <hr>
     </div>
