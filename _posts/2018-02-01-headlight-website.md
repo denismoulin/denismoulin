@@ -14,7 +14,7 @@ external: true
 link: https://weareheadlight.com
 ---
 
-Headlight empowers employees to build resilience against stress and improve their performance. I was responsible elaborate the first batch of branding and build headlight's landing page.
+Headlight empowers employees to build resilience against stress and improve their performance. I was responsible for elaborating the first batch of branding and for building Headlight’s landing page.
 
 #### External link
 
