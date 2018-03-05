@@ -359,10 +359,6 @@ a#top-nav{
   // Background hack
   :link{  padding: 0;}
 
-  :visited{
-    color: red;
-  }
-
   &::before{
     content:'';
     position: absolute;

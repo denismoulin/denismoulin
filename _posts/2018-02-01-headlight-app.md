@@ -27,4 +27,4 @@ I helped the team to develop concepts and turn them into apps. What you see belo
 ###### Sessions are only booked by users but can be rescheduled by either party (user or coach) at any time. Sessions are generally structured around talking points written by coaches.
 
 ![](../../assets/images/posts/headlight--app/headlight--app--content--3.png)
-###### We have scaled down the app from a more complex flow that included streak tracking, calendar date selection, and goal tracking to concentrate our efforts on the session and messaging experience with coaches.
+###### We have scaled down the app from a more complex flow that included goals and agreements tracking, calendar date selection to concentrate our efforts on the session and messaging experience with coaches.
