@@ -43,7 +43,7 @@ baseurl: ''
 url: ''
 twitter_username: _dmoulin
 github_username: denismoulin
-local: Montreal
+local: Montréal
 markdown: kramdown
 theme: minima
 exclude:
