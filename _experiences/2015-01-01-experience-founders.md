@@ -8,6 +8,6 @@ featured:
 cover: founders-logo.svg
 externallink: http://www.founders.as
 role: Product designer
-date-infos: 2015-Present
+date-infos: 2015-2018
 is_post: true
 ---
