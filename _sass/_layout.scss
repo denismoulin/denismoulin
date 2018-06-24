@@ -64,6 +64,10 @@ a#top-nav{
     margin: $spacing-unit auto;
   }
 
+  @media screen and (max-width: $on-palm) {
+    a.button{ width: calc(100% - 3.75rem);}
+  }
+
   a.email{
     margin-left: $spacing-unit/2;
 

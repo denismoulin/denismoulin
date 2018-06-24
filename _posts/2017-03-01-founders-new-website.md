@@ -3,8 +3,8 @@ title: Founders Website
 layout: post
 date: 2017-03-01 00:00:00 Z
 description: For two years we didn’t touch our website’s very “corporate banking” look. In 2017 we sat down to evolve how we present ourselves and our studio.
-featured: true
-preview: false
+featured: false
+preview: true
 is_post: true
 banner: false
 cover: founders--website/founders--website--cover__timeline.png

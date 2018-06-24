@@ -3,7 +3,7 @@ title: Tempo Website
 date: 2018-03-10 00:00:00 Z
 description: Tempo is an email client that helps you focus.
 featured: false
-preview: true
+preview: false
 is_post: true
 banner: false
 cover: yourtempo--website/yourtempo--website--cover__timeline.gif
@@ -19,6 +19,5 @@ Tempo is an email client that helps you focus. While building Tempo email client
 #### External link
 
 [yourtempo.co](https://www.yourtempo.co/)
-
 
 ![](../../assets/images/posts/yourtempo--website/yourtempo--website--content--0.png)

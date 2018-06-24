@@ -285,6 +285,9 @@ a#top-nav {
       margin-left: 1rem; } }
   .hero h1 {
     margin: 3rem auto; }
+  @media screen and (max-width: 39rem) {
+    .hero a.button {
+      width: calc(100% - 3.75rem); } }
   .hero a.email {
     margin-left: 1.5rem; }
     @media screen and (max-width: 39rem) {
